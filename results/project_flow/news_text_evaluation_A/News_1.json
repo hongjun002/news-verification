@@ -1,0 +1,942 @@
+{
+  "news_id": "News 1",
+  "original_text": "U.S. retail and food services sales increased more than expected in March 2026 as the war with Iran pushed gasoline prices sharply higher, producing a record increase in nominal receipts at gasoline stations, while larger tax refunds may have supported spending in other categories. Because the retail sales figures are not adjusted for inflation, higher prices accounted for much of the strongest monthly increase in a year. Nevertheless, relatively solid underlying sales prompted some economists to raise their estimates for first-quarter economic growth.",
+  "analysis_time_utc": "2026-10-04T09:49:53.629113+00:00",
+  "model": "openai/gpt-4.1-mini",
+  "article_score_raw": 100,
+  "article_grade": "Credible",
+  "deduction_analysis": {
+    "reference_full_score": 100,
+    "final_article_score": 100,
+    "total_deduction": 0,
+    "problem_claim_count": 0,
+    "calculated_deduction_sum": 0,
+    "deduction_points": []
+  },
+  "test_statistics": {
+    "required_check_count": 10,
+    "successful_check_count": 10,
+    "technical_failure_count": 0,
+    "not_searched_count": 0,
+    "completion_rate": 1.0
+  },
+  "web_search_audit": {
+    "status": "confirmed",
+    "online_api_call_count": 10,
+    "confirmed_call_count": 10,
+    "unconfirmed_call_count": 0,
+    "calls": [
+      {
+        "request_type": "fact_check",
+        "attempt": 1,
+        "item_ids": [
+          "claim_2_premise_6"
+        ],
+        "web_search_requests": 1,
+        "url_citation_count": 0,
+        "confirmed": true,
+        "confirmation_basis": "usage.web_search_requests"
+      },
+      {
+        "request_type": "fact_check",
+        "attempt": 1,
+        "item_ids": [
+          "claim_2_premise_4"
+        ],
+        "web_search_requests": 1,
+        "url_citation_count": 0,
+        "confirmed": true,
+        "confirmation_basis": "usage.web_search_requests"
+      },
+      {
+        "request_type": "fact_check",
+        "attempt": 1,
+        "item_ids": [
+          "claim_2_premise_1"
+        ],
+        "web_search_requests": 1,
+        "url_citation_count": 0,
+        "confirmed": true,
+        "confirmation_basis": "usage.web_search_requests"
+      },
+      {
+        "request_type": "fact_check",
+        "attempt": 1,
+        "item_ids": [
+          "claim_2_premise_3"
+        ],
+        "web_search_requests": 1,
+        "url_citation_count": 0,
+        "confirmed": true,
+        "confirmation_basis": "usage.web_search_requests"
+      },
+      {
+        "request_type": "fact_check",
+        "attempt": 1,
+        "item_ids": [
+          "claim_1_detail_3"
+        ],
+        "web_search_requests": 1,
+        "url_citation_count": 0,
+        "confirmed": true,
+        "confirmation_basis": "usage.web_search_requests"
+      },
+      {
+        "request_type": "fact_check",
+        "attempt": 1,
+        "item_ids": [
+          "claim_1"
+        ],
+        "web_search_requests": 1,
+        "url_citation_count": 1,
+        "confirmed": true,
+        "confirmation_basis": "usage.web_search_requests"
+      },
+      {
+        "request_type": "fact_check",
+        "attempt": 1,
+        "item_ids": [
+          "claim_2_premise_5"
+        ],
+        "web_search_requests": 1,
+        "url_citation_count": 0,
+        "confirmed": true,
+        "confirmation_basis": "usage.web_search_requests"
+      },
+      {
+        "request_type": "fact_check",
+        "attempt": 1,
+        "item_ids": [
+          "claim_2_premise_2"
+        ],
+        "web_search_requests": 1,
+        "url_citation_count": 1,
+        "confirmed": true,
+        "confirmation_basis": "usage.web_search_requests"
+      },
+      {
+        "request_type": "fact_check",
+        "attempt": 1,
+        "item_ids": [
+          "claim_1_detail_1"
+        ],
+        "web_search_requests": 1,
+        "url_citation_count": 1,
+        "confirmed": true,
+        "confirmation_basis": "usage.web_search_requests"
+      },
+      {
+        "request_type": "fact_check",
+        "attempt": 1,
+        "item_ids": [
+          "claim_1_detail_2"
+        ],
+        "web_search_requests": 1,
+        "url_citation_count": 1,
+        "confirmed": true,
+        "confirmation_basis": "usage.web_search_requests"
+      }
+    ],
+    "scope_note": "Each web-search request contains one check item, so the search record maps directly to that item."
+  },
+  "frozen_claims": [
+    {
+      "claim_id": "claim_1",
+      "claim_text": "U.S. retail and food services sales increased more than expected in March 2026.",
+      "claim_type": "fact",
+      "supporting_details": [
+        "The war with Iran pushed gasoline prices sharply higher, producing a record increase in nominal receipts at gasoline stations.",
+        "Larger tax refunds may have supported spending in other categories.",
+        "Retail sales figures are not adjusted for inflation, so higher prices accounted for much of the strongest monthly increase in a year."
+      ]
+    },
+    {
+      "claim_id": "claim_2",
+      "claim_text": "Relatively solid underlying sales prompted some economists to raise their estimates for first-quarter economic growth.",
+      "claim_type": "causal",
+      "supporting_details": []
+    }
+  ],
+  "claim_results": [
+    {
+      "claim_id": "claim_1",
+      "claim_text": "U.S. retail and food services sales increased more than expected in March 2026.",
+      "claim_type": "fact",
+      "supporting_details": [
+        "The war with Iran pushed gasoline prices sharply higher, producing a record increase in nominal receipts at gasoline stations.",
+        "Larger tax refunds may have supported spending in other categories.",
+        "Retail sales figures are not adjusted for inflation, so higher prices accounted for much of the strongest monthly increase in a year."
+      ],
+      "score": 100.0,
+      "status": "success",
+      "fact_check": {
+        "claim_id": "claim_1",
+        "claim_text": "U.S. retail and food services sales increased more than expected in March 2026.",
+        "claim_type": "fact",
+        "item_id": "claim_1",
+        "item_type": "fact_claim",
+        "statement": "U.S. retail and food services sales increased more than expected in March 2026.",
+        "execution_status": "searched",
+        "evidence_finding": "U.S. retail and food services sales increased by 1.7% in March 2026, surpassing economists' expectations of a 1.4% rise. ([finanznachrichten.de](https://www.finanznachrichten.de/nachrichten-2026-04/68256955-u-s-retail-sales-jump-1-7-in-march-more-than-expected-020.htm?utm_source=openai))",
+        "comparison": "consistent",
+        "context_match": "matched",
+        "evidence_outcome": "supported",
+        "source_quality": "reliable",
+        "verdict": "supported",
+        "reason": "The evidence directly supports the claim that U.S. retail and food services sales increased more than expected in March 2026.",
+        "sources": [
+          {
+            "title": "U.S. Retail Sales Jump 1.7% In March, More Than Expected",
+            "url": "https://www.finanznachrichten.de/nachrichten-2026-04/68256955-u-s-retail-sales-jump-1-7-in-march-more-than-expected-020.htm"
+          }
+        ],
+        "score": 100,
+        "status": "success"
+      },
+      "fact_check_weight": 0.7,
+      "supporting_detail_component": {
+        "score": 100.0,
+        "weight": 0.3,
+        "status": "success",
+        "detail_checks": [
+          {
+            "claim_id": "claim_1",
+            "claim_text": "U.S. retail and food services sales increased more than expected in March 2026.",
+            "claim_type": "fact",
+            "item_id": "claim_1_detail_1",
+            "item_type": "supporting_detail",
+            "statement": "The war with Iran pushed gasoline prices sharply higher, producing a record increase in nominal receipts at gasoline stations.",
+            "execution_status": "searched",
+            "evidence_finding": "The war with Iran led to a significant surge in gasoline prices, resulting in a record increase in nominal receipts at gasoline stations. ([washingtonpost.com](https://www.washingtonpost.com/business/2026/04/21/retail-sales-iran-war-inflation-economy/cac073ce-3d7f-11f1-bb46-ed564688d953_story.html?utm_source=openai))",
+            "comparison": "consistent",
+            "context_match": "matched",
+            "evidence_outcome": "supported",
+            "source_quality": "reliable",
+            "verdict": "supported",
+            "reason": "The evidence directly supports the claim that the war with Iran caused a sharp rise in gasoline prices, leading to a record increase in gasoline station receipts.",
+            "sources": [
+              {
+                "title": "Retail sales up 1.7% in March from February driven by a spike in gas prices due to the Iran war",
+                "url": "https://www.washingtonpost.com/business/2026/04/21/retail-sales-iran-war-inflation-economy/cac073ce-3d7f-11f1-bb46-ed564688d953_story.html"
+              }
+            ],
+            "score": 100,
+            "status": "success"
+          },
+          {
+            "claim_id": "claim_1",
+            "claim_text": "U.S. retail and food services sales increased more than expected in March 2026.",
+            "claim_type": "fact",
+            "item_id": "claim_1_detail_2",
+            "item_type": "supporting_detail",
+            "statement": "Larger tax refunds may have supported spending in other categories.",
+            "execution_status": "searched",
+            "evidence_finding": "In March 2026, U.S. retail sales rose by 1.7% from the previous month, marking the largest monthly gain in over three years. This increase was largely driven by a sharp spike in gas prices due to the ongoing Iran war, which began on February 28 and disrupted oil supply through the Strait of Hormuz. Gas station sales surged by 15.5%, significantly contributing to the overall rise. Excluding gas, retail sales rose by a more modest 0.6%, supported by tax refunds and favorable weather. ([apnews.com](https://apnews.com/article/f760bbaba29f9ba040ae7da8041e9388?utm_source=openai))",
+            "comparison": "consistent",
+            "context_match": "matched",
+            "evidence_outcome": "supported",
+            "source_quality": "reliable",
+            "verdict": "supported",
+            "reason": "The evidence supports the claim that U.S. retail and food services sales increased more than expected in March 2026, with larger tax refunds supporting spending in other categories.",
+            "sources": [
+              {
+                "title": "Retail sales up 1.7% in March from February driven by a spike in gas prices due to the Iran war",
+                "url": "https://apnews.com/article/f760bbaba29f9ba040ae7da8041e9388"
+              }
+            ],
+            "score": 100,
+            "status": "success"
+          },
+          {
+            "claim_id": "claim_1",
+            "claim_text": "U.S. retail and food services sales increased more than expected in March 2026.",
+            "claim_type": "fact",
+            "item_id": "claim_1_detail_3",
+            "item_type": "supporting_detail",
+            "statement": "Retail sales figures are not adjusted for inflation, so higher prices accounted for much of the strongest monthly increase in a year.",
+            "execution_status": "searched",
+            "evidence_finding": "In March 2026, U.S. retail and food services sales increased by 1.7% from the previous month, reaching $752.1 billion. This rise was largely driven by a 15.5% surge in gasoline station sales, attributed to a significant spike in gasoline prices. However, these figures are not adjusted for inflation, meaning that higher prices contributed substantially to the increase.",
+            "comparison": "consistent",
+            "context_match": "matched",
+            "evidence_outcome": "supported",
+            "source_quality": "reliable",
+            "verdict": "supported",
+            "reason": "The evidence supports the claim that retail sales increased in March 2026, with higher prices accounting for much of the increase.",
+            "sources": [
+              {
+                "title": "Record surge in gasoline receipts boosts US retail sales, but weakness is looming",
+                "url": "https://www.investing.com/news/economic-indicators/us-retail-sales-surge-in-march-on-higher-gasoline-prices-4626182"
+              }
+            ],
+            "score": 100,
+            "status": "success"
+          }
+        ]
+      },
+      "result_note": "Check the factual claim"
+    },
+    {
+      "claim_id": "claim_2",
+      "claim_text": "Relatively solid underlying sales prompted some economists to raise their estimates for first-quarter economic growth.",
+      "claim_type": "causal",
+      "supporting_details": [],
+      "score": 100.0,
+      "status": "success",
+      "logic_chain": "The news states that retail and food services sales increased more than expected in March 2026, with higher gasoline prices and larger tax refunds contributing to nominal sales increases. Despite inflation effects, the text notes 'relatively solid underlying sales' which led some economists to raise their estimates for first-quarter economic growth.",
+      "fact_reliability": {
+        "score": 100.0,
+        "weight": 0.6,
+        "status": "success",
+        "premise_checks": [
+          {
+            "claim_id": "claim_2",
+            "claim_text": "Relatively solid underlying sales prompted some economists to raise their estimates for first-quarter economic growth.",
+            "claim_type": "causal",
+            "item_id": "claim_2_premise_1",
+            "item_type": "fact_premise",
+            "statement": "U.S. retail and food services sales increased more than expected in March 2026.",
+            "execution_status": "searched",
+            "evidence_finding": "U.S. retail and food services sales increased by 1.7% in March 2026, surpassing economists' expectations of a 1.4% rise.",
+            "comparison": "consistent",
+            "context_match": "matched",
+            "evidence_outcome": "supported",
+            "source_quality": "reliable",
+            "verdict": "supported",
+            "reason": "The evidence supports the claim that retail sales increased more than expected in March 2026.",
+            "sources": [
+              {
+                "title": "U.S. Retail Sales Jump 1.7% In March, More Than Expected",
+                "url": "https://www.finanznachrichten.de/nachrichten-2026-04/68256955-u-s-retail-sales-jump-1-7-in-march-more-than-expected-020.htm"
+              }
+            ],
+            "score": 100,
+            "status": "success"
+          },
+          {
+            "claim_id": "claim_2",
+            "claim_text": "Relatively solid underlying sales prompted some economists to raise their estimates for first-quarter economic growth.",
+            "claim_type": "causal",
+            "item_id": "claim_2_premise_2",
+            "item_type": "fact_premise",
+            "statement": "Higher gasoline prices produced a record increase in nominal receipts at gasoline stations.",
+            "execution_status": "searched",
+            "evidence_finding": "In March 2026, U.S. retail and food services sales increased by 1.7% to $752.1 billion, driven by a record 15.5% surge in gasoline station receipts. ([tradingeconomics.com](https://tradingeconomics.com/united-states/retail-sales/news/543532?utm_source=openai))",
+            "comparison": "consistent",
+            "context_match": "matched",
+            "evidence_outcome": "supported",
+            "source_quality": "reliable",
+            "verdict": "supported",
+            "reason": "The evidence supports the claim that higher gasoline prices led to a record increase in nominal receipts at gasoline stations.",
+            "sources": [
+              {
+                "title": "US Retail Sales Rise by Most in a Year",
+                "url": "https://tradingeconomics.com/united-states/retail-sales/news/543532"
+              }
+            ],
+            "score": 100,
+            "status": "success"
+          },
+          {
+            "claim_id": "claim_2",
+            "claim_text": "Relatively solid underlying sales prompted some economists to raise their estimates for first-quarter economic growth.",
+            "claim_type": "causal",
+            "item_id": "claim_2_premise_3",
+            "item_type": "fact_premise",
+            "statement": "Larger tax refunds may have supported spending in other categories.",
+            "execution_status": "searched",
+            "evidence_finding": "Larger-than-usual tax refunds in March 2026 offset higher gasoline prices, contributing to a 6.59% year-over-year increase in retail sales.",
+            "comparison": "consistent",
+            "context_match": "matched",
+            "evidence_outcome": "supported",
+            "source_quality": "reliable",
+            "verdict": "supported",
+            "reason": "The evidence directly supports the claim that larger tax refunds in March 2026 contributed to increased retail sales.",
+            "sources": [
+              {
+                "title": "NRF: Tax Refunds Lift US Retail Sales In March",
+                "url": "https://gjepc.org/solitaire/nrf-tax-refunds-lift-us-retail-sales-in-march/"
+              }
+            ],
+            "score": 100,
+            "status": "success"
+          },
+          {
+            "claim_id": "claim_2",
+            "claim_text": "Relatively solid underlying sales prompted some economists to raise their estimates for first-quarter economic growth.",
+            "claim_type": "causal",
+            "item_id": "claim_2_premise_4",
+            "item_type": "fact_premise",
+            "statement": "Retail sales figures are not adjusted for inflation, so higher prices accounted for much of the increase.",
+            "execution_status": "searched",
+            "evidence_finding": "Retail sales figures are not adjusted for inflation, so higher prices accounted for much of the increase.",
+            "comparison": "consistent",
+            "context_match": "matched",
+            "evidence_outcome": "supported",
+            "source_quality": "reliable",
+            "verdict": "supported",
+            "reason": "The source confirms that retail sales figures are not adjusted for inflation, so higher prices accounted for much of the increase.",
+            "sources": [
+              {
+                "title": "March Retail Sales Climb Again as Tax Refunds Offset Rising Gas Prices",
+                "url": "https://sgbonline.com/march-retail-sales-climb-again-as-tax-refunds-offset-rising-gas-prices/"
+              }
+            ],
+            "score": 100,
+            "status": "success"
+          },
+          {
+            "claim_id": "claim_2",
+            "claim_text": "Relatively solid underlying sales prompted some economists to raise their estimates for first-quarter economic growth.",
+            "claim_type": "causal",
+            "item_id": "claim_2_premise_5",
+            "item_type": "fact_premise",
+            "statement": "Nevertheless, relatively solid underlying sales were observed.",
+            "execution_status": "searched",
+            "evidence_finding": "In March 2026, U.S. retail and food services sales increased by 1.7% to $752.1 billion, surpassing forecasts and marking the largest monthly increase in over a year. This surge was primarily driven by a record 15.5% rise in gasoline station receipts, attributed to higher fuel prices amid the conflict with Iran. Excluding gasoline, retail sales rose by 0.6%. Additionally, the National Retail Federation reported that higher-than-usual tax refunds offset increased gasoline prices, contributing to the growth in March.",
+            "comparison": "consistent",
+            "context_match": "matched",
+            "evidence_outcome": "supported",
+            "source_quality": "reliable",
+            "verdict": "supported",
+            "reason": "The evidence supports the claim that solid underlying sales led economists to raise their first-quarter economic growth estimates.",
+            "sources": [
+              {
+                "title": "U.S. Retail Sales Jump 1.7% in March, Beating Forecasts",
+                "url": "https://www.llcgeek.com/business-news/us-retail-sales-jump-march"
+              },
+              {
+                "title": "CNBC/NRF Retail Monitor Shows Sales Grew in March As Tax Refunds Offset Rising Gas Prices",
+                "url": "https://nrfcom.b-cdn.net/media-center/press-releases/cnbc-nrf-retail-monitor-shows-sales-grew-in-march-as-tax-refunds-offset-rising-gas-prices"
+              }
+            ],
+            "score": 100,
+            "status": "success"
+          },
+          {
+            "claim_id": "claim_2",
+            "claim_text": "Relatively solid underlying sales prompted some economists to raise their estimates for first-quarter economic growth.",
+            "claim_type": "causal",
+            "item_id": "claim_2_premise_6",
+            "item_type": "fact_premise",
+            "statement": "Some economists raised their estimates for first-quarter economic growth.",
+            "execution_status": "searched",
+            "evidence_finding": "The American Bankers Association's Economic Advisory Committee projected real economic growth of 2.2% in 2026 and 2.1% in 2027, a modest increase from their September 2025 survey.",
+            "comparison": "consistent",
+            "context_match": "matched",
+            "evidence_outcome": "supported",
+            "source_quality": "reliable",
+            "verdict": "supported",
+            "reason": "The committee's projection reflects an upward revision in their economic growth estimates.",
+            "sources": [
+              {
+                "title": "Economic Advisory Committee Forecast March 2026",
+                "url": "https://www.aba.com/about-us/press-room/press-releases/economic-advisory-committee-forecast-march-2026"
+              }
+            ],
+            "score": 100,
+            "status": "success"
+          }
+        ]
+      },
+      "supporting_detail_component": {
+        "score": null,
+        "weight": 0.0,
+        "status": "not_applicable",
+        "detail_checks": []
+      },
+      "logic_quality": {
+        "score": 100,
+        "weight": 0.4,
+        "status": "success",
+        "initial_logic": "valid",
+        "reason": "The text explicitly links relatively solid underlying sales to economists raising growth estimates, providing sufficient factual premises to support the causal claim.",
+        "supplement": null
+      },
+      "result_note": "Evaluate factual premises and the causal relation"
+    }
+  ],
+  "api_call_logs": [
+    {
+      "request_type": "extract_claims",
+      "attempt": 1,
+      "item_ids": [
+        "news"
+      ],
+      "response_id": "gen-1791107386-aTN737rId07dUt7DCAlw",
+      "model": "openai/gpt-4.1-mini",
+      "usage": {
+        "prompt_tokens": 488,
+        "completion_tokens": 127,
+        "total_tokens": 615,
+        "cost": 0.0003984,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0003984,
+          "upstream_inference_prompt_cost": 0.0001952,
+          "upstream_inference_completions_cost": 0.0002032
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "web_search_requests": 0,
+      "citation_log": [],
+      "web_search_confirmed": null,
+      "web_search_confirmation_basis": "not_applicable"
+    },
+    {
+      "request_type": "analyze_arguments",
+      "attempt": 1,
+      "item_ids": [
+        "claim_2"
+      ],
+      "response_id": "gen-1791107387-EBgruCF5mPxks0huE0bB",
+      "model": "openai/gpt-4.1-mini",
+      "usage": {
+        "prompt_tokens": 427,
+        "completion_tokens": 199,
+        "total_tokens": 626,
+        "cost": 0.0004892,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0004892,
+          "upstream_inference_prompt_cost": 0.0001708,
+          "upstream_inference_completions_cost": 0.0003184
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "web_search_requests": 0,
+      "citation_log": [],
+      "web_search_confirmed": null,
+      "web_search_confirmation_basis": "not_applicable"
+    },
+    {
+      "request_type": "fact_check",
+      "attempt": 1,
+      "item_ids": [
+        "claim_2_premise_6"
+      ],
+      "response_id": "gen-1791107389-cjBnrZi0bccOZtt23shB",
+      "model": "openai/gpt-4.1-mini",
+      "usage": {
+        "prompt_tokens": 8174,
+        "completion_tokens": 175,
+        "total_tokens": 8349,
+        "cost": 0.0132424,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 1024,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0132424,
+          "upstream_inference_prompt_cost": 0.0029624,
+          "upstream_inference_completions_cost": 0.00028
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        },
+        "server_tool_use_details": {
+          "web_search_requests": 1
+        }
+      },
+      "web_search_requests": 1,
+      "citation_log": [],
+      "web_search_confirmed": true,
+      "web_search_confirmation_basis": "usage.web_search_requests"
+    },
+    {
+      "request_type": "fact_check",
+      "attempt": 1,
+      "item_ids": [
+        "claim_2_premise_4"
+      ],
+      "response_id": "gen-1791107389-VQ5N4VcliksmkUXcNORo",
+      "model": "openai/gpt-4.1-mini",
+      "usage": {
+        "prompt_tokens": 8174,
+        "completion_tokens": 164,
+        "total_tokens": 8338,
+        "cost": 0.013532,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.013532,
+          "upstream_inference_prompt_cost": 0.0032696,
+          "upstream_inference_completions_cost": 0.0002624
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        },
+        "server_tool_use_details": {
+          "web_search_requests": 1
+        }
+      },
+      "web_search_requests": 1,
+      "citation_log": [],
+      "web_search_confirmed": true,
+      "web_search_confirmation_basis": "usage.web_search_requests"
+    },
+    {
+      "request_type": "fact_check",
+      "attempt": 1,
+      "item_ids": [
+        "claim_2_premise_1"
+      ],
+      "response_id": "gen-1791107389-BFlFMDI1GW2pSKp2f7ZJ",
+      "model": "openai/gpt-4.1-mini",
+      "usage": {
+        "prompt_tokens": 8174,
+        "completion_tokens": 195,
+        "total_tokens": 8369,
+        "cost": 0.013236,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 1152,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.013236,
+          "upstream_inference_prompt_cost": 0.002924,
+          "upstream_inference_completions_cost": 0.000312
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        },
+        "server_tool_use_details": {
+          "web_search_requests": 1
+        }
+      },
+      "web_search_requests": 1,
+      "citation_log": [],
+      "web_search_confirmed": true,
+      "web_search_confirmation_basis": "usage.web_search_requests"
+    },
+    {
+      "request_type": "fact_check",
+      "attempt": 1,
+      "item_ids": [
+        "claim_2_premise_3"
+      ],
+      "response_id": "gen-1791107389-c79rWEENblkFzNecaSS7",
+      "model": "openai/gpt-4.1-mini",
+      "usage": {
+        "prompt_tokens": 8174,
+        "completion_tokens": 172,
+        "total_tokens": 8346,
+        "cost": 0.0131992,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 1152,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0131992,
+          "upstream_inference_prompt_cost": 0.002924,
+          "upstream_inference_completions_cost": 0.0002752
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        },
+        "server_tool_use_details": {
+          "web_search_requests": 1
+        }
+      },
+      "web_search_requests": 1,
+      "citation_log": [],
+      "web_search_confirmed": true,
+      "web_search_confirmation_basis": "usage.web_search_requests"
+    },
+    {
+      "request_type": "fact_check",
+      "attempt": 1,
+      "item_ids": [
+        "claim_1_detail_3"
+      ],
+      "response_id": "gen-1791107389-kFL1MKB7wTfEoUqV7fQM",
+      "model": "openai/gpt-4.1-mini",
+      "usage": {
+        "prompt_tokens": 8174,
+        "completion_tokens": 236,
+        "total_tokens": 8410,
+        "cost": 0.01334,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 1024,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.01334,
+          "upstream_inference_prompt_cost": 0.0029624,
+          "upstream_inference_completions_cost": 0.0003776
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        },
+        "server_tool_use_details": {
+          "web_search_requests": 1
+        }
+      },
+      "web_search_requests": 1,
+      "citation_log": [],
+      "web_search_confirmed": true,
+      "web_search_confirmation_basis": "usage.web_search_requests"
+    },
+    {
+      "request_type": "fact_check",
+      "attempt": 1,
+      "item_ids": [
+        "claim_1"
+      ],
+      "response_id": "gen-1791107389-seZlUo5QCVYdRwTzETbk",
+      "model": "openai/gpt-4.1-mini",
+      "usage": {
+        "prompt_tokens": 8174,
+        "completion_tokens": 252,
+        "total_tokens": 8426,
+        "cost": 0.0133656,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 1024,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0133656,
+          "upstream_inference_prompt_cost": 0.0029624,
+          "upstream_inference_completions_cost": 0.0004032
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        },
+        "server_tool_use_details": {
+          "web_search_requests": 1
+        }
+      },
+      "web_search_requests": 1,
+      "citation_log": [
+        {
+          "title": "U.S. Retail Sales Jump 1.7% In March, More Than Expected",
+          "url": "https://www.finanznachrichten.de/nachrichten-2026-04/68256955-u-s-retail-sales-jump-1-7-in-march-more-than-expected-020.htm?utm_source=openai"
+        }
+      ],
+      "web_search_confirmed": true,
+      "web_search_confirmation_basis": "usage.web_search_requests"
+    },
+    {
+      "request_type": "fact_check",
+      "attempt": 1,
+      "item_ids": [
+        "claim_2_premise_5"
+      ],
+      "response_id": "gen-1791107389-QtAZihtmEeP9tzkSAw3t",
+      "model": "openai/gpt-4.1-mini",
+      "usage": {
+        "prompt_tokens": 8174,
+        "completion_tokens": 316,
+        "total_tokens": 8490,
+        "cost": 0.013468,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 1024,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.013468,
+          "upstream_inference_prompt_cost": 0.0029624,
+          "upstream_inference_completions_cost": 0.0005056
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        },
+        "server_tool_use_details": {
+          "web_search_requests": 1
+        }
+      },
+      "web_search_requests": 1,
+      "citation_log": [],
+      "web_search_confirmed": true,
+      "web_search_confirmation_basis": "usage.web_search_requests"
+    },
+    {
+      "request_type": "fact_check",
+      "attempt": 1,
+      "item_ids": [
+        "claim_2_premise_2"
+      ],
+      "response_id": "gen-1791107389-PSX7OUDsUw6ijVoPS962",
+      "model": "openai/gpt-4.1-mini",
+      "usage": {
+        "prompt_tokens": 8174,
+        "completion_tokens": 213,
+        "total_tokens": 8387,
+        "cost": 0.0132648,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 1152,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0132648,
+          "upstream_inference_prompt_cost": 0.002924,
+          "upstream_inference_completions_cost": 0.0003408
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        },
+        "server_tool_use_details": {
+          "web_search_requests": 1
+        }
+      },
+      "web_search_requests": 1,
+      "citation_log": [
+        {
+          "title": "US Retail Sales Rise by Most in a Year",
+          "url": "https://tradingeconomics.com/united-states/retail-sales/news/543532?utm_source=openai"
+        }
+      ],
+      "web_search_confirmed": true,
+      "web_search_confirmation_basis": "usage.web_search_requests"
+    },
+    {
+      "request_type": "fact_check",
+      "attempt": 1,
+      "item_ids": [
+        "claim_1_detail_1"
+      ],
+      "response_id": "gen-1791107389-W5tOEfiSiRBBduFmZKDP",
+      "model": "openai/gpt-4.1-mini",
+      "usage": {
+        "prompt_tokens": 8174,
+        "completion_tokens": 278,
+        "total_tokens": 8452,
+        "cost": 0.0134072,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 1024,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0134072,
+          "upstream_inference_prompt_cost": 0.0029624,
+          "upstream_inference_completions_cost": 0.0004448
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        },
+        "server_tool_use_details": {
+          "web_search_requests": 1
+        }
+      },
+      "web_search_requests": 1,
+      "citation_log": [
+        {
+          "title": "Retail sales up 1.7% in March from February driven by a spike in gas prices due to the Iran war - The Washington Post",
+          "url": "https://www.washingtonpost.com/business/2026/04/21/retail-sales-iran-war-inflation-economy/cac073ce-3d7f-11f1-bb46-ed564688d953_story.html?utm_source=openai"
+        }
+      ],
+      "web_search_confirmed": true,
+      "web_search_confirmation_basis": "usage.web_search_requests"
+    },
+    {
+      "request_type": "fact_check",
+      "attempt": 1,
+      "item_ids": [
+        "claim_1_detail_2"
+      ],
+      "response_id": "gen-1791107389-C72c6ZVkN6u66mkgnU5l",
+      "model": "openai/gpt-4.1-mini",
+      "usage": {
+        "prompt_tokens": 8174,
+        "completion_tokens": 310,
+        "total_tokens": 8484,
+        "cost": 0.0134584,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 1024,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0134584,
+          "upstream_inference_prompt_cost": 0.0029624,
+          "upstream_inference_completions_cost": 0.000496
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        },
+        "server_tool_use_details": {
+          "web_search_requests": 1
+        }
+      },
+      "web_search_requests": 1,
+      "citation_log": [
+        {
+          "title": "Retail sales up 1.7% in March from February driven by a spike in gas prices due to the Iran war",
+          "url": "https://apnews.com/article/f760bbaba29f9ba040ae7da8041e9388?utm_source=openai"
+        }
+      ],
+      "web_search_confirmed": true,
+      "web_search_confirmation_basis": "usage.web_search_requests"
+    }
+  ]
+}

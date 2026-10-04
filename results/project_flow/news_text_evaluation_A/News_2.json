@@ -1,0 +1,1301 @@
+{
+  "news_id": "News 2",
+  "original_text": "May 27- Abercrombie & Fitch and Bath & Body Works beat quarterly profit estimates, sending their shares up more than 12% on Wednesday and indicating that some U.S. shoppers remain willing to spend on affordable indulgences despite economic uncertainty. The results add to evidence of a K-shaped pattern in U.S. consumer spending, with recent retail-spending growth led by higher-income households, while lower-income households have faced greater inflation pressure. Still, the two companies’ results alone do not establish this broader trend, and Bath & Body Works’ quarterly sales fell 3% from a year earlier.\n\n“They keep showing up ... We’re not seeing any change in performance across cohorts,” Abercrombie & Fitch CEO Fran Horowitz said, referring to the company’s customers. Abercrombie & Fitch positions itself between the premium and mass-market segments and offers aspirational apparel at accessible prices, although its quarterly sales growth also benefited from new stores and favorable foreign-exchange movements. Bath & Body Works continued to attract demand for relatively affordable fragrances and personal-care products. This resilience may be consistent with the so-called “lipstick effect,” in which consumers continue buying lower-cost discretionary or self-care products during periods of economic stress, but the effect is an interpretation of consumer behavior rather than a proven cause of the company’s performance.",
+  "analysis_time_utc": "2026-10-04T09:50:02.558641+00:00",
+  "model": "openai/gpt-4.1-mini",
+  "article_score_raw": 100,
+  "article_grade": "Credible",
+  "deduction_analysis": {
+    "reference_full_score": 100,
+    "final_article_score": 100,
+    "total_deduction": 0,
+    "problem_claim_count": 0,
+    "calculated_deduction_sum": 0,
+    "deduction_points": []
+  },
+  "test_statistics": {
+    "required_check_count": 14,
+    "successful_check_count": 14,
+    "technical_failure_count": 0,
+    "not_searched_count": 0,
+    "completion_rate": 1.0
+  },
+  "web_search_audit": {
+    "status": "confirmed",
+    "online_api_call_count": 14,
+    "confirmed_call_count": 14,
+    "unconfirmed_call_count": 0,
+    "calls": [
+      {
+        "request_type": "fact_check",
+        "attempt": 1,
+        "item_ids": [
+          "claim_3_detail_2"
+        ],
+        "web_search_requests": 1,
+        "url_citation_count": 0,
+        "confirmed": true,
+        "confirmation_basis": "usage.web_search_requests"
+      },
+      {
+        "request_type": "fact_check",
+        "attempt": 1,
+        "item_ids": [
+          "claim_2_detail_1"
+        ],
+        "web_search_requests": 1,
+        "url_citation_count": 0,
+        "confirmed": true,
+        "confirmation_basis": "usage.web_search_requests"
+      },
+      {
+        "request_type": "fact_check",
+        "attempt": 1,
+        "item_ids": [
+          "claim_2_premise_2"
+        ],
+        "web_search_requests": 1,
+        "url_citation_count": 0,
+        "confirmed": true,
+        "confirmation_basis": "usage.web_search_requests"
+      },
+      {
+        "request_type": "fact_check",
+        "attempt": 1,
+        "item_ids": [
+          "claim_1_detail_1"
+        ],
+        "web_search_requests": 1,
+        "url_citation_count": 0,
+        "confirmed": true,
+        "confirmation_basis": "usage.web_search_requests"
+      },
+      {
+        "request_type": "fact_check",
+        "attempt": 1,
+        "item_ids": [
+          "claim_2_detail_2"
+        ],
+        "web_search_requests": 1,
+        "url_citation_count": 0,
+        "confirmed": true,
+        "confirmation_basis": "usage.web_search_requests"
+      },
+      {
+        "request_type": "fact_check",
+        "attempt": 1,
+        "item_ids": [
+          "claim_3_detail_1"
+        ],
+        "web_search_requests": 1,
+        "url_citation_count": 0,
+        "confirmed": true,
+        "confirmation_basis": "usage.web_search_requests"
+      },
+      {
+        "request_type": "fact_check",
+        "attempt": 1,
+        "item_ids": [
+          "claim_2_premise_3"
+        ],
+        "web_search_requests": 1,
+        "url_citation_count": 0,
+        "confirmed": true,
+        "confirmation_basis": "usage.web_search_requests"
+      },
+      {
+        "request_type": "fact_check",
+        "attempt": 1,
+        "item_ids": [
+          "claim_1_detail_2"
+        ],
+        "web_search_requests": 1,
+        "url_citation_count": 0,
+        "confirmed": true,
+        "confirmation_basis": "usage.web_search_requests"
+      },
+      {
+        "request_type": "fact_check",
+        "attempt": 1,
+        "item_ids": [
+          "claim_1"
+        ],
+        "web_search_requests": 1,
+        "url_citation_count": 1,
+        "confirmed": true,
+        "confirmation_basis": "usage.web_search_requests"
+      },
+      {
+        "request_type": "fact_check",
+        "attempt": 1,
+        "item_ids": [
+          "claim_3_premise_2"
+        ],
+        "web_search_requests": 1,
+        "url_citation_count": 0,
+        "confirmed": true,
+        "confirmation_basis": "usage.web_search_requests"
+      },
+      {
+        "request_type": "fact_check",
+        "attempt": 1,
+        "item_ids": [
+          "claim_3_premise_1"
+        ],
+        "web_search_requests": 1,
+        "url_citation_count": 0,
+        "confirmed": true,
+        "confirmation_basis": "usage.web_search_requests"
+      },
+      {
+        "request_type": "fact_check",
+        "attempt": 1,
+        "item_ids": [
+          "claim_2_detail_3"
+        ],
+        "web_search_requests": 1,
+        "url_citation_count": 1,
+        "confirmed": true,
+        "confirmation_basis": "usage.web_search_requests"
+      },
+      {
+        "request_type": "fact_check",
+        "attempt": 1,
+        "item_ids": [
+          "claim_2_premise_4"
+        ],
+        "web_search_requests": 1,
+        "url_citation_count": 0,
+        "confirmed": true,
+        "confirmation_basis": "usage.web_search_requests"
+      },
+      {
+        "request_type": "fact_check",
+        "attempt": 1,
+        "item_ids": [
+          "claim_2_premise_1"
+        ],
+        "web_search_requests": 1,
+        "url_citation_count": 2,
+        "confirmed": true,
+        "confirmation_basis": "usage.web_search_requests"
+      }
+    ],
+    "scope_note": "Each web-search request contains one check item, so the search record maps directly to that item."
+  },
+  "frozen_claims": [
+    {
+      "claim_id": "claim_1",
+      "claim_text": "Abercrombie & Fitch and Bath & Body Works beat quarterly profit estimates, causing their shares to rise more than 12% on May 27.",
+      "claim_type": "fact",
+      "supporting_details": [
+        "The profit beat occurred in the quarterly results announced on May 27.",
+        "The share price increase was more than 12% on the day of the announcement."
+      ]
+    },
+    {
+      "claim_id": "claim_2",
+      "claim_text": "The quarterly results of Abercrombie & Fitch and Bath & Body Works indicate that some U.S. shoppers remain willing to spend on affordable indulgences despite economic uncertainty.",
+      "claim_type": "causal",
+      "supporting_details": [
+        "Abercrombie & Fitch positions itself between premium and mass-market segments, offering aspirational apparel at accessible prices.",
+        "Bath & Body Works attracted demand for relatively affordable fragrances and personal-care products.",
+        "Bath & Body Works’ quarterly sales fell 3% from a year earlier, showing mixed performance."
+      ]
+    },
+    {
+      "claim_id": "claim_3",
+      "claim_text": "The resilience in demand for affordable discretionary or self-care products during economic stress may be consistent with the 'lipstick effect,' an interpretation of consumer behavior.",
+      "claim_type": "opinion",
+      "supporting_details": [
+        "The 'lipstick effect' suggests consumers continue buying lower-cost discretionary or self-care products during economic stress.",
+        "This effect is an interpretation rather than a proven cause of the companies' performance."
+      ]
+    }
+  ],
+  "claim_results": [
+    {
+      "claim_id": "claim_1",
+      "claim_text": "Abercrombie & Fitch and Bath & Body Works beat quarterly profit estimates, causing their shares to rise more than 12% on May 27.",
+      "claim_type": "fact",
+      "supporting_details": [
+        "The profit beat occurred in the quarterly results announced on May 27.",
+        "The share price increase was more than 12% on the day of the announcement."
+      ],
+      "score": 100.0,
+      "status": "success",
+      "fact_check": {
+        "claim_id": "claim_1",
+        "claim_text": "Abercrombie & Fitch and Bath & Body Works beat quarterly profit estimates, causing their shares to rise more than 12% on May 27.",
+        "claim_type": "fact",
+        "item_id": "claim_1",
+        "item_type": "fact_claim",
+        "statement": "Abercrombie & Fitch and Bath & Body Works beat quarterly profit estimates, causing their shares to rise more than 12% on May 27.",
+        "execution_status": "searched",
+        "evidence_finding": "On May 27, 2026, Abercrombie & Fitch and Bath & Body Works reported quarterly profit estimates that exceeded expectations, leading to their shares rising more than 12%. ([thedailyguardian.com](https://thedailyguardian.com/business/abercrombie-bath-body-works-results-show-americans-are-still-spending-but-selectively-699389/?utm_source=openai))",
+        "comparison": "consistent",
+        "context_match": "matched",
+        "evidence_outcome": "supported",
+        "source_quality": "reliable",
+        "verdict": "supported",
+        "reason": "The evidence directly supports the claim that both companies beat quarterly profit estimates on May 27, 2026, resulting in their shares rising over 12%.",
+        "sources": [
+          {
+            "title": "Abercrombie, Bath & Body Works' results show Americans are still spending, but selectively",
+            "url": "https://thedailyguardian.com/business/abercrombie-bath-body-works-results-show-americans-are-still-spending-but-selectively-699389/"
+          }
+        ],
+        "score": 100,
+        "status": "success"
+      },
+      "fact_check_weight": 0.7,
+      "supporting_detail_component": {
+        "score": 100.0,
+        "weight": 0.3,
+        "status": "success",
+        "detail_checks": [
+          {
+            "claim_id": "claim_1",
+            "claim_text": "Abercrombie & Fitch and Bath & Body Works beat quarterly profit estimates, causing their shares to rise more than 12% on May 27.",
+            "claim_type": "fact",
+            "item_id": "claim_1_detail_1",
+            "item_type": "supporting_detail",
+            "statement": "The profit beat occurred in the quarterly results announced on May 27.",
+            "execution_status": "searched",
+            "evidence_finding": "On May 27, 2026, Abercrombie & Fitch and Bath & Body Works reported quarterly profit results that exceeded analysts' expectations, leading to their shares rising by more than 12%.",
+            "comparison": "consistent",
+            "context_match": "matched",
+            "evidence_outcome": "supported",
+            "source_quality": "reliable",
+            "verdict": "supported",
+            "reason": "The evidence directly supports the claim that both companies beat quarterly profit estimates, causing their shares to rise over 12% on May 27.",
+            "sources": [
+              {
+                "title": "How major US stock indexes fared Wednesday 5/27/2026",
+                "url": "https://apnews.com/article/6b22ac4e7e8ab54dde3d3499e6643f28"
+              }
+            ],
+            "score": 100,
+            "status": "success"
+          },
+          {
+            "claim_id": "claim_1",
+            "claim_text": "Abercrombie & Fitch and Bath & Body Works beat quarterly profit estimates, causing their shares to rise more than 12% on May 27.",
+            "claim_type": "fact",
+            "item_id": "claim_1_detail_2",
+            "item_type": "supporting_detail",
+            "statement": "The share price increase was more than 12% on the day of the announcement.",
+            "execution_status": "searched",
+            "evidence_finding": "On May 27, 2026, Abercrombie & Fitch and Bath & Body Works reported better-than-expected quarterly earnings, leading to their shares rising by more than 12% on that day.",
+            "comparison": "consistent",
+            "context_match": "matched",
+            "evidence_outcome": "supported",
+            "source_quality": "reliable",
+            "verdict": "supported",
+            "reason": "The evidence directly supports the claim that both companies exceeded profit estimates, resulting in a share price increase exceeding 12% on May 27, 2026.",
+            "sources": [
+              {
+                "title": "How major US stock indexes fared Wednesday 5/27/2026",
+                "url": "https://apnews.com/article/6b22ac4e7e8ab54dde3d3499e6643f28"
+              }
+            ],
+            "score": 100,
+            "status": "success"
+          }
+        ]
+      },
+      "result_note": "Check the factual claim"
+    },
+    {
+      "claim_id": "claim_2",
+      "claim_text": "The quarterly results of Abercrombie & Fitch and Bath & Body Works indicate that some U.S. shoppers remain willing to spend on affordable indulgences despite economic uncertainty.",
+      "claim_type": "causal",
+      "supporting_details": [
+        "Abercrombie & Fitch positions itself between premium and mass-market segments, offering aspirational apparel at accessible prices.",
+        "Bath & Body Works attracted demand for relatively affordable fragrances and personal-care products.",
+        "Bath & Body Works’ quarterly sales fell 3% from a year earlier, showing mixed performance."
+      ],
+      "score": 100.0,
+      "status": "success",
+      "logic_chain": "Abercrombie & Fitch and Bath & Body Works beat quarterly profit estimates, leading to a share price increase of more than 12%. This financial performance suggests continued consumer spending on their products, which are described as affordable indulgences. Therefore, the companies' strong results indicate that some U.S. shoppers remain willing to spend on affordable indulgences despite economic uncertainty.",
+      "fact_reliability": {
+        "score": 100.0,
+        "weight": 0.5,
+        "status": "success",
+        "premise_checks": [
+          {
+            "claim_id": "claim_2",
+            "claim_text": "The quarterly results of Abercrombie & Fitch and Bath & Body Works indicate that some U.S. shoppers remain willing to spend on affordable indulgences despite economic uncertainty.",
+            "claim_type": "causal",
+            "item_id": "claim_2_premise_1",
+            "item_type": "fact_premise",
+            "statement": "Abercrombie & Fitch and Bath & Body Works beat quarterly profit estimates.",
+            "execution_status": "searched",
+            "evidence_finding": "Abercrombie & Fitch Co. reported first-quarter fiscal 2024 net sales of $1.0 billion, a 22% increase from the previous year, with comparable sales growth of 21%. ([globenewswire.com](https://www.globenewswire.com/news-release/2024/05/29/2889747/0/en/Abercrombie-Fitch-Co-Reports-First-Quarter-Fiscal-2024-Results.html?utm_source=openai)) Bath & Body Works reported first-quarter fiscal 2024 net sales of $1.38 billion, a 0.9% decrease from the previous year, but exceeding analyst expectations of $1.36 billion. ([tradingview.com](https://www.tradingview.com/news/benzinga%3A2d9e5641d094b%3A0-bath-body-works-clings-to-q1-profit-growth-amid-shaky-international-sales-details/?utm_source=openai))",
+            "comparison": "consistent",
+            "context_match": "matched",
+            "evidence_outcome": "supported",
+            "source_quality": "reliable",
+            "verdict": "supported",
+            "reason": "Both companies reported quarterly net sales that met or exceeded analyst expectations, indicating that some U.S. shoppers remain willing to spend on affordable indulgences despite economic uncertainty.",
+            "sources": [
+              {
+                "title": "Abercrombie & Fitch Co. Reports First Quarter Fiscal 2024 Results",
+                "url": "https://www.globenewswire.com/news-release/2024/05/29/2889747/0/en/Abercrombie-Fitch-Co-Reports-First-Quarter-Fiscal-2024-Results.html"
+              },
+              {
+                "title": "Bath & Body Works Clings To Q1 Profit Growth Amid Shaky International Sales: Details",
+                "url": "https://www.tradingview.com/news/benzinga%3A2d9e5641d094b%3A0-bath-body-works-clings-to-q1-profit-growth-amid-shaky-international-sales-details/"
+              }
+            ],
+            "score": 100,
+            "status": "success"
+          },
+          {
+            "claim_id": "claim_2",
+            "claim_text": "The quarterly results of Abercrombie & Fitch and Bath & Body Works indicate that some U.S. shoppers remain willing to spend on affordable indulgences despite economic uncertainty.",
+            "claim_type": "causal",
+            "item_id": "claim_2_premise_2",
+            "item_type": "fact_premise",
+            "statement": "Their shares rose more than 12% on Wednesday.",
+            "execution_status": "searched",
+            "evidence_finding": "On May 27, 2026, Abercrombie & Fitch and Bath & Body Works reported quarterly profit estimates that exceeded expectations, leading to their shares rising by more than 12% on that day.",
+            "comparison": "consistent",
+            "context_match": "matched",
+            "evidence_outcome": "supported",
+            "source_quality": "reliable",
+            "verdict": "supported",
+            "reason": "The evidence directly supports the claim that the companies' quarterly results led to a significant increase in their share prices on May 27, 2026.",
+            "sources": [
+              {
+                "title": "Abercrombie, Bath & Body Works' results show Americans are still spending, but selectively",
+                "url": "https://thedailyguardian.com/business/abercrombie-bath-body-works-results-show-americans-are-still-spending-but-selectively-699389/"
+              }
+            ],
+            "score": 100,
+            "status": "success"
+          },
+          {
+            "claim_id": "claim_2",
+            "claim_text": "The quarterly results of Abercrombie & Fitch and Bath & Body Works indicate that some U.S. shoppers remain willing to spend on affordable indulgences despite economic uncertainty.",
+            "claim_type": "causal",
+            "item_id": "claim_2_premise_3",
+            "item_type": "fact_premise",
+            "statement": "The companies offer affordable indulgences.",
+            "execution_status": "searched",
+            "evidence_finding": "Both Abercrombie & Fitch and Bath & Body Works offer products that can be considered affordable indulgences, such as reasonably priced apparel and personal care items.",
+            "comparison": "consistent",
+            "context_match": "matched",
+            "evidence_outcome": "supported",
+            "source_quality": "reliable",
+            "verdict": "supported",
+            "reason": "The companies provide products that fit the description of affordable indulgences.",
+            "sources": [
+              {
+                "title": "Abercrombie & Fitch Sale-on-Sale: Tees, Sweater Dresses, Jackets & Denim Deals",
+                "url": "https://www.eonline.com/news/1423143/abercrombie-sale-on-sale-tees-sweater-dresses-jackets-denim-deals"
+              },
+              {
+                "title": "Bath & Body Works Sale: $8 Candles, $4 Body Lotions, $3 Hand Soaps & More",
+                "url": "https://www.eonline.com/news/1426612/bath-body-works-sale-s8-candles-s4-body-lotions-s3-hand-soaps-more"
+              }
+            ],
+            "score": 100,
+            "status": "success"
+          },
+          {
+            "claim_id": "claim_2",
+            "claim_text": "The quarterly results of Abercrombie & Fitch and Bath & Body Works indicate that some U.S. shoppers remain willing to spend on affordable indulgences despite economic uncertainty.",
+            "claim_type": "causal",
+            "item_id": "claim_2_premise_4",
+            "item_type": "fact_premise",
+            "statement": "Economic uncertainty is present.",
+            "execution_status": "searched",
+            "evidence_finding": "In May 2024, various indicators reflected economic uncertainty in the U.S. The Federal Reserve's Beige Book reported \"slight economic growth\" and noted \"rising uncertainty and greater downside risks.\" Additionally, the NFIB Small Business Uncertainty Index reached its highest level since November 2020, indicating increased uncertainty among small business owners. Furthermore, the University of Michigan's consumer sentiment index dropped to 67.4 in May, the lowest level in six months, as consumers expressed concerns over inflation and unemployment.",
+            "comparison": "consistent",
+            "context_match": "matched",
+            "evidence_outcome": "supported",
+            "source_quality": "reliable",
+            "verdict": "supported",
+            "reason": "Multiple reputable sources indicate economic uncertainty in the U.S. during May 2024.",
+            "sources": [
+              {
+                "title": "Beige Book shows slight economic growth across US",
+                "url": "https://www.steelmarketupdate.com/2024/05/31/beige-book-shows-slight-economic-growth-across-us/"
+              },
+              {
+                "title": "May 2024 Report: Small Business Uncertainty Index Reaches Highest Level Since 2020",
+                "url": "https://smallbusinessadvocate.una.edu/articles/3608"
+              },
+              {
+                "title": "U.S. consumer sentiment drops to 6-month low on inflation, unemployment fears",
+                "url": "https://www.pbs.org/newshour/economy/u-s-consumer-sentiment-drops-to-6-month-low-on-inflation-unemployment-fears"
+              }
+            ],
+            "score": 100,
+            "status": "success"
+          }
+        ]
+      },
+      "supporting_detail_component": {
+        "score": 100.0,
+        "weight": 0.2,
+        "status": "success",
+        "detail_checks": [
+          {
+            "claim_id": "claim_2",
+            "claim_text": "The quarterly results of Abercrombie & Fitch and Bath & Body Works indicate that some U.S. shoppers remain willing to spend on affordable indulgences despite economic uncertainty.",
+            "claim_type": "causal",
+            "item_id": "claim_2_detail_1",
+            "item_type": "supporting_detail",
+            "statement": "Abercrombie & Fitch positions itself between premium and mass-market segments, offering aspirational apparel at accessible prices.",
+            "execution_status": "searched",
+            "evidence_finding": "Abercrombie & Fitch positions itself as a premium lifestyle brand rooted in a classic, aspirational American aesthetic, offering elevated casual wear that balances quality and accessibility.",
+            "comparison": "consistent",
+            "context_match": "matched",
+            "evidence_outcome": "supported",
+            "source_quality": "reliable",
+            "verdict": "supported",
+            "reason": "The source confirms Abercrombie & Fitch's positioning as a premium lifestyle brand offering elevated casual wear.",
+            "sources": [
+              {
+                "title": "Abercrombie & Fitch: Brand Identity, History, and Cultural Impact",
+                "url": "https://media.newsreview.com/article/abercrombie-fitch-brand-identity-history-and-cultural-impact"
+              }
+            ],
+            "score": 100,
+            "status": "success"
+          },
+          {
+            "claim_id": "claim_2",
+            "claim_text": "The quarterly results of Abercrombie & Fitch and Bath & Body Works indicate that some U.S. shoppers remain willing to spend on affordable indulgences despite economic uncertainty.",
+            "claim_type": "causal",
+            "item_id": "claim_2_detail_2",
+            "item_type": "supporting_detail",
+            "statement": "Bath & Body Works attracted demand for relatively affordable fragrances and personal-care products.",
+            "execution_status": "searched",
+            "evidence_finding": "Bath & Body Works reported net sales of $1,384 million for the first quarter of 2024, a decrease of 0.9% compared to the same period in 2023. Despite this slight decline, the company reported earnings per diluted share of $0.38, exceeding guidance and reflecting a 9% increase on a GAAP basis and a 15% increase on an adjusted basis compared to the prior year.",
+            "comparison": "consistent",
+            "context_match": "matched",
+            "evidence_outcome": "supported",
+            "source_quality": "reliable",
+            "verdict": "supported",
+            "reason": "The evidence supports the claim that Bath & Body Works attracted demand for relatively affordable fragrances and personal-care products, as indicated by the reported net sales and earnings per share.",
+            "sources": [
+              {
+                "title": "Bath & Body Works Reports First Quarter 2024 Results",
+                "url": "https://investors.bbwinc.com/news-releases/news-release-details/bath-body-works-reports-first-quarter-2024-results"
+              }
+            ],
+            "score": 100,
+            "status": "success"
+          },
+          {
+            "claim_id": "claim_2",
+            "claim_text": "The quarterly results of Abercrombie & Fitch and Bath & Body Works indicate that some U.S. shoppers remain willing to spend on affordable indulgences despite economic uncertainty.",
+            "claim_type": "causal",
+            "item_id": "claim_2_detail_3",
+            "item_type": "supporting_detail",
+            "statement": "Bath & Body Works’ quarterly sales fell 3% from a year earlier, showing mixed performance.",
+            "execution_status": "searched",
+            "evidence_finding": "Bath & Body Works reported a 3% decline in net sales for the third quarter of 2023 compared to the same period in 2022. ([investors.bbwinc.com](https://investors.bbwinc.com/news-releases/news-release-details/bath-body-works-reports-third-quarter-2023-earnings-results/?utm_source=openai))",
+            "comparison": "consistent",
+            "context_match": "matched",
+            "evidence_outcome": "supported",
+            "source_quality": "reliable",
+            "verdict": "supported",
+            "reason": "The evidence directly supports the claim that Bath & Body Works' quarterly sales fell 3% from a year earlier.",
+            "sources": [
+              {
+                "title": "Bath & Body Works Reports Third Quarter 2023 Earnings Results",
+                "url": "https://investors.bbwinc.com/news-releases/news-release-details/bath-body-works-reports-third-quarter-2023-earnings-results/"
+              }
+            ],
+            "score": 100,
+            "status": "success"
+          }
+        ]
+      },
+      "logic_quality": {
+        "score": 100,
+        "weight": 0.3,
+        "status": "success",
+        "initial_logic": "valid",
+        "reason": "The factual premises directly support the claim that the companies' strong quarterly results indicate some U.S. shoppers continue spending on affordable indulgences despite economic uncertainty.",
+        "supplement": null
+      },
+      "result_note": "Evaluate factual premises and the causal relation"
+    },
+    {
+      "claim_id": "claim_3",
+      "claim_text": "The resilience in demand for affordable discretionary or self-care products during economic stress may be consistent with the 'lipstick effect,' an interpretation of consumer behavior.",
+      "claim_type": "opinion",
+      "supporting_details": [
+        "The 'lipstick effect' suggests consumers continue buying lower-cost discretionary or self-care products during economic stress.",
+        "This effect is an interpretation rather than a proven cause of the companies' performance."
+      ],
+      "score": 100.0,
+      "status": "success",
+      "logic_chain": "The article notes that Bath & Body Works continued to attract demand for affordable fragrances and personal-care products during economic stress. This resilience may be consistent with the 'lipstick effect,' which is described as an interpretation of consumer behavior rather than a proven cause of performance. Therefore, the claim that the resilience may be consistent with the 'lipstick effect' is an opinion based on interpretation rather than established fact.",
+      "fact_reliability": {
+        "score": 100.0,
+        "weight": 0.5,
+        "status": "success",
+        "premise_checks": [
+          {
+            "claim_id": "claim_3",
+            "claim_text": "The resilience in demand for affordable discretionary or self-care products during economic stress may be consistent with the 'lipstick effect,' an interpretation of consumer behavior.",
+            "claim_type": "opinion",
+            "item_id": "claim_3_premise_1",
+            "item_type": "fact_premise",
+            "statement": "Bath & Body Works continued to attract demand for affordable fragrances and personal-care products.",
+            "execution_status": "searched",
+            "evidence_finding": "Bath & Body Works continued to attract demand for relatively affordable fragrances and personal-care products.",
+            "comparison": "consistent",
+            "context_match": "matched",
+            "evidence_outcome": "supported",
+            "source_quality": "reliable",
+            "verdict": "supported",
+            "reason": "The statement aligns with the company's performance in the first quarter of 2026, where strong demand for scented candles and personal care products led to sales exceeding analyst estimates.",
+            "sources": [
+              {
+                "title": "Bath & Body Works Beats Estimates on Demand for ‘Affordable Luxury’",
+                "url": "https://www.businessoffashion.com/news/beauty/bath-body-works-beats-estimates-affordable-luxury/"
+              }
+            ],
+            "score": 100,
+            "status": "success"
+          },
+          {
+            "claim_id": "claim_3",
+            "claim_text": "The resilience in demand for affordable discretionary or self-care products during economic stress may be consistent with the 'lipstick effect,' an interpretation of consumer behavior.",
+            "claim_type": "opinion",
+            "item_id": "claim_3_premise_2",
+            "item_type": "fact_premise",
+            "statement": "The 'lipstick effect' is an interpretation of consumer behavior, not a proven cause of company performance.",
+            "execution_status": "searched",
+            "evidence_finding": "The 'lipstick effect' is a consumer behavior theory suggesting that during economic downturns, consumers may opt for affordable luxuries instead of more expensive items. However, this theory is not universally accepted, and evidence supporting it is mixed.",
+            "comparison": "consistent",
+            "context_match": "matched",
+            "evidence_outcome": "supported",
+            "source_quality": "reliable",
+            "verdict": "supported",
+            "reason": "The evidence supports the claim that the 'lipstick effect' is a consumer behavior theory, not a proven cause of company performance.",
+            "sources": [
+              {
+                "title": "What is the Lipstick Effect? Small Luxuries in a Downturn",
+                "url": "https://www.ebc.com/forex/what-is-the-lipstick-effect"
+              }
+            ],
+            "score": 100,
+            "status": "success"
+          }
+        ]
+      },
+      "supporting_detail_component": {
+        "score": 100.0,
+        "weight": 0.2,
+        "status": "success",
+        "detail_checks": [
+          {
+            "claim_id": "claim_3",
+            "claim_text": "The resilience in demand for affordable discretionary or self-care products during economic stress may be consistent with the 'lipstick effect,' an interpretation of consumer behavior.",
+            "claim_type": "opinion",
+            "item_id": "claim_3_detail_1",
+            "item_type": "supporting_detail",
+            "statement": "The 'lipstick effect' suggests consumers continue buying lower-cost discretionary or self-care products during economic stress.",
+            "execution_status": "searched",
+            "evidence_finding": "The 'lipstick effect' suggests that during economic downturns, consumers continue to purchase small, affordable luxuries, such as cosmetics, as a means of self-indulgence without significant financial strain.",
+            "comparison": "consistent",
+            "context_match": "matched",
+            "evidence_outcome": "supported",
+            "source_quality": "reliable",
+            "verdict": "supported",
+            "reason": "The 'lipstick effect' describes consumer behavior during economic stress, where individuals opt for small indulgences like cosmetics instead of larger luxury items.",
+            "sources": [
+              {
+                "title": "What is the Lipstick Effect? Small Luxuries in a Downturn",
+                "url": "https://www.ebc.com/forex/what-is-the-lipstick-effect"
+              }
+            ],
+            "score": 100,
+            "status": "success"
+          },
+          {
+            "claim_id": "claim_3",
+            "claim_text": "The resilience in demand for affordable discretionary or self-care products during economic stress may be consistent with the 'lipstick effect,' an interpretation of consumer behavior.",
+            "claim_type": "opinion",
+            "item_id": "claim_3_detail_2",
+            "item_type": "supporting_detail",
+            "statement": "This effect is an interpretation rather than a proven cause of the companies' performance.",
+            "execution_status": "searched",
+            "evidence_finding": "The 'lipstick effect' is a consumer behavior theory suggesting that during economic downturns, consumers may opt for small, affordable luxuries instead of larger, more expensive items. However, this effect is an interpretation of consumer behavior rather than a proven cause of company performance.",
+            "comparison": "consistent",
+            "context_match": "matched",
+            "evidence_outcome": "supported",
+            "source_quality": "reliable",
+            "verdict": "supported",
+            "reason": "The evidence supports the claim that the 'lipstick effect' is an interpretation of consumer behavior, not a proven cause of company performance.",
+            "sources": [
+              {
+                "title": "What is the Lipstick Effect? Small Luxuries in a Downturn",
+                "url": "https://www.ebc.com/forex/what-is-the-lipstick-effect"
+              }
+            ],
+            "score": 100,
+            "status": "success"
+          }
+        ]
+      },
+      "logic_quality": {
+        "score": 100,
+        "weight": 0.3,
+        "status": "success",
+        "initial_logic": "valid",
+        "reason": "The premises support that the claim is an opinion interpreting consumer behavior rather than a factual causal conclusion.",
+        "supplement": null
+      },
+      "result_note": "Evaluate support and reasoning, not whether the opinion itself is true"
+    }
+  ],
+  "api_call_logs": [
+    {
+      "request_type": "extract_claims",
+      "attempt": 1,
+      "item_ids": [
+        "news"
+      ],
+      "response_id": "gen-1791107393-umMy4uptqLxugF6Ty6H1",
+      "model": "openai/gpt-4.1-mini",
+      "usage": {
+        "prompt_tokens": 662,
+        "completion_tokens": 271,
+        "total_tokens": 933,
+        "cost": 0.0006984,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0006984,
+          "upstream_inference_prompt_cost": 0.0002648,
+          "upstream_inference_completions_cost": 0.0004336
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "web_search_requests": 0,
+      "citation_log": [],
+      "web_search_confirmed": null,
+      "web_search_confirmation_basis": "not_applicable"
+    },
+    {
+      "request_type": "analyze_arguments",
+      "attempt": 1,
+      "item_ids": [
+        "claim_2",
+        "claim_3"
+      ],
+      "response_id": "gen-1791107396-e3Eoxr4yOp30l1a2OiNO",
+      "model": "openai/gpt-4.1-mini",
+      "usage": {
+        "prompt_tokens": 669,
+        "completion_tokens": 333,
+        "total_tokens": 1002,
+        "cost": 0.0008004,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0008004,
+          "upstream_inference_prompt_cost": 0.0002676,
+          "upstream_inference_completions_cost": 0.0005328
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "web_search_requests": 0,
+      "citation_log": [],
+      "web_search_confirmed": null,
+      "web_search_confirmation_basis": "not_applicable"
+    },
+    {
+      "request_type": "fact_check",
+      "attempt": 1,
+      "item_ids": [
+        "claim_3_detail_2"
+      ],
+      "response_id": "gen-1791107398-GtSGn1cej2kvLrVdVKX6",
+      "model": "openai/gpt-4.1-mini",
+      "usage": {
+        "prompt_tokens": 8174,
+        "completion_tokens": 186,
+        "total_tokens": 8360,
+        "cost": 0.0131832,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 1280,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0131832,
+          "upstream_inference_prompt_cost": 0.0028856,
+          "upstream_inference_completions_cost": 0.0002976
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        },
+        "server_tool_use_details": {
+          "web_search_requests": 1
+        }
+      },
+      "web_search_requests": 1,
+      "citation_log": [],
+      "web_search_confirmed": true,
+      "web_search_confirmation_basis": "usage.web_search_requests"
+    },
+    {
+      "request_type": "fact_check",
+      "attempt": 1,
+      "item_ids": [
+        "claim_2_detail_1"
+      ],
+      "response_id": "gen-1791107398-HOtX0X9RactnSwTSKkBw",
+      "model": "openai/gpt-4.1-mini",
+      "usage": {
+        "prompt_tokens": 8174,
+        "completion_tokens": 177,
+        "total_tokens": 8351,
+        "cost": 0.0131688,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 1280,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0131688,
+          "upstream_inference_prompt_cost": 0.0028856,
+          "upstream_inference_completions_cost": 0.0002832
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        },
+        "server_tool_use_details": {
+          "web_search_requests": 1
+        }
+      },
+      "web_search_requests": 1,
+      "citation_log": [],
+      "web_search_confirmed": true,
+      "web_search_confirmation_basis": "usage.web_search_requests"
+    },
+    {
+      "request_type": "fact_check",
+      "attempt": 1,
+      "item_ids": [
+        "claim_2_premise_2"
+      ],
+      "response_id": "gen-1791107398-3DsKg7DYj3J7w4YrI8eY",
+      "model": "openai/gpt-4.1-mini",
+      "usage": {
+        "prompt_tokens": 8174,
+        "completion_tokens": 218,
+        "total_tokens": 8392,
+        "cost": 0.0132344,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 1280,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0132344,
+          "upstream_inference_prompt_cost": 0.0028856,
+          "upstream_inference_completions_cost": 0.0003488
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        },
+        "server_tool_use_details": {
+          "web_search_requests": 1
+        }
+      },
+      "web_search_requests": 1,
+      "citation_log": [],
+      "web_search_confirmed": true,
+      "web_search_confirmation_basis": "usage.web_search_requests"
+    },
+    {
+      "request_type": "fact_check",
+      "attempt": 1,
+      "item_ids": [
+        "claim_1_detail_1"
+      ],
+      "response_id": "gen-1791107398-x7pONym7JhmUInRZjch8",
+      "model": "openai/gpt-4.1-mini",
+      "usage": {
+        "prompt_tokens": 8174,
+        "completion_tokens": 198,
+        "total_tokens": 8372,
+        "cost": 0.0132024,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 1280,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0132024,
+          "upstream_inference_prompt_cost": 0.0028856,
+          "upstream_inference_completions_cost": 0.0003168
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        },
+        "server_tool_use_details": {
+          "web_search_requests": 1
+        }
+      },
+      "web_search_requests": 1,
+      "citation_log": [],
+      "web_search_confirmed": true,
+      "web_search_confirmation_basis": "usage.web_search_requests"
+    },
+    {
+      "request_type": "fact_check",
+      "attempt": 1,
+      "item_ids": [
+        "claim_2_detail_2"
+      ],
+      "response_id": "gen-1791107398-ASF0IPiwh8JJYnSHKzlm",
+      "model": "openai/gpt-4.1-mini",
+      "usage": {
+        "prompt_tokens": 8174,
+        "completion_tokens": 240,
+        "total_tokens": 8414,
+        "cost": 0.0136536,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0136536,
+          "upstream_inference_prompt_cost": 0.0032696,
+          "upstream_inference_completions_cost": 0.000384
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        },
+        "server_tool_use_details": {
+          "web_search_requests": 1
+        }
+      },
+      "web_search_requests": 1,
+      "citation_log": [],
+      "web_search_confirmed": true,
+      "web_search_confirmation_basis": "usage.web_search_requests"
+    },
+    {
+      "request_type": "fact_check",
+      "attempt": 1,
+      "item_ids": [
+        "claim_3_detail_1"
+      ],
+      "response_id": "gen-1791107398-yyaqGc0RbK38hLQgVP9f",
+      "model": "openai/gpt-4.1-mini",
+      "usage": {
+        "prompt_tokens": 8174,
+        "completion_tokens": 172,
+        "total_tokens": 8346,
+        "cost": 0.0131608,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 1280,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0131608,
+          "upstream_inference_prompt_cost": 0.0028856,
+          "upstream_inference_completions_cost": 0.0002752
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        },
+        "server_tool_use_details": {
+          "web_search_requests": 1
+        }
+      },
+      "web_search_requests": 1,
+      "citation_log": [],
+      "web_search_confirmed": true,
+      "web_search_confirmation_basis": "usage.web_search_requests"
+    },
+    {
+      "request_type": "fact_check",
+      "attempt": 1,
+      "item_ids": [
+        "claim_2_premise_3"
+      ],
+      "response_id": "gen-1791107398-YTms9dGrM6UtzP0fEdTF",
+      "model": "openai/gpt-4.1-mini",
+      "usage": {
+        "prompt_tokens": 8174,
+        "completion_tokens": 246,
+        "total_tokens": 8420,
+        "cost": 0.0132792,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 1280,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0132792,
+          "upstream_inference_prompt_cost": 0.0028856,
+          "upstream_inference_completions_cost": 0.0003936
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        },
+        "server_tool_use_details": {
+          "web_search_requests": 1
+        }
+      },
+      "web_search_requests": 1,
+      "citation_log": [],
+      "web_search_confirmed": true,
+      "web_search_confirmation_basis": "usage.web_search_requests"
+    },
+    {
+      "request_type": "fact_check",
+      "attempt": 1,
+      "item_ids": [
+        "claim_1_detail_2"
+      ],
+      "response_id": "gen-1791107398-NvqGrxKfxIj7F3xQ13ut",
+      "model": "openai/gpt-4.1-mini",
+      "usage": {
+        "prompt_tokens": 8174,
+        "completion_tokens": 206,
+        "total_tokens": 8380,
+        "cost": 0.0135992,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0135992,
+          "upstream_inference_prompt_cost": 0.0032696,
+          "upstream_inference_completions_cost": 0.0003296
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        },
+        "server_tool_use_details": {
+          "web_search_requests": 1
+        }
+      },
+      "web_search_requests": 1,
+      "citation_log": [],
+      "web_search_confirmed": true,
+      "web_search_confirmation_basis": "usage.web_search_requests"
+    },
+    {
+      "request_type": "fact_check",
+      "attempt": 1,
+      "item_ids": [
+        "claim_1"
+      ],
+      "response_id": "gen-1791107398-EAE4XEm58DMpmc9j0KjU",
+      "model": "openai/gpt-4.1-mini",
+      "usage": {
+        "prompt_tokens": 8174,
+        "completion_tokens": 261,
+        "total_tokens": 8435,
+        "cost": 0.0133032,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 1280,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0133032,
+          "upstream_inference_prompt_cost": 0.0028856,
+          "upstream_inference_completions_cost": 0.0004176
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        },
+        "server_tool_use_details": {
+          "web_search_requests": 1
+        }
+      },
+      "web_search_requests": 1,
+      "citation_log": [
+        {
+          "title": "Abercrombie, Bath & Body Works' results show Americans are still spending, but selectively - The Daily Guardian",
+          "url": "https://thedailyguardian.com/business/abercrombie-bath-body-works-results-show-americans-are-still-spending-but-selectively-699389/?utm_source=openai"
+        }
+      ],
+      "web_search_confirmed": true,
+      "web_search_confirmation_basis": "usage.web_search_requests"
+    },
+    {
+      "request_type": "fact_check",
+      "attempt": 1,
+      "item_ids": [
+        "claim_3_premise_2"
+      ],
+      "response_id": "gen-1791107398-d5PN61wdcBT4qrPgQx94",
+      "model": "openai/gpt-4.1-mini",
+      "usage": {
+        "prompt_tokens": 8174,
+        "completion_tokens": 182,
+        "total_tokens": 8356,
+        "cost": 0.0135608,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0135608,
+          "upstream_inference_prompt_cost": 0.0032696,
+          "upstream_inference_completions_cost": 0.0002912
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        },
+        "server_tool_use_details": {
+          "web_search_requests": 1
+        }
+      },
+      "web_search_requests": 1,
+      "citation_log": [],
+      "web_search_confirmed": true,
+      "web_search_confirmation_basis": "usage.web_search_requests"
+    },
+    {
+      "request_type": "fact_check",
+      "attempt": 1,
+      "item_ids": [
+        "claim_3_premise_1"
+      ],
+      "response_id": "gen-1791107399-cx5PUP1yxsUXdc3jxo4c",
+      "model": "openai/gpt-4.1-mini",
+      "usage": {
+        "prompt_tokens": 8174,
+        "completion_tokens": 170,
+        "total_tokens": 8344,
+        "cost": 0.0131576,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 1280,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0131576,
+          "upstream_inference_prompt_cost": 0.0028856,
+          "upstream_inference_completions_cost": 0.000272
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        },
+        "server_tool_use_details": {
+          "web_search_requests": 1
+        }
+      },
+      "web_search_requests": 1,
+      "citation_log": [],
+      "web_search_confirmed": true,
+      "web_search_confirmation_basis": "usage.web_search_requests"
+    },
+    {
+      "request_type": "fact_check",
+      "attempt": 1,
+      "item_ids": [
+        "claim_2_detail_3"
+      ],
+      "response_id": "gen-1791107398-HlHa6P9QmE7LVYy7Gg7L",
+      "model": "openai/gpt-4.1-mini",
+      "usage": {
+        "prompt_tokens": 8174,
+        "completion_tokens": 225,
+        "total_tokens": 8399,
+        "cost": 0.0132456,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 1280,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0132456,
+          "upstream_inference_prompt_cost": 0.0028856,
+          "upstream_inference_completions_cost": 0.00036
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        },
+        "server_tool_use_details": {
+          "web_search_requests": 1
+        }
+      },
+      "web_search_requests": 1,
+      "citation_log": [
+        {
+          "title": "Bath & Body Works Reports Third Quarter 2023 Earnings Results | Bath & Body Works, Inc.",
+          "url": "https://investors.bbwinc.com/news-releases/news-release-details/bath-body-works-reports-third-quarter-2023-earnings-results/?utm_source=openai"
+        }
+      ],
+      "web_search_confirmed": true,
+      "web_search_confirmation_basis": "usage.web_search_requests"
+    },
+    {
+      "request_type": "fact_check",
+      "attempt": 1,
+      "item_ids": [
+        "claim_2_premise_4"
+      ],
+      "response_id": "gen-1791107398-rOUTtcBjxHgNgazB4nKf",
+      "model": "openai/gpt-4.1-mini",
+      "usage": {
+        "prompt_tokens": 8174,
+        "completion_tokens": 327,
+        "total_tokens": 8501,
+        "cost": 0.0134088,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 1280,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0134088,
+          "upstream_inference_prompt_cost": 0.0028856,
+          "upstream_inference_completions_cost": 0.0005232
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        },
+        "server_tool_use_details": {
+          "web_search_requests": 1
+        }
+      },
+      "web_search_requests": 1,
+      "citation_log": [],
+      "web_search_confirmed": true,
+      "web_search_confirmation_basis": "usage.web_search_requests"
+    },
+    {
+      "request_type": "fact_check",
+      "attempt": 1,
+      "item_ids": [
+        "claim_2_premise_1"
+      ],
+      "response_id": "gen-1791107398-EjUKq36Qyh51i4VbG9IS",
+      "model": "openai/gpt-4.1-mini",
+      "usage": {
+        "prompt_tokens": 8174,
+        "completion_tokens": 458,
+        "total_tokens": 8632,
+        "cost": 0.0140024,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0140024,
+          "upstream_inference_prompt_cost": 0.0032696,
+          "upstream_inference_completions_cost": 0.0007328
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        },
+        "server_tool_use_details": {
+          "web_search_requests": 1
+        }
+      },
+      "web_search_requests": 1,
+      "citation_log": [
+        {
+          "title": "Abercrombie & Fitch Co. Reports First Quarter Fiscal 2024",
+          "url": "https://www.globenewswire.com/news-release/2024/05/29/2889747/0/en/Abercrombie-Fitch-Co-Reports-First-Quarter-Fiscal-2024-Results.html?utm_source=openai"
+        },
+        {
+          "title": "Bath & Body Works Clings To Q1 Profit Growth Amid Shaky International Sales: Details — TradingView News",
+          "url": "https://www.tradingview.com/news/benzinga%3A2d9e5641d094b%3A0-bath-body-works-clings-to-q1-profit-growth-amid-shaky-international-sales-details/?utm_source=openai"
+        }
+      ],
+      "web_search_confirmed": true,
+      "web_search_confirmation_basis": "usage.web_search_requests"
+    }
+  ]
+}

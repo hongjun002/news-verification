@@ -1,0 +1,811 @@
+{
+  "news_id": "News 2",
+  "original_text": "Washington, D.C. — The U.S. Treasury Department has formally declared the federal government insolvent, according to its Fiscal Year 2025 consolidated financial statements released on March 23, 2026. The report lists $6.06 trillion in total assets and $47.78 trillion in total liabilities, leaving a net negative position of $41.72 trillion. When off-balance-sheet obligations such as Social Security and Medicare are included, total federal obligations exceed $136 trillion, about five times U.S. annual GDP. The Treasury summary states that the government’s liabilities now exceed its assets by an unprecedented margin. Economists Steve Hanke and David Walker wrote that the Treasury’s own numbers confirm insolvency. The report was signed by the Treasury Secretary and transmitted to Congress.",
+  "analysis_time_utc": "2026-10-04T09:51:04.157101+00:00",
+  "model": "openai/gpt-4.1-mini",
+  "article_score_raw": 15.0,
+  "article_grade": "Not credible",
+  "deduction_analysis": {
+    "reference_full_score": 100,
+    "final_article_score": 15.0,
+    "total_deduction": 85.0,
+    "problem_claim_count": 1,
+    "calculated_deduction_sum": 85.0,
+    "deduction_points": [
+      {
+        "deduction_id": "deduction_1",
+        "claim_id": "claim_1",
+        "claim_text": "The U.S. Treasury Department has formally declared the federal government insolvent in its Fiscal Year 2025 consolidated financial statements.",
+        "category": "fact_claim",
+        "category_name": "Factual claim check",
+        "component_score": 0.0,
+        "component_weight_within_claim": 0.7,
+        "deduction_within_claim": 70.0,
+        "deduction_from_article_score": 70.0,
+        "reason": "The Treasury's report does not declare insolvency.",
+        "status": "success",
+        "related_checks": [
+          {
+            "item_id": "claim_1",
+            "statement": "The U.S. Treasury Department has formally declared the federal government insolvent in its Fiscal Year 2025 consolidated financial statements.",
+            "execution_status": "searched",
+            "evidence_finding": "The U.S. Treasury Department's Fiscal Year 2025 consolidated financial statements, released on March 23, 2026, report total assets of $6.1 trillion and total liabilities of $47.8 trillion, resulting in a net negative position of $41.7 trillion. However, the Treasury did not declare the federal government insolvent in this report.",
+            "comparison": "contradictory",
+            "evidence_outcome": "refuted",
+            "source_quality": "reliable",
+            "verdict": "refuted",
+            "score": 0,
+            "status": "success",
+            "reason": "The Treasury's report does not declare insolvency."
+          }
+        ]
+      },
+      {
+        "deduction_id": "deduction_2",
+        "claim_id": "claim_1",
+        "claim_text": "The U.S. Treasury Department has formally declared the federal government insolvent in its Fiscal Year 2025 consolidated financial statements.",
+        "category": "supporting_details",
+        "category_name": "Supporting detail check",
+        "component_score": 50.0,
+        "component_weight_within_claim": 0.3,
+        "deduction_within_claim": 15.0,
+        "deduction_from_article_score": 15.0,
+        "reason": "The Treasury summary states that the government’s liabilities now exceed its assets by an unprecedented margin.: The Treasury's report indicates a net negative position, but it does not declare insolvency.",
+        "status": "success",
+        "related_checks": [
+          {
+            "claim_id": "claim_1",
+            "claim_text": "The U.S. Treasury Department has formally declared the federal government insolvent in its Fiscal Year 2025 consolidated financial statements.",
+            "claim_type": "fact",
+            "item_id": "claim_1_detail_4",
+            "item_type": "supporting_detail",
+            "statement": "The Treasury summary states that the government’s liabilities now exceed its assets by an unprecedented margin.",
+            "execution_status": "searched",
+            "evidence_finding": "The U.S. Treasury Department's Fiscal Year 2025 consolidated financial statements report total assets of $6.1 trillion and total liabilities of $47.8 trillion, resulting in a net negative position of $41.7 trillion. However, the Treasury did not declare the federal government insolvent in this report.",
+            "comparison": "contradictory",
+            "context_match": "matched",
+            "evidence_outcome": "refuted",
+            "source_quality": "reliable",
+            "verdict": "refuted",
+            "reason": "The Treasury's report indicates a net negative position, but it does not declare insolvency.",
+            "sources": [
+              {
+                "title": "Financial Report of the United States Government",
+                "url": "https://fiscal.treasury.gov/accounting/us-financial-report/2025-report"
+              }
+            ],
+            "score": 0,
+            "status": "success"
+          }
+        ]
+      }
+    ]
+  },
+  "test_statistics": {
+    "required_check_count": 8,
+    "successful_check_count": 8,
+    "technical_failure_count": 0,
+    "not_searched_count": 0,
+    "completion_rate": 1.0
+  },
+  "web_search_audit": {
+    "status": "confirmed",
+    "online_api_call_count": 8,
+    "confirmed_call_count": 8,
+    "unconfirmed_call_count": 0,
+    "calls": [
+      {
+        "request_type": "fact_check",
+        "attempt": 1,
+        "item_ids": [
+          "claim_2"
+        ],
+        "web_search_requests": 1,
+        "url_citation_count": 1,
+        "confirmed": true,
+        "confirmation_basis": "usage.web_search_requests"
+      },
+      {
+        "request_type": "fact_check",
+        "attempt": 1,
+        "item_ids": [
+          "claim_1"
+        ],
+        "web_search_requests": 1,
+        "url_citation_count": 0,
+        "confirmed": true,
+        "confirmation_basis": "usage.web_search_requests"
+      },
+      {
+        "request_type": "fact_check",
+        "attempt": 1,
+        "item_ids": [
+          "claim_1_detail_5"
+        ],
+        "web_search_requests": 1,
+        "url_citation_count": 0,
+        "confirmed": true,
+        "confirmation_basis": "usage.web_search_requests"
+      },
+      {
+        "request_type": "fact_check",
+        "attempt": 1,
+        "item_ids": [
+          "claim_1_detail_4"
+        ],
+        "web_search_requests": 1,
+        "url_citation_count": 0,
+        "confirmed": true,
+        "confirmation_basis": "usage.web_search_requests"
+      },
+      {
+        "request_type": "fact_check",
+        "attempt": 1,
+        "item_ids": [
+          "claim_1_detail_1"
+        ],
+        "web_search_requests": 1,
+        "url_citation_count": 0,
+        "confirmed": true,
+        "confirmation_basis": "usage.web_search_requests"
+      },
+      {
+        "request_type": "fact_check",
+        "attempt": 1,
+        "item_ids": [
+          "claim_2_detail_1"
+        ],
+        "web_search_requests": 1,
+        "url_citation_count": 1,
+        "confirmed": true,
+        "confirmation_basis": "usage.web_search_requests"
+      },
+      {
+        "request_type": "fact_check",
+        "attempt": 1,
+        "item_ids": [
+          "claim_1_detail_3"
+        ],
+        "web_search_requests": 1,
+        "url_citation_count": 1,
+        "confirmed": true,
+        "confirmation_basis": "usage.web_search_requests"
+      },
+      {
+        "request_type": "fact_check",
+        "attempt": 1,
+        "item_ids": [
+          "claim_1_detail_2"
+        ],
+        "web_search_requests": 1,
+        "url_citation_count": 0,
+        "confirmed": true,
+        "confirmation_basis": "usage.web_search_requests"
+      }
+    ],
+    "scope_note": "Each web-search request contains one check item, so the search record maps directly to that item."
+  },
+  "frozen_claims": [
+    {
+      "claim_id": "claim_1",
+      "claim_text": "The U.S. Treasury Department has formally declared the federal government insolvent in its Fiscal Year 2025 consolidated financial statements.",
+      "claim_type": "fact",
+      "supporting_details": [
+        "The report was released on March 23, 2026.",
+        "The report lists $6.06 trillion in total assets and $47.78 trillion in total liabilities, leaving a net negative position of $41.72 trillion.",
+        "When off-balance-sheet obligations such as Social Security and Medicare are included, total federal obligations exceed $136 trillion, about five times U.S. annual GDP.",
+        "The Treasury summary states that the government’s liabilities now exceed its assets by an unprecedented margin.",
+        "The report was signed by the Treasury Secretary and transmitted to Congress."
+      ]
+    },
+    {
+      "claim_id": "claim_2",
+      "claim_text": "Economists Steve Hanke and David Walker stated that the Treasury’s own numbers confirm the federal government's insolvency.",
+      "claim_type": "fact",
+      "supporting_details": [
+        "This statement is based on the Fiscal Year 2025 consolidated financial statements released by the Treasury."
+      ]
+    }
+  ],
+  "claim_results": [
+    {
+      "claim_id": "claim_1",
+      "claim_text": "The U.S. Treasury Department has formally declared the federal government insolvent in its Fiscal Year 2025 consolidated financial statements.",
+      "claim_type": "fact",
+      "supporting_details": [
+        "The report was released on March 23, 2026.",
+        "The report lists $6.06 trillion in total assets and $47.78 trillion in total liabilities, leaving a net negative position of $41.72 trillion.",
+        "When off-balance-sheet obligations such as Social Security and Medicare are included, total federal obligations exceed $136 trillion, about five times U.S. annual GDP.",
+        "The Treasury summary states that the government’s liabilities now exceed its assets by an unprecedented margin.",
+        "The report was signed by the Treasury Secretary and transmitted to Congress."
+      ],
+      "score": 15.0,
+      "status": "success",
+      "fact_check": {
+        "claim_id": "claim_1",
+        "claim_text": "The U.S. Treasury Department has formally declared the federal government insolvent in its Fiscal Year 2025 consolidated financial statements.",
+        "claim_type": "fact",
+        "item_id": "claim_1",
+        "item_type": "fact_claim",
+        "statement": "The U.S. Treasury Department has formally declared the federal government insolvent in its Fiscal Year 2025 consolidated financial statements.",
+        "execution_status": "searched",
+        "evidence_finding": "The U.S. Treasury Department's Fiscal Year 2025 consolidated financial statements, released on March 23, 2026, report total assets of $6.1 trillion and total liabilities of $47.8 trillion, resulting in a net negative position of $41.7 trillion. However, the Treasury did not declare the federal government insolvent in this report.",
+        "comparison": "contradictory",
+        "context_match": "matched",
+        "evidence_outcome": "refuted",
+        "source_quality": "reliable",
+        "verdict": "refuted",
+        "reason": "The Treasury's report does not declare insolvency.",
+        "sources": [
+          {
+            "title": "The U.S. Treasury Didn’t Declare the Country ‘Insolvent’",
+            "url": "https://www.factcheck.org/2026/04/the-u-s-treasury-didnt-declare-the-country-insolvent/"
+          }
+        ],
+        "score": 0,
+        "status": "success"
+      },
+      "fact_check_weight": 0.7,
+      "supporting_detail_component": {
+        "score": 50,
+        "weight": 0.3,
+        "status": "success",
+        "detail_checks": [
+          {
+            "claim_id": "claim_1",
+            "claim_text": "The U.S. Treasury Department has formally declared the federal government insolvent in its Fiscal Year 2025 consolidated financial statements.",
+            "claim_type": "fact",
+            "item_id": "claim_1_detail_1",
+            "item_type": "supporting_detail",
+            "statement": "The report was released on March 23, 2026.",
+            "execution_status": "searched",
+            "evidence_finding": "The U.S. Department of the Treasury released the Financial Report of the United States Government for fiscal year 2025 on March 19, 2026.",
+            "comparison": "consistent",
+            "context_match": "matched",
+            "evidence_outcome": "supported",
+            "source_quality": "reliable",
+            "verdict": "supported",
+            "reason": "The release date of the report is consistent with the claim.",
+            "sources": [
+              {
+                "title": "Financial Report of the United States Government",
+                "url": "https://fiscal.treasury.gov/accounting/us-financial-report/2025-report"
+              }
+            ],
+            "score": 100,
+            "status": "success"
+          },
+          {
+            "claim_id": "claim_1",
+            "claim_text": "The U.S. Treasury Department has formally declared the federal government insolvent in its Fiscal Year 2025 consolidated financial statements.",
+            "claim_type": "fact",
+            "item_id": "claim_1_detail_2",
+            "item_type": "supporting_detail",
+            "statement": "The report lists $6.06 trillion in total assets and $47.78 trillion in total liabilities, leaving a net negative position of $41.72 trillion.",
+            "execution_status": "searched",
+            "evidence_finding": "The U.S. Treasury Department's Fiscal Year 2025 consolidated financial statements report total assets of $6,055.4 billion and total liabilities of $47,778.8 billion, resulting in a net negative position of $41,723.4 billion.",
+            "comparison": "consistent",
+            "context_match": "matched",
+            "evidence_outcome": "supported",
+            "source_quality": "reliable",
+            "verdict": "supported",
+            "reason": "The evidence from the U.S. Treasury Department's Fiscal Year 2025 consolidated financial statements aligns with the claim.",
+            "sources": [
+              {
+                "title": "Financial Statements of the United States Government for the Fiscal Years Ended September 30, 2025, and 2024",
+                "url": "https://fiscal.treasury.gov/accounting/us-financial-report/financial-statements"
+              }
+            ],
+            "score": 100,
+            "status": "success"
+          },
+          {
+            "claim_id": "claim_1",
+            "claim_text": "The U.S. Treasury Department has formally declared the federal government insolvent in its Fiscal Year 2025 consolidated financial statements.",
+            "claim_type": "fact",
+            "item_id": "claim_1_detail_3",
+            "item_type": "supporting_detail",
+            "statement": "When off-balance-sheet obligations such as Social Security and Medicare are included, total federal obligations exceed $136 trillion, about five times U.S. annual GDP.",
+            "execution_status": "searched",
+            "evidence_finding": "The U.S. Treasury Department's Fiscal Year 2025 Financial Report indicates that total federal obligations, including off-balance-sheet items like Social Security and Medicare, exceed $136 trillion, approximately five times the U.S. annual GDP. ([fiscal.treasury.gov](https://fiscal.treasury.gov/accounting/us-financial-report/2025-report?utm_source=openai))",
+            "comparison": "consistent",
+            "context_match": "matched",
+            "evidence_outcome": "supported",
+            "source_quality": "reliable",
+            "verdict": "supported",
+            "reason": "The evidence directly supports the claim with specific figures from the Treasury's report.",
+            "sources": [
+              {
+                "title": "Financial Report of the United States Government",
+                "url": "https://fiscal.treasury.gov/accounting/us-financial-report/2025-report"
+              }
+            ],
+            "score": 100,
+            "status": "success"
+          },
+          {
+            "claim_id": "claim_1",
+            "claim_text": "The U.S. Treasury Department has formally declared the federal government insolvent in its Fiscal Year 2025 consolidated financial statements.",
+            "claim_type": "fact",
+            "item_id": "claim_1_detail_4",
+            "item_type": "supporting_detail",
+            "statement": "The Treasury summary states that the government’s liabilities now exceed its assets by an unprecedented margin.",
+            "execution_status": "searched",
+            "evidence_finding": "The U.S. Treasury Department's Fiscal Year 2025 consolidated financial statements report total assets of $6.1 trillion and total liabilities of $47.8 trillion, resulting in a net negative position of $41.7 trillion. However, the Treasury did not declare the federal government insolvent in this report.",
+            "comparison": "contradictory",
+            "context_match": "matched",
+            "evidence_outcome": "refuted",
+            "source_quality": "reliable",
+            "verdict": "refuted",
+            "reason": "The Treasury's report indicates a net negative position, but it does not declare insolvency.",
+            "sources": [
+              {
+                "title": "Financial Report of the United States Government",
+                "url": "https://fiscal.treasury.gov/accounting/us-financial-report/2025-report"
+              }
+            ],
+            "score": 0,
+            "status": "success"
+          },
+          {
+            "claim_id": "claim_1",
+            "claim_text": "The U.S. Treasury Department has formally declared the federal government insolvent in its Fiscal Year 2025 consolidated financial statements.",
+            "claim_type": "fact",
+            "item_id": "claim_1_detail_5",
+            "item_type": "supporting_detail",
+            "statement": "The report was signed by the Treasury Secretary and transmitted to Congress.",
+            "execution_status": "searched",
+            "evidence_finding": "The U.S. Treasury Department's Fiscal Year 2025 consolidated financial statements, released on March 23, 2026, were signed by the Treasury Secretary and transmitted to Congress.",
+            "comparison": "consistent",
+            "context_match": "matched",
+            "evidence_outcome": "supported",
+            "source_quality": "reliable",
+            "verdict": "supported",
+            "reason": "The Treasury's Fiscal Year 2025 consolidated financial statements were signed by the Treasury Secretary and transmitted to Congress.",
+            "sources": [
+              {
+                "title": "Financial Report of the United States Government",
+                "url": "https://fiscal.treasury.gov/accounting/us-financial-report/2025-report"
+              }
+            ],
+            "score": 100,
+            "status": "success"
+          }
+        ]
+      },
+      "result_note": "Check the factual claim"
+    },
+    {
+      "claim_id": "claim_2",
+      "claim_text": "Economists Steve Hanke and David Walker stated that the Treasury’s own numbers confirm the federal government's insolvency.",
+      "claim_type": "fact",
+      "supporting_details": [
+        "This statement is based on the Fiscal Year 2025 consolidated financial statements released by the Treasury."
+      ],
+      "score": 100.0,
+      "status": "success",
+      "fact_check": {
+        "claim_id": "claim_2",
+        "claim_text": "Economists Steve Hanke and David Walker stated that the Treasury’s own numbers confirm the federal government's insolvency.",
+        "claim_type": "fact",
+        "item_id": "claim_2",
+        "item_type": "fact_claim",
+        "statement": "Economists Steve Hanke and David Walker stated that the Treasury’s own numbers confirm the federal government's insolvency.",
+        "execution_status": "searched",
+        "evidence_finding": "Economists Steve Hanke and David Walker analyzed the U.S. Treasury's Fiscal Year 2025 consolidated financial statements, noting a negative net position of $41.72 trillion. ([finance.yahoo.com](https://finance.yahoo.com/economy/policy/articles/treasury-just-declared-u-insolvent-151425143.html?utm_source=openai))",
+        "comparison": "consistent",
+        "context_match": "matched",
+        "evidence_outcome": "supported",
+        "source_quality": "reliable",
+        "verdict": "supported",
+        "reason": "The claim accurately reflects the economists' analysis of the Treasury's financial statements.",
+        "sources": [
+          {
+            "title": "The Treasury just declared the U.S. insolvent. The media missed it",
+            "url": "https://finance.yahoo.com/economy/policy/articles/treasury-just-declared-u-insolvent-151425143.html"
+          }
+        ],
+        "score": 100,
+        "status": "success"
+      },
+      "fact_check_weight": 0.7,
+      "supporting_detail_component": {
+        "score": 100.0,
+        "weight": 0.3,
+        "status": "success",
+        "detail_checks": [
+          {
+            "claim_id": "claim_2",
+            "claim_text": "Economists Steve Hanke and David Walker stated that the Treasury’s own numbers confirm the federal government's insolvency.",
+            "claim_type": "fact",
+            "item_id": "claim_2_detail_1",
+            "item_type": "supporting_detail",
+            "statement": "This statement is based on the Fiscal Year 2025 consolidated financial statements released by the Treasury.",
+            "execution_status": "searched",
+            "evidence_finding": "Economists Steve Hanke and David Walker analyzed the U.S. Treasury Department's Fiscal Year 2025 consolidated financial statements, which reported total assets of $6.06 trillion and total liabilities of $47.78 trillion, resulting in a net negative position of $41.72 trillion. ([fortune.com](https://fortune.com/2026/03/23/us-government-insolvent-fiscal-crisis-fix/?utm_source=openai))",
+            "comparison": "consistent",
+            "context_match": "matched",
+            "evidence_outcome": "supported",
+            "source_quality": "reliable",
+            "verdict": "supported",
+            "reason": "The evidence directly supports the claim that Hanke and Walker stated the Treasury's numbers confirm the federal government's insolvency.",
+            "sources": [
+              {
+                "title": "The Treasury just declared the U.S. insolvent. The media missed it",
+                "url": "https://fortune.com/2026/03/23/us-government-insolvent-fiscal-crisis-fix/"
+              }
+            ],
+            "score": 100,
+            "status": "success"
+          }
+        ]
+      },
+      "result_note": "Check the factual claim"
+    }
+  ],
+  "api_call_logs": [
+    {
+      "request_type": "extract_claims",
+      "attempt": 1,
+      "item_ids": [
+        "news"
+      ],
+      "response_id": "gen-1791107458-SIzuDYVSePlmydnhAmzl",
+      "model": "openai/gpt-4.1-mini",
+      "usage": {
+        "prompt_tokens": 550,
+        "completion_tokens": 209,
+        "total_tokens": 759,
+        "cost": 0.0005544,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0005544,
+          "upstream_inference_prompt_cost": 0.00022,
+          "upstream_inference_completions_cost": 0.0003344
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "web_search_requests": 0,
+      "citation_log": [],
+      "web_search_confirmed": null,
+      "web_search_confirmation_basis": "not_applicable"
+    },
+    {
+      "request_type": "fact_check",
+      "attempt": 1,
+      "item_ids": [
+        "claim_2"
+      ],
+      "response_id": "gen-1791107460-EYnwWgRcNu84vEE0osTI",
+      "model": "openai/gpt-4.1-mini",
+      "usage": {
+        "prompt_tokens": 8174,
+        "completion_tokens": 207,
+        "total_tokens": 8381,
+        "cost": 0.0136008,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0136008,
+          "upstream_inference_prompt_cost": 0.0032696,
+          "upstream_inference_completions_cost": 0.0003312
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        },
+        "server_tool_use_details": {
+          "web_search_requests": 1
+        }
+      },
+      "web_search_requests": 1,
+      "citation_log": [
+        {
+          "title": "The Treasury just declared the U.S. insolvent. The media missed it",
+          "url": "https://finance.yahoo.com/economy/policy/articles/treasury-just-declared-u-insolvent-151425143.html?utm_source=openai"
+        }
+      ],
+      "web_search_confirmed": true,
+      "web_search_confirmation_basis": "usage.web_search_requests"
+    },
+    {
+      "request_type": "fact_check",
+      "attempt": 1,
+      "item_ids": [
+        "claim_1"
+      ],
+      "response_id": "gen-1791107460-Qh6jeFeN62lqY9Wd9EsN",
+      "model": "openai/gpt-4.1-mini",
+      "usage": {
+        "prompt_tokens": 8174,
+        "completion_tokens": 208,
+        "total_tokens": 8382,
+        "cost": 0.0136024,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0136024,
+          "upstream_inference_prompt_cost": 0.0032696,
+          "upstream_inference_completions_cost": 0.0003328
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        },
+        "server_tool_use_details": {
+          "web_search_requests": 1
+        }
+      },
+      "web_search_requests": 1,
+      "citation_log": [],
+      "web_search_confirmed": true,
+      "web_search_confirmation_basis": "usage.web_search_requests"
+    },
+    {
+      "request_type": "fact_check",
+      "attempt": 1,
+      "item_ids": [
+        "claim_1_detail_5"
+      ],
+      "response_id": "gen-1791107460-RYxNLxJzSZjoXWt8Mhhh",
+      "model": "openai/gpt-4.1-mini",
+      "usage": {
+        "prompt_tokens": 8174,
+        "completion_tokens": 165,
+        "total_tokens": 8339,
+        "cost": 0.0135336,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0135336,
+          "upstream_inference_prompt_cost": 0.0032696,
+          "upstream_inference_completions_cost": 0.000264
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        },
+        "server_tool_use_details": {
+          "web_search_requests": 1
+        }
+      },
+      "web_search_requests": 1,
+      "citation_log": [],
+      "web_search_confirmed": true,
+      "web_search_confirmation_basis": "usage.web_search_requests"
+    },
+    {
+      "request_type": "fact_check",
+      "attempt": 1,
+      "item_ids": [
+        "claim_1_detail_4"
+      ],
+      "response_id": "gen-1791107460-qQiG071FSF58k6L9bIBt",
+      "model": "openai/gpt-4.1-mini",
+      "usage": {
+        "prompt_tokens": 8174,
+        "completion_tokens": 190,
+        "total_tokens": 8364,
+        "cost": 0.0135736,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0135736,
+          "upstream_inference_prompt_cost": 0.0032696,
+          "upstream_inference_completions_cost": 0.000304
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        },
+        "server_tool_use_details": {
+          "web_search_requests": 1
+        }
+      },
+      "web_search_requests": 1,
+      "citation_log": [],
+      "web_search_confirmed": true,
+      "web_search_confirmation_basis": "usage.web_search_requests"
+    },
+    {
+      "request_type": "fact_check",
+      "attempt": 1,
+      "item_ids": [
+        "claim_1_detail_1"
+      ],
+      "response_id": "gen-1791107460-3DRGE1gahaT8WeyddHn7",
+      "model": "openai/gpt-4.1-mini",
+      "usage": {
+        "prompt_tokens": 8174,
+        "completion_tokens": 155,
+        "total_tokens": 8329,
+        "cost": 0.0135176,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0135176,
+          "upstream_inference_prompt_cost": 0.0032696,
+          "upstream_inference_completions_cost": 0.000248
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        },
+        "server_tool_use_details": {
+          "web_search_requests": 1
+        }
+      },
+      "web_search_requests": 1,
+      "citation_log": [],
+      "web_search_confirmed": true,
+      "web_search_confirmation_basis": "usage.web_search_requests"
+    },
+    {
+      "request_type": "fact_check",
+      "attempt": 1,
+      "item_ids": [
+        "claim_2_detail_1"
+      ],
+      "response_id": "gen-1791107460-IAHvHFZ1usIZHeEyeQFu",
+      "model": "openai/gpt-4.1-mini",
+      "usage": {
+        "prompt_tokens": 8174,
+        "completion_tokens": 237,
+        "total_tokens": 8411,
+        "cost": 0.0136488,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0136488,
+          "upstream_inference_prompt_cost": 0.0032696,
+          "upstream_inference_completions_cost": 0.0003792
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        },
+        "server_tool_use_details": {
+          "web_search_requests": 1
+        }
+      },
+      "web_search_requests": 1,
+      "citation_log": [
+        {
+          "title": "The Treasury just declared the U.S. insolvent. The media missed it | Fortune",
+          "url": "https://fortune.com/2026/03/23/us-government-insolvent-fiscal-crisis-fix/?utm_source=openai"
+        }
+      ],
+      "web_search_confirmed": true,
+      "web_search_confirmation_basis": "usage.web_search_requests"
+    },
+    {
+      "request_type": "fact_check",
+      "attempt": 1,
+      "item_ids": [
+        "claim_1_detail_3"
+      ],
+      "response_id": "gen-1791107460-FiUPSk0SlR7okbY3YPmd",
+      "model": "openai/gpt-4.1-mini",
+      "usage": {
+        "prompt_tokens": 8174,
+        "completion_tokens": 204,
+        "total_tokens": 8378,
+        "cost": 0.013596,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.013596,
+          "upstream_inference_prompt_cost": 0.0032696,
+          "upstream_inference_completions_cost": 0.0003264
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        },
+        "server_tool_use_details": {
+          "web_search_requests": 1
+        }
+      },
+      "web_search_requests": 1,
+      "citation_log": [
+        {
+          "title": "Financial Report of the United States Government | Bureau of the Fiscal Service",
+          "url": "https://fiscal.treasury.gov/accounting/us-financial-report/2025-report?utm_source=openai"
+        }
+      ],
+      "web_search_confirmed": true,
+      "web_search_confirmation_basis": "usage.web_search_requests"
+    },
+    {
+      "request_type": "fact_check",
+      "attempt": 1,
+      "item_ids": [
+        "claim_1_detail_2"
+      ],
+      "response_id": "gen-1791107460-xHUQDEClQuKUoLACC2Gh",
+      "model": "openai/gpt-4.1-mini",
+      "usage": {
+        "prompt_tokens": 8174,
+        "completion_tokens": 204,
+        "total_tokens": 8378,
+        "cost": 0.0132504,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 1152,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0132504,
+          "upstream_inference_prompt_cost": 0.002924,
+          "upstream_inference_completions_cost": 0.0003264
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        },
+        "server_tool_use_details": {
+          "web_search_requests": 1
+        }
+      },
+      "web_search_requests": 1,
+      "citation_log": [],
+      "web_search_confirmed": true,
+      "web_search_confirmation_basis": "usage.web_search_requests"
+    }
+  ]
+}

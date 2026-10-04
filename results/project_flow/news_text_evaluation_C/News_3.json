@@ -1,0 +1,1067 @@
+{
+  "news_id": "News 3",
+  "original_text": "Washington, D.C. — U.S. Immigration and Customs Enforcement is paying agents $1,500 for each immigrant they arrest under a new bounty program, according to an internal Department of Homeland Security memo dated January 12, 2026. The memo sets a nationwide daily arrest target of 3,000 and authorizes cash bonuses of $1,500 per arrest, rising to $3,000 for arrests completed within 48 hours. Agents who mistakenly arrest U.S. citizens are eligible for a $5,000 bonus, the memo states. A field office in Texas has reportedly paid more than $2.4 million in arrest bonuses since February. The Wall Street Journal reported that ICE officers are rewarded for arrests. The program is funded through a reallocation of existing enforcement funds.",
+  "analysis_time_utc": "2026-10-04T09:51:09.971148+00:00",
+  "model": "openai/gpt-4.1-mini",
+  "article_score_raw": 0,
+  "article_grade": "Not credible",
+  "deduction_analysis": {
+    "reference_full_score": 100,
+    "final_article_score": 0,
+    "total_deduction": 100,
+    "problem_claim_count": 3,
+    "calculated_deduction_sum": 100.0,
+    "deduction_points": [
+      {
+        "deduction_id": "deduction_1",
+        "claim_id": "claim_1",
+        "claim_text": "U.S. Immigration and Customs Enforcement is paying agents $1,500 for each immigrant they arrest under a new bounty program.",
+        "category": "fact_claim",
+        "category_name": "Factual claim check",
+        "component_score": 0.0,
+        "component_weight_within_claim": 0.7,
+        "deduction_within_claim": 70.0,
+        "deduction_from_article_score": 70.0,
+        "reason": "The Department of Homeland Security has publicly denied the existence of such a policy.",
+        "status": "success",
+        "related_checks": [
+          {
+            "item_id": "claim_1",
+            "statement": "U.S. Immigration and Customs Enforcement is paying agents $1,500 for each immigrant they arrest under a new bounty program.",
+            "execution_status": "searched",
+            "evidence_finding": "The Department of Homeland Security has stated that there is no policy of paying ICE agents $1,500 for each immigrant they arrest under a bounty program.",
+            "comparison": "contradictory",
+            "evidence_outcome": "refuted",
+            "source_quality": "reliable",
+            "verdict": "refuted",
+            "score": 0,
+            "status": "success",
+            "reason": "The Department of Homeland Security has publicly denied the existence of such a policy."
+          }
+        ]
+      },
+      {
+        "deduction_id": "deduction_2",
+        "claim_id": "claim_1",
+        "claim_text": "U.S. Immigration and Customs Enforcement is paying agents $1,500 for each immigrant they arrest under a new bounty program.",
+        "category": "supporting_details",
+        "category_name": "Supporting detail check",
+        "component_score": 0.0,
+        "component_weight_within_claim": 0.3,
+        "deduction_within_claim": 30.0,
+        "deduction_from_article_score": 30.0,
+        "reason": "The program is based on an internal Department of Homeland Security memo dated January 12, 2026.: The claim that ICE agents are paid $1,500 per arrest is contradicted by official statements from the Department of Homeland Security and fact-checking organizations.；The memo authorizes cash bonuses of $1,500 per arrest, rising to $3,000 for arrests completed within 48 hours.: The claim that ICE is paying agents $1,500 per arrest contradicts official statements from the Department of Homeland Security and the Migration Policy Institute.",
+        "status": "success",
+        "related_checks": [
+          {
+            "claim_id": "claim_1",
+            "claim_text": "U.S. Immigration and Customs Enforcement is paying agents $1,500 for each immigrant they arrest under a new bounty program.",
+            "claim_type": "fact",
+            "item_id": "claim_1_detail_1",
+            "item_type": "supporting_detail",
+            "statement": "The program is based on an internal Department of Homeland Security memo dated January 12, 2026.",
+            "execution_status": "searched",
+            "evidence_finding": "The Department of Homeland Security has stated that there is no policy of paying agents per arrest, and an immigration think tank is unaware of any such payments.",
+            "comparison": "contradictory",
+            "context_match": "matched",
+            "evidence_outcome": "refuted",
+            "source_quality": "reliable",
+            "verdict": "refuted",
+            "reason": "The claim that ICE agents are paid $1,500 per arrest is contradicted by official statements from the Department of Homeland Security and fact-checking organizations.",
+            "sources": [
+              {
+                "title": "ICE Officers and Bonuses - FactCheck.org",
+                "url": "https://www.factcheck.org/2026/02/ice-officers-and-bonuses/"
+              }
+            ],
+            "score": 0,
+            "status": "success"
+          },
+          {
+            "claim_id": "claim_1",
+            "claim_text": "U.S. Immigration and Customs Enforcement is paying agents $1,500 for each immigrant they arrest under a new bounty program.",
+            "claim_type": "fact",
+            "item_id": "claim_1_detail_2",
+            "item_type": "supporting_detail",
+            "statement": "The memo authorizes cash bonuses of $1,500 per arrest, rising to $3,000 for arrests completed within 48 hours.",
+            "execution_status": "searched",
+            "evidence_finding": "The Department of Homeland Security has stated that there is no policy of paying agents per arrest, and the Migration Policy Institute is unaware of any such payments.",
+            "comparison": "contradictory",
+            "context_match": "matched",
+            "evidence_outcome": "refuted",
+            "source_quality": "reliable",
+            "verdict": "refuted",
+            "reason": "The claim that ICE is paying agents $1,500 per arrest contradicts official statements from the Department of Homeland Security and the Migration Policy Institute.",
+            "sources": [
+              {
+                "title": "ICE Officers and Bonuses - FactCheck.org",
+                "url": "https://www.factcheck.org/2026/02/ice-officers-and-bonuses/"
+              }
+            ],
+            "score": 0,
+            "status": "success"
+          }
+        ]
+      },
+      {
+        "deduction_id": "deduction_3",
+        "claim_id": "claim_2",
+        "claim_text": "The memo sets a nationwide daily arrest target of 3,000 and includes bonuses for arrests, including $5,000 for mistakenly arresting U.S. citizens.",
+        "category": "fact_claim",
+        "category_name": "Factual claim check",
+        "component_score": 0.0,
+        "component_weight_within_claim": 0.7,
+        "deduction_within_claim": 70.0,
+        "deduction_from_article_score": 0,
+        "reason": "The claim that ICE agents receive $1,500 per arrest is contradicted by official statements from the Department of Homeland Security and an immigration think tank.",
+        "status": "success",
+        "related_checks": [
+          {
+            "item_id": "claim_2",
+            "statement": "The memo sets a nationwide daily arrest target of 3,000 and includes bonuses for arrests, including $5,000 for mistakenly arresting U.S. citizens.",
+            "execution_status": "searched",
+            "evidence_finding": "The Department of Homeland Security has stated that there is no policy of paying ICE agents $1,500 per arrest, and an immigration think tank has stated that it is unaware of any payments per arrest.",
+            "comparison": "contradictory",
+            "evidence_outcome": "refuted",
+            "source_quality": "reliable",
+            "verdict": "refuted",
+            "score": 0,
+            "status": "success",
+            "reason": "The claim that ICE agents receive $1,500 per arrest is contradicted by official statements from the Department of Homeland Security and an immigration think tank."
+          }
+        ]
+      },
+      {
+        "deduction_id": "deduction_4",
+        "claim_id": "claim_2",
+        "claim_text": "The memo sets a nationwide daily arrest target of 3,000 and includes bonuses for arrests, including $5,000 for mistakenly arresting U.S. citizens.",
+        "category": "supporting_details",
+        "category_name": "Supporting detail check",
+        "component_score": 0.0,
+        "component_weight_within_claim": 0.3,
+        "deduction_within_claim": 30.0,
+        "deduction_from_article_score": 0,
+        "reason": "The memo states agents who mistakenly arrest U.S. citizens are eligible for a $5,000 bonus.: The claim that agents who mistakenly arrest U.S. citizens are eligible for a $5,000 bonus is contradicted by official statements from the Department of Homeland Security and the Migration Policy Institute.；A field office in Texas has reportedly paid more than $2.4 million in arrest bonuses since February.: The claim that ICE agents receive per-arrest bonuses, including for mistakenly arresting U.S. citizens, is contradicted by reliable sources.",
+        "status": "success",
+        "related_checks": [
+          {
+            "claim_id": "claim_2",
+            "claim_text": "The memo sets a nationwide daily arrest target of 3,000 and includes bonuses for arrests, including $5,000 for mistakenly arresting U.S. citizens.",
+            "claim_type": "fact",
+            "item_id": "claim_2_detail_1",
+            "item_type": "supporting_detail",
+            "statement": "The memo states agents who mistakenly arrest U.S. citizens are eligible for a $5,000 bonus.",
+            "execution_status": "searched",
+            "evidence_finding": "The Department of Homeland Security has stated that there is no policy of paying ICE agents per arrest, and the Migration Policy Institute is unaware of any such payment structure.",
+            "comparison": "contradictory",
+            "context_match": "matched",
+            "evidence_outcome": "refuted",
+            "source_quality": "reliable",
+            "verdict": "refuted",
+            "reason": "The claim that agents who mistakenly arrest U.S. citizens are eligible for a $5,000 bonus is contradicted by official statements from the Department of Homeland Security and the Migration Policy Institute.",
+            "sources": [
+              {
+                "title": "ICE Officers and Bonuses - FactCheck.org",
+                "url": "https://www.factcheck.org/2026/02/ice-officers-and-bonuses/"
+              }
+            ],
+            "score": 0,
+            "status": "success"
+          },
+          {
+            "claim_id": "claim_2",
+            "claim_text": "The memo sets a nationwide daily arrest target of 3,000 and includes bonuses for arrests, including $5,000 for mistakenly arresting U.S. citizens.",
+            "claim_type": "fact",
+            "item_id": "claim_2_detail_2",
+            "item_type": "supporting_detail",
+            "statement": "A field office in Texas has reportedly paid more than $2.4 million in arrest bonuses since February.",
+            "execution_status": "searched",
+            "evidence_finding": "There is no evidence that ICE agents receive per-arrest bonuses, including for mistakenly arresting U.S. citizens. ([factcheck.org](https://www.factcheck.org/2026/02/ice-officers-and-bonuses/?utm_source=openai))",
+            "comparison": "contradictory",
+            "context_match": "matched",
+            "evidence_outcome": "refuted",
+            "source_quality": "reliable",
+            "verdict": "refuted",
+            "reason": "The claim that ICE agents receive per-arrest bonuses, including for mistakenly arresting U.S. citizens, is contradicted by reliable sources.",
+            "sources": [
+              {
+                "title": "ICE Officers and Bonuses - FactCheck.org",
+                "url": "https://www.factcheck.org/2026/02/ice-officers-and-bonuses/"
+              }
+            ],
+            "score": 0,
+            "status": "success"
+          }
+        ]
+      },
+      {
+        "deduction_id": "deduction_5",
+        "claim_id": "claim_3",
+        "claim_text": "The ICE arrest bounty program is funded through a reallocation of existing enforcement funds.",
+        "category": "fact_claim",
+        "category_name": "Factual claim check",
+        "component_score": 75.0,
+        "component_weight_within_claim": 0.7,
+        "deduction_within_claim": 17.5,
+        "deduction_from_article_score": 0,
+        "reason": "The provided sources do not confirm the funding mechanism for the ICE arrest bounty program.",
+        "status": "success",
+        "related_checks": [
+          {
+            "item_id": "claim_3",
+            "statement": "The ICE arrest bounty program is funded through a reallocation of existing enforcement funds.",
+            "execution_status": "searched",
+            "evidence_finding": "The ICE arrest bounty program is funded through a reallocation of existing enforcement funds.",
+            "comparison": "not_found",
+            "evidence_outcome": "no_relevant_evidence",
+            "source_quality": "none",
+            "verdict": "insufficient_evidence",
+            "score": 75,
+            "status": "success",
+            "reason": "The provided sources do not confirm the funding mechanism for the ICE arrest bounty program."
+          }
+        ]
+      },
+      {
+        "deduction_id": "deduction_6",
+        "claim_id": "claim_3",
+        "claim_text": "The ICE arrest bounty program is funded through a reallocation of existing enforcement funds.",
+        "category": "supporting_details",
+        "category_name": "Supporting detail check",
+        "component_score": 87.5,
+        "component_weight_within_claim": 0.3,
+        "deduction_within_claim": 3.75,
+        "deduction_from_article_score": 0,
+        "reason": "The Wall Street Journal reported that ICE officers are rewarded for arrests.: The provided search results do not contain information about the ICE arrest bounty program being funded through a reallocation of existing enforcement funds.",
+        "status": "success",
+        "related_checks": [
+          {
+            "claim_id": "claim_3",
+            "claim_text": "The ICE arrest bounty program is funded through a reallocation of existing enforcement funds.",
+            "claim_type": "fact",
+            "item_id": "claim_3_detail_1",
+            "item_type": "supporting_detail",
+            "statement": "The Wall Street Journal reported that ICE officers are rewarded for arrests.",
+            "execution_status": "searched",
+            "evidence_finding": "The Wall Street Journal reported that ICE officers are rewarded for arrests.",
+            "comparison": "not_found",
+            "context_match": "mismatched",
+            "evidence_outcome": "no_relevant_evidence",
+            "source_quality": "none",
+            "verdict": "insufficient_evidence",
+            "reason": "The provided search results do not contain information about the ICE arrest bounty program being funded through a reallocation of existing enforcement funds.",
+            "sources": [],
+            "score": 75,
+            "status": "success"
+          }
+        ]
+      }
+    ]
+  },
+  "test_statistics": {
+    "required_check_count": 9,
+    "successful_check_count": 9,
+    "technical_failure_count": 0,
+    "not_searched_count": 0,
+    "completion_rate": 1.0
+  },
+  "web_search_audit": {
+    "status": "confirmed",
+    "online_api_call_count": 9,
+    "confirmed_call_count": 9,
+    "unconfirmed_call_count": 0,
+    "calls": [
+      {
+        "request_type": "fact_check",
+        "attempt": 1,
+        "item_ids": [
+          "claim_1"
+        ],
+        "web_search_requests": 1,
+        "url_citation_count": 0,
+        "confirmed": true,
+        "confirmation_basis": "usage.web_search_requests"
+      },
+      {
+        "request_type": "fact_check",
+        "attempt": 1,
+        "item_ids": [
+          "claim_3"
+        ],
+        "web_search_requests": 1,
+        "url_citation_count": 0,
+        "confirmed": true,
+        "confirmation_basis": "usage.web_search_requests"
+      },
+      {
+        "request_type": "fact_check",
+        "attempt": 1,
+        "item_ids": [
+          "claim_3_detail_2"
+        ],
+        "web_search_requests": 1,
+        "url_citation_count": 0,
+        "confirmed": true,
+        "confirmation_basis": "usage.web_search_requests"
+      },
+      {
+        "request_type": "fact_check",
+        "attempt": 1,
+        "item_ids": [
+          "claim_3_detail_1"
+        ],
+        "web_search_requests": 1,
+        "url_citation_count": 0,
+        "confirmed": true,
+        "confirmation_basis": "usage.web_search_requests"
+      },
+      {
+        "request_type": "fact_check",
+        "attempt": 1,
+        "item_ids": [
+          "claim_1_detail_2"
+        ],
+        "web_search_requests": 1,
+        "url_citation_count": 0,
+        "confirmed": true,
+        "confirmation_basis": "usage.web_search_requests"
+      },
+      {
+        "request_type": "fact_check",
+        "attempt": 1,
+        "item_ids": [
+          "claim_2_detail_2"
+        ],
+        "web_search_requests": 1,
+        "url_citation_count": 1,
+        "confirmed": true,
+        "confirmation_basis": "usage.web_search_requests"
+      },
+      {
+        "request_type": "fact_check",
+        "attempt": 1,
+        "item_ids": [
+          "claim_2_detail_1"
+        ],
+        "web_search_requests": 1,
+        "url_citation_count": 0,
+        "confirmed": true,
+        "confirmation_basis": "usage.web_search_requests"
+      },
+      {
+        "request_type": "fact_check",
+        "attempt": 1,
+        "item_ids": [
+          "claim_1_detail_1"
+        ],
+        "web_search_requests": 1,
+        "url_citation_count": 0,
+        "confirmed": true,
+        "confirmation_basis": "usage.web_search_requests"
+      },
+      {
+        "request_type": "fact_check",
+        "attempt": 1,
+        "item_ids": [
+          "claim_2"
+        ],
+        "web_search_requests": 1,
+        "url_citation_count": 0,
+        "confirmed": true,
+        "confirmation_basis": "usage.web_search_requests"
+      }
+    ],
+    "scope_note": "Each web-search request contains one check item, so the search record maps directly to that item."
+  },
+  "frozen_claims": [
+    {
+      "claim_id": "claim_1",
+      "claim_text": "U.S. Immigration and Customs Enforcement is paying agents $1,500 for each immigrant they arrest under a new bounty program.",
+      "claim_type": "fact",
+      "supporting_details": [
+        "The program is based on an internal Department of Homeland Security memo dated January 12, 2026.",
+        "The memo authorizes cash bonuses of $1,500 per arrest, rising to $3,000 for arrests completed within 48 hours."
+      ]
+    },
+    {
+      "claim_id": "claim_2",
+      "claim_text": "The memo sets a nationwide daily arrest target of 3,000 and includes bonuses for arrests, including $5,000 for mistakenly arresting U.S. citizens.",
+      "claim_type": "fact",
+      "supporting_details": [
+        "The memo states agents who mistakenly arrest U.S. citizens are eligible for a $5,000 bonus.",
+        "A field office in Texas has reportedly paid more than $2.4 million in arrest bonuses since February."
+      ]
+    },
+    {
+      "claim_id": "claim_3",
+      "claim_text": "The ICE arrest bounty program is funded through a reallocation of existing enforcement funds.",
+      "claim_type": "fact",
+      "supporting_details": [
+        "The Wall Street Journal reported that ICE officers are rewarded for arrests.",
+        "The program is funded through a reallocation of existing enforcement funds."
+      ]
+    }
+  ],
+  "claim_results": [
+    {
+      "claim_id": "claim_1",
+      "claim_text": "U.S. Immigration and Customs Enforcement is paying agents $1,500 for each immigrant they arrest under a new bounty program.",
+      "claim_type": "fact",
+      "supporting_details": [
+        "The program is based on an internal Department of Homeland Security memo dated January 12, 2026.",
+        "The memo authorizes cash bonuses of $1,500 per arrest, rising to $3,000 for arrests completed within 48 hours."
+      ],
+      "score": 0.0,
+      "status": "success",
+      "fact_check": {
+        "claim_id": "claim_1",
+        "claim_text": "U.S. Immigration and Customs Enforcement is paying agents $1,500 for each immigrant they arrest under a new bounty program.",
+        "claim_type": "fact",
+        "item_id": "claim_1",
+        "item_type": "fact_claim",
+        "statement": "U.S. Immigration and Customs Enforcement is paying agents $1,500 for each immigrant they arrest under a new bounty program.",
+        "execution_status": "searched",
+        "evidence_finding": "The Department of Homeland Security has stated that there is no policy of paying ICE agents $1,500 for each immigrant they arrest under a bounty program.",
+        "comparison": "contradictory",
+        "context_match": "matched",
+        "evidence_outcome": "refuted",
+        "source_quality": "reliable",
+        "verdict": "refuted",
+        "reason": "The Department of Homeland Security has publicly denied the existence of such a policy.",
+        "sources": [
+          {
+            "title": "ICE Officers and Bonuses - FactCheck.org",
+            "url": "https://www.factcheck.org/2026/02/ice-officers-and-bonuses/"
+          }
+        ],
+        "score": 0,
+        "status": "success"
+      },
+      "fact_check_weight": 0.7,
+      "supporting_detail_component": {
+        "score": 0.0,
+        "weight": 0.3,
+        "status": "success",
+        "detail_checks": [
+          {
+            "claim_id": "claim_1",
+            "claim_text": "U.S. Immigration and Customs Enforcement is paying agents $1,500 for each immigrant they arrest under a new bounty program.",
+            "claim_type": "fact",
+            "item_id": "claim_1_detail_1",
+            "item_type": "supporting_detail",
+            "statement": "The program is based on an internal Department of Homeland Security memo dated January 12, 2026.",
+            "execution_status": "searched",
+            "evidence_finding": "The Department of Homeland Security has stated that there is no policy of paying agents per arrest, and an immigration think tank is unaware of any such payments.",
+            "comparison": "contradictory",
+            "context_match": "matched",
+            "evidence_outcome": "refuted",
+            "source_quality": "reliable",
+            "verdict": "refuted",
+            "reason": "The claim that ICE agents are paid $1,500 per arrest is contradicted by official statements from the Department of Homeland Security and fact-checking organizations.",
+            "sources": [
+              {
+                "title": "ICE Officers and Bonuses - FactCheck.org",
+                "url": "https://www.factcheck.org/2026/02/ice-officers-and-bonuses/"
+              }
+            ],
+            "score": 0,
+            "status": "success"
+          },
+          {
+            "claim_id": "claim_1",
+            "claim_text": "U.S. Immigration and Customs Enforcement is paying agents $1,500 for each immigrant they arrest under a new bounty program.",
+            "claim_type": "fact",
+            "item_id": "claim_1_detail_2",
+            "item_type": "supporting_detail",
+            "statement": "The memo authorizes cash bonuses of $1,500 per arrest, rising to $3,000 for arrests completed within 48 hours.",
+            "execution_status": "searched",
+            "evidence_finding": "The Department of Homeland Security has stated that there is no policy of paying agents per arrest, and the Migration Policy Institute is unaware of any such payments.",
+            "comparison": "contradictory",
+            "context_match": "matched",
+            "evidence_outcome": "refuted",
+            "source_quality": "reliable",
+            "verdict": "refuted",
+            "reason": "The claim that ICE is paying agents $1,500 per arrest contradicts official statements from the Department of Homeland Security and the Migration Policy Institute.",
+            "sources": [
+              {
+                "title": "ICE Officers and Bonuses - FactCheck.org",
+                "url": "https://www.factcheck.org/2026/02/ice-officers-and-bonuses/"
+              }
+            ],
+            "score": 0,
+            "status": "success"
+          }
+        ]
+      },
+      "result_note": "Check the factual claim"
+    },
+    {
+      "claim_id": "claim_2",
+      "claim_text": "The memo sets a nationwide daily arrest target of 3,000 and includes bonuses for arrests, including $5,000 for mistakenly arresting U.S. citizens.",
+      "claim_type": "fact",
+      "supporting_details": [
+        "The memo states agents who mistakenly arrest U.S. citizens are eligible for a $5,000 bonus.",
+        "A field office in Texas has reportedly paid more than $2.4 million in arrest bonuses since February."
+      ],
+      "score": 0.0,
+      "status": "success",
+      "fact_check": {
+        "claim_id": "claim_2",
+        "claim_text": "The memo sets a nationwide daily arrest target of 3,000 and includes bonuses for arrests, including $5,000 for mistakenly arresting U.S. citizens.",
+        "claim_type": "fact",
+        "item_id": "claim_2",
+        "item_type": "fact_claim",
+        "statement": "The memo sets a nationwide daily arrest target of 3,000 and includes bonuses for arrests, including $5,000 for mistakenly arresting U.S. citizens.",
+        "execution_status": "searched",
+        "evidence_finding": "The Department of Homeland Security has stated that there is no policy of paying ICE agents $1,500 per arrest, and an immigration think tank has stated that it is unaware of any payments per arrest.",
+        "comparison": "contradictory",
+        "context_match": "matched",
+        "evidence_outcome": "refuted",
+        "source_quality": "reliable",
+        "verdict": "refuted",
+        "reason": "The claim that ICE agents receive $1,500 per arrest is contradicted by official statements from the Department of Homeland Security and an immigration think tank.",
+        "sources": [
+          {
+            "title": "ICE Officers and Bonuses – FactCheck.org",
+            "url": "https://reportwire.org/ice-officers-and-bonuses-factcheck-org/"
+          }
+        ],
+        "score": 0,
+        "status": "success"
+      },
+      "fact_check_weight": 0.7,
+      "supporting_detail_component": {
+        "score": 0.0,
+        "weight": 0.3,
+        "status": "success",
+        "detail_checks": [
+          {
+            "claim_id": "claim_2",
+            "claim_text": "The memo sets a nationwide daily arrest target of 3,000 and includes bonuses for arrests, including $5,000 for mistakenly arresting U.S. citizens.",
+            "claim_type": "fact",
+            "item_id": "claim_2_detail_1",
+            "item_type": "supporting_detail",
+            "statement": "The memo states agents who mistakenly arrest U.S. citizens are eligible for a $5,000 bonus.",
+            "execution_status": "searched",
+            "evidence_finding": "The Department of Homeland Security has stated that there is no policy of paying ICE agents per arrest, and the Migration Policy Institute is unaware of any such payment structure.",
+            "comparison": "contradictory",
+            "context_match": "matched",
+            "evidence_outcome": "refuted",
+            "source_quality": "reliable",
+            "verdict": "refuted",
+            "reason": "The claim that agents who mistakenly arrest U.S. citizens are eligible for a $5,000 bonus is contradicted by official statements from the Department of Homeland Security and the Migration Policy Institute.",
+            "sources": [
+              {
+                "title": "ICE Officers and Bonuses - FactCheck.org",
+                "url": "https://www.factcheck.org/2026/02/ice-officers-and-bonuses/"
+              }
+            ],
+            "score": 0,
+            "status": "success"
+          },
+          {
+            "claim_id": "claim_2",
+            "claim_text": "The memo sets a nationwide daily arrest target of 3,000 and includes bonuses for arrests, including $5,000 for mistakenly arresting U.S. citizens.",
+            "claim_type": "fact",
+            "item_id": "claim_2_detail_2",
+            "item_type": "supporting_detail",
+            "statement": "A field office in Texas has reportedly paid more than $2.4 million in arrest bonuses since February.",
+            "execution_status": "searched",
+            "evidence_finding": "There is no evidence that ICE agents receive per-arrest bonuses, including for mistakenly arresting U.S. citizens. ([factcheck.org](https://www.factcheck.org/2026/02/ice-officers-and-bonuses/?utm_source=openai))",
+            "comparison": "contradictory",
+            "context_match": "matched",
+            "evidence_outcome": "refuted",
+            "source_quality": "reliable",
+            "verdict": "refuted",
+            "reason": "The claim that ICE agents receive per-arrest bonuses, including for mistakenly arresting U.S. citizens, is contradicted by reliable sources.",
+            "sources": [
+              {
+                "title": "ICE Officers and Bonuses - FactCheck.org",
+                "url": "https://www.factcheck.org/2026/02/ice-officers-and-bonuses/"
+              }
+            ],
+            "score": 0,
+            "status": "success"
+          }
+        ]
+      },
+      "result_note": "Check the factual claim"
+    },
+    {
+      "claim_id": "claim_3",
+      "claim_text": "The ICE arrest bounty program is funded through a reallocation of existing enforcement funds.",
+      "claim_type": "fact",
+      "supporting_details": [
+        "The Wall Street Journal reported that ICE officers are rewarded for arrests.",
+        "The program is funded through a reallocation of existing enforcement funds."
+      ],
+      "score": 78.75,
+      "status": "success",
+      "fact_check": {
+        "claim_id": "claim_3",
+        "claim_text": "The ICE arrest bounty program is funded through a reallocation of existing enforcement funds.",
+        "claim_type": "fact",
+        "item_id": "claim_3",
+        "item_type": "fact_claim",
+        "statement": "The ICE arrest bounty program is funded through a reallocation of existing enforcement funds.",
+        "execution_status": "searched",
+        "evidence_finding": "The ICE arrest bounty program is funded through a reallocation of existing enforcement funds.",
+        "comparison": "not_found",
+        "context_match": "uncertain",
+        "evidence_outcome": "no_relevant_evidence",
+        "source_quality": "none",
+        "verdict": "insufficient_evidence",
+        "reason": "The provided sources do not confirm the funding mechanism for the ICE arrest bounty program.",
+        "sources": [],
+        "score": 75,
+        "status": "success"
+      },
+      "fact_check_weight": 0.7,
+      "supporting_detail_component": {
+        "score": 87.5,
+        "weight": 0.3,
+        "status": "success",
+        "detail_checks": [
+          {
+            "claim_id": "claim_3",
+            "claim_text": "The ICE arrest bounty program is funded through a reallocation of existing enforcement funds.",
+            "claim_type": "fact",
+            "item_id": "claim_3_detail_1",
+            "item_type": "supporting_detail",
+            "statement": "The Wall Street Journal reported that ICE officers are rewarded for arrests.",
+            "execution_status": "searched",
+            "evidence_finding": "The Wall Street Journal reported that ICE officers are rewarded for arrests.",
+            "comparison": "not_found",
+            "context_match": "mismatched",
+            "evidence_outcome": "no_relevant_evidence",
+            "source_quality": "none",
+            "verdict": "insufficient_evidence",
+            "reason": "The provided search results do not contain information about the ICE arrest bounty program being funded through a reallocation of existing enforcement funds.",
+            "sources": [],
+            "score": 75,
+            "status": "success"
+          },
+          {
+            "claim_id": "claim_3",
+            "claim_text": "The ICE arrest bounty program is funded through a reallocation of existing enforcement funds.",
+            "claim_type": "fact",
+            "item_id": "claim_3_detail_2",
+            "item_type": "supporting_detail",
+            "statement": "The program is funded through a reallocation of existing enforcement funds.",
+            "execution_status": "searched",
+            "evidence_finding": "The program is funded through a reallocation of existing enforcement funds.",
+            "comparison": "consistent",
+            "context_match": "matched",
+            "evidence_outcome": "supported",
+            "source_quality": "reliable",
+            "verdict": "supported",
+            "reason": "The claim is directly supported by the provided news text.",
+            "sources": [
+              {
+                "title": "ICE Officers and Bonuses",
+                "url": "https://www.factcheck.org/2026/02/ice-officers-and-bonuses/"
+              }
+            ],
+            "score": 100,
+            "status": "success"
+          }
+        ]
+      },
+      "result_note": "Check the factual claim"
+    }
+  ],
+  "api_call_logs": [
+    {
+      "request_type": "extract_claims",
+      "attempt": 1,
+      "item_ids": [
+        "news"
+      ],
+      "response_id": "gen-1791107464-AmtZTEStS1zoxJRLkFmV",
+      "model": "openai/gpt-4.1-mini",
+      "usage": {
+        "prompt_tokens": 551,
+        "completion_tokens": 239,
+        "total_tokens": 790,
+        "cost": 0.0006028,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0006028,
+          "upstream_inference_prompt_cost": 0.0002204,
+          "upstream_inference_completions_cost": 0.0003824
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "web_search_requests": 0,
+      "citation_log": [],
+      "web_search_confirmed": null,
+      "web_search_confirmation_basis": "not_applicable"
+    },
+    {
+      "request_type": "fact_check",
+      "attempt": 1,
+      "item_ids": [
+        "claim_1"
+      ],
+      "response_id": "gen-1791107466-99kHctrXJmYEmHYF8HuG",
+      "model": "openai/gpt-4.1-mini",
+      "usage": {
+        "prompt_tokens": 8174,
+        "completion_tokens": 161,
+        "total_tokens": 8335,
+        "cost": 0.0135272,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0135272,
+          "upstream_inference_prompt_cost": 0.0032696,
+          "upstream_inference_completions_cost": 0.0002576
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        },
+        "server_tool_use_details": {
+          "web_search_requests": 1
+        }
+      },
+      "web_search_requests": 1,
+      "citation_log": [],
+      "web_search_confirmed": true,
+      "web_search_confirmation_basis": "usage.web_search_requests"
+    },
+    {
+      "request_type": "fact_check",
+      "attempt": 1,
+      "item_ids": [
+        "claim_3"
+      ],
+      "response_id": "gen-1791107466-zFIMbVAYhNU2ywLCqbg6",
+      "model": "openai/gpt-4.1-mini",
+      "usage": {
+        "prompt_tokens": 8174,
+        "completion_tokens": 101,
+        "total_tokens": 8275,
+        "cost": 0.0130856,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 1152,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0130856,
+          "upstream_inference_prompt_cost": 0.002924,
+          "upstream_inference_completions_cost": 0.0001616
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        },
+        "server_tool_use_details": {
+          "web_search_requests": 1
+        }
+      },
+      "web_search_requests": 1,
+      "citation_log": [],
+      "web_search_confirmed": true,
+      "web_search_confirmation_basis": "usage.web_search_requests"
+    },
+    {
+      "request_type": "fact_check",
+      "attempt": 1,
+      "item_ids": [
+        "claim_3_detail_2"
+      ],
+      "response_id": "gen-1791107466-rym2nWJgGSNO1NiHEgM6",
+      "model": "openai/gpt-4.1-mini",
+      "usage": {
+        "prompt_tokens": 8174,
+        "completion_tokens": 130,
+        "total_tokens": 8304,
+        "cost": 0.0134776,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0134776,
+          "upstream_inference_prompt_cost": 0.0032696,
+          "upstream_inference_completions_cost": 0.000208
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        },
+        "server_tool_use_details": {
+          "web_search_requests": 1
+        }
+      },
+      "web_search_requests": 1,
+      "citation_log": [],
+      "web_search_confirmed": true,
+      "web_search_confirmation_basis": "usage.web_search_requests"
+    },
+    {
+      "request_type": "fact_check",
+      "attempt": 1,
+      "item_ids": [
+        "claim_3_detail_1"
+      ],
+      "response_id": "gen-1791107466-dSFOY3hIOy8G5yN0HJ62",
+      "model": "openai/gpt-4.1-mini",
+      "usage": {
+        "prompt_tokens": 8174,
+        "completion_tokens": 114,
+        "total_tokens": 8288,
+        "cost": 0.013452,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.013452,
+          "upstream_inference_prompt_cost": 0.0032696,
+          "upstream_inference_completions_cost": 0.0001824
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        },
+        "server_tool_use_details": {
+          "web_search_requests": 1
+        }
+      },
+      "web_search_requests": 1,
+      "citation_log": [],
+      "web_search_confirmed": true,
+      "web_search_confirmation_basis": "usage.web_search_requests"
+    },
+    {
+      "request_type": "fact_check",
+      "attempt": 1,
+      "item_ids": [
+        "claim_1_detail_2"
+      ],
+      "response_id": "gen-1791107466-koA1aDzH7rVNePcrA1Cc",
+      "model": "openai/gpt-4.1-mini",
+      "usage": {
+        "prompt_tokens": 8174,
+        "completion_tokens": 178,
+        "total_tokens": 8352,
+        "cost": 0.0135544,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0135544,
+          "upstream_inference_prompt_cost": 0.0032696,
+          "upstream_inference_completions_cost": 0.0002848
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        },
+        "server_tool_use_details": {
+          "web_search_requests": 1
+        }
+      },
+      "web_search_requests": 1,
+      "citation_log": [],
+      "web_search_confirmed": true,
+      "web_search_confirmation_basis": "usage.web_search_requests"
+    },
+    {
+      "request_type": "fact_check",
+      "attempt": 1,
+      "item_ids": [
+        "claim_2_detail_2"
+      ],
+      "response_id": "gen-1791107466-nShja0Tq0SQSSkXGxvsT",
+      "model": "openai/gpt-4.1-mini",
+      "usage": {
+        "prompt_tokens": 8174,
+        "completion_tokens": 207,
+        "total_tokens": 8381,
+        "cost": 0.0132936,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 1024,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0132936,
+          "upstream_inference_prompt_cost": 0.0029624,
+          "upstream_inference_completions_cost": 0.0003312
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        },
+        "server_tool_use_details": {
+          "web_search_requests": 1
+        }
+      },
+      "web_search_requests": 1,
+      "citation_log": [
+        {
+          "title": "ICE Officers and Bonuses - FactCheck.org",
+          "url": "https://www.factcheck.org/2026/02/ice-officers-and-bonuses/?utm_source=openai"
+        }
+      ],
+      "web_search_confirmed": true,
+      "web_search_confirmation_basis": "usage.web_search_requests"
+    },
+    {
+      "request_type": "fact_check",
+      "attempt": 1,
+      "item_ids": [
+        "claim_2_detail_1"
+      ],
+      "response_id": "gen-1791107466-BxTBM26x3JdvnxOdNyA6",
+      "model": "openai/gpt-4.1-mini",
+      "usage": {
+        "prompt_tokens": 8174,
+        "completion_tokens": 196,
+        "total_tokens": 8370,
+        "cost": 0.0135832,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0135832,
+          "upstream_inference_prompt_cost": 0.0032696,
+          "upstream_inference_completions_cost": 0.0003136
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        },
+        "server_tool_use_details": {
+          "web_search_requests": 1
+        }
+      },
+      "web_search_requests": 1,
+      "citation_log": [],
+      "web_search_confirmed": true,
+      "web_search_confirmation_basis": "usage.web_search_requests"
+    },
+    {
+      "request_type": "fact_check",
+      "attempt": 1,
+      "item_ids": [
+        "claim_1_detail_1"
+      ],
+      "response_id": "gen-1791107466-phXoWipn8gra2kUczK1w",
+      "model": "openai/gpt-4.1-mini",
+      "usage": {
+        "prompt_tokens": 8174,
+        "completion_tokens": 188,
+        "total_tokens": 8362,
+        "cost": 0.0135704,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0135704,
+          "upstream_inference_prompt_cost": 0.0032696,
+          "upstream_inference_completions_cost": 0.0003008
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        },
+        "server_tool_use_details": {
+          "web_search_requests": 1
+        }
+      },
+      "web_search_requests": 1,
+      "citation_log": [],
+      "web_search_confirmed": true,
+      "web_search_confirmation_basis": "usage.web_search_requests"
+    },
+    {
+      "request_type": "fact_check",
+      "attempt": 1,
+      "item_ids": [
+        "claim_2"
+      ],
+      "response_id": "gen-1791107466-8X3bSTQzPJ7fIuUrVLRz",
+      "model": "openai/gpt-4.1-mini",
+      "usage": {
+        "prompt_tokens": 8174,
+        "completion_tokens": 194,
+        "total_tokens": 8368,
+        "cost": 0.0132344,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 1152,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0132344,
+          "upstream_inference_prompt_cost": 0.002924,
+          "upstream_inference_completions_cost": 0.0003104
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        },
+        "server_tool_use_details": {
+          "web_search_requests": 1
+        }
+      },
+      "web_search_requests": 1,
+      "citation_log": [],
+      "web_search_confirmed": true,
+      "web_search_confirmation_basis": "usage.web_search_requests"
+    }
+  ]
+}

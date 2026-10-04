@@ -1,0 +1,59 @@
+{
+  "model": "openai/gpt-4.1-mini",
+  "test_file": "news_text_evaluation_C.md",
+  "generated_at_utc": "2026-10-04T09:51:21.689142+00:00",
+  "results": [
+    {
+      "news_id": "News 1",
+      "status": "success",
+      "article_score_raw": 15.0,
+      "article_grade": "Not credible",
+      "web_search_status": "confirmed",
+      "required_check_count": 8,
+      "successful_check_count": 8,
+      "technical_failure_count": 0,
+      "not_searched_count": 0,
+      "completion_rate": 1.0,
+      "result_file": "News_1.json"
+    },
+    {
+      "news_id": "News 2",
+      "status": "success",
+      "article_score_raw": 15.0,
+      "article_grade": "Not credible",
+      "web_search_status": "confirmed",
+      "required_check_count": 8,
+      "successful_check_count": 8,
+      "technical_failure_count": 0,
+      "not_searched_count": 0,
+      "completion_rate": 1.0,
+      "result_file": "News_2.json"
+    },
+    {
+      "news_id": "News 3",
+      "status": "success",
+      "article_score_raw": 0,
+      "article_grade": "Not credible",
+      "web_search_status": "confirmed",
+      "required_check_count": 9,
+      "successful_check_count": 9,
+      "technical_failure_count": 0,
+      "not_searched_count": 0,
+      "completion_rate": 1.0,
+      "result_file": "News_3.json"
+    },
+    {
+      "news_id": "News 4",
+      "status": "success",
+      "article_score_raw": 0,
+      "article_grade": "Not credible",
+      "web_search_status": "confirmed",
+      "required_check_count": 10,
+      "successful_check_count": 10,
+      "technical_failure_count": 0,
+      "not_searched_count": 0,
+      "completion_rate": 1.0,
+      "result_file": "News_4.json"
+    }
+  ]
+}

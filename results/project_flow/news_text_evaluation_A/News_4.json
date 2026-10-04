@@ -1,0 +1,1009 @@
+{
+  "news_id": "News 4",
+  "original_text": "“We delivered solid performance across the majority of our business in the first quarter, supported by our needs-based model and ongoing customer engagement. We continued to gain market share in farm and ranch and had strong double-digit growth in digital sales. Performance was positive across four of our five product categories. While companion animal trailed the Company average, we are taking decisive actions to improve its performance,” said Hal Lawton, President and Chief Executive Officer of Tractor Supply Company. The statement that the company gained market share in farm and ranch reflects management’s assessment; the earnings release did not provide independent third-party market-share data to substantiate the claim. \n\nNet sales for the first quarter of 2026 increased 3.6% to $3.59 billion from $3.47 billion in the first quarter of 2025, driven mainly by new store openings and, to a lesser extent, comparable-store sales growth. Comparable-store sales increased 0.5%, compared with a decline of 0.9% in the prior-year quarter. Comparable average ticket rose 1.6%, partially offset by a 1.0% decline in comparable transaction count, while digital sales posted strong double-digit growth. Gross margin was essentially unchanged at 36.2%, benefiting from disciplined product-cost management and the continued execution of an everyday-low-price strategy, offset by higher tariffs and delivery-related transportation costs. Despite the increase in sales and stable gross margin, operating income declined about 6% to $233.4 million, net income fell about 8% to $164.5 million, and diluted earnings per share decreased to $0.31 from $0.34.",
+  "analysis_time_utc": "2026-10-04T09:50:16.880014+00:00",
+  "model": "openai/gpt-4.1-mini",
+  "article_score_raw": 100,
+  "article_grade": "Credible",
+  "deduction_analysis": {
+    "reference_full_score": 100,
+    "final_article_score": 100,
+    "total_deduction": 0,
+    "problem_claim_count": 0,
+    "calculated_deduction_sum": 0,
+    "deduction_points": []
+  },
+  "test_statistics": {
+    "required_check_count": 11,
+    "successful_check_count": 11,
+    "technical_failure_count": 0,
+    "not_searched_count": 0,
+    "completion_rate": 1.0
+  },
+  "web_search_audit": {
+    "status": "confirmed",
+    "online_api_call_count": 11,
+    "confirmed_call_count": 11,
+    "unconfirmed_call_count": 0,
+    "calls": [
+      {
+        "request_type": "fact_check",
+        "attempt": 1,
+        "item_ids": [
+          "claim_1_detail_4"
+        ],
+        "web_search_requests": 1,
+        "url_citation_count": 1,
+        "confirmed": true,
+        "confirmation_basis": "usage.web_search_requests"
+      },
+      {
+        "request_type": "fact_check",
+        "attempt": 1,
+        "item_ids": [
+          "claim_1_detail_1"
+        ],
+        "web_search_requests": 1,
+        "url_citation_count": 1,
+        "confirmed": true,
+        "confirmation_basis": "usage.web_search_requests"
+      },
+      {
+        "request_type": "fact_check",
+        "attempt": 1,
+        "item_ids": [
+          "claim_1_detail_3"
+        ],
+        "web_search_requests": 1,
+        "url_citation_count": 1,
+        "confirmed": true,
+        "confirmation_basis": "usage.web_search_requests"
+      },
+      {
+        "request_type": "fact_check",
+        "attempt": 1,
+        "item_ids": [
+          "claim_1"
+        ],
+        "web_search_requests": 1,
+        "url_citation_count": 1,
+        "confirmed": true,
+        "confirmation_basis": "usage.web_search_requests"
+      },
+      {
+        "request_type": "fact_check",
+        "attempt": 1,
+        "item_ids": [
+          "claim_1_detail_2"
+        ],
+        "web_search_requests": 1,
+        "url_citation_count": 0,
+        "confirmed": true,
+        "confirmation_basis": "usage.web_search_requests"
+      },
+      {
+        "request_type": "fact_check",
+        "attempt": 1,
+        "item_ids": [
+          "claim_3"
+        ],
+        "web_search_requests": 1,
+        "url_citation_count": 0,
+        "confirmed": true,
+        "confirmation_basis": "usage.web_search_requests"
+      },
+      {
+        "request_type": "fact_check",
+        "attempt": 1,
+        "item_ids": [
+          "claim_2_detail_2"
+        ],
+        "web_search_requests": 1,
+        "url_citation_count": 0,
+        "confirmed": true,
+        "confirmation_basis": "usage.web_search_requests"
+      },
+      {
+        "request_type": "fact_check",
+        "attempt": 1,
+        "item_ids": [
+          "claim_3_detail_1"
+        ],
+        "web_search_requests": 1,
+        "url_citation_count": 0,
+        "confirmed": true,
+        "confirmation_basis": "usage.web_search_requests"
+      },
+      {
+        "request_type": "fact_check",
+        "attempt": 1,
+        "item_ids": [
+          "claim_2_detail_3"
+        ],
+        "web_search_requests": 1,
+        "url_citation_count": 1,
+        "confirmed": true,
+        "confirmation_basis": "usage.web_search_requests"
+      },
+      {
+        "request_type": "fact_check",
+        "attempt": 1,
+        "item_ids": [
+          "claim_2"
+        ],
+        "web_search_requests": 1,
+        "url_citation_count": 1,
+        "confirmed": true,
+        "confirmation_basis": "usage.web_search_requests"
+      },
+      {
+        "request_type": "fact_check",
+        "attempt": 1,
+        "item_ids": [
+          "claim_2_detail_1"
+        ],
+        "web_search_requests": 1,
+        "url_citation_count": 0,
+        "confirmed": true,
+        "confirmation_basis": "usage.web_search_requests"
+      }
+    ],
+    "scope_note": "Each web-search request contains one check item, so the search record maps directly to that item."
+  },
+  "frozen_claims": [
+    {
+      "claim_id": "claim_1",
+      "claim_text": "Tractor Supply Company delivered solid performance across the majority of its business in the first quarter of 2026, supported by its needs-based model and ongoing customer engagement.",
+      "claim_type": "fact",
+      "supporting_details": [
+        "The company continued to gain market share in farm and ranch.",
+        "There was strong double-digit growth in digital sales.",
+        "Performance was positive across four of five product categories.",
+        "Companion animal category trailed the company average but actions are being taken to improve it."
+      ]
+    },
+    {
+      "claim_id": "claim_2",
+      "claim_text": "Net sales for the first quarter of 2026 increased 3.6% to $3.59 billion from $3.47 billion in the first quarter of 2025, driven mainly by new store openings and comparable-store sales growth.",
+      "claim_type": "fact",
+      "supporting_details": [
+        "Comparable-store sales increased 0.5%, compared with a decline of 0.9% in the prior-year quarter.",
+        "Comparable average ticket rose 1.6%, partially offset by a 1.0% decline in comparable transaction count.",
+        "Digital sales posted strong double-digit growth."
+      ]
+    },
+    {
+      "claim_id": "claim_3",
+      "claim_text": "Despite increased sales and stable gross margin, Tractor Supply Company's operating income declined about 6% to $233.4 million, net income fell about 8% to $164.5 million, and diluted earnings per share decreased to $0.31 from $0.34 in the first quarter of 2026.",
+      "claim_type": "fact",
+      "supporting_details": [
+        "Gross margin was essentially unchanged at 36.2%, benefiting from disciplined product-cost management and an everyday-low-price strategy, offset by higher tariffs and delivery-related transportation costs."
+      ]
+    }
+  ],
+  "claim_results": [
+    {
+      "claim_id": "claim_1",
+      "claim_text": "Tractor Supply Company delivered solid performance across the majority of its business in the first quarter of 2026, supported by its needs-based model and ongoing customer engagement.",
+      "claim_type": "fact",
+      "supporting_details": [
+        "The company continued to gain market share in farm and ranch.",
+        "There was strong double-digit growth in digital sales.",
+        "Performance was positive across four of five product categories.",
+        "Companion animal category trailed the company average but actions are being taken to improve it."
+      ],
+      "score": 100.0,
+      "status": "success",
+      "fact_check": {
+        "claim_id": "claim_1",
+        "claim_text": "Tractor Supply Company delivered solid performance across the majority of its business in the first quarter of 2026, supported by its needs-based model and ongoing customer engagement.",
+        "claim_type": "fact",
+        "item_id": "claim_1",
+        "item_type": "fact_claim",
+        "statement": "Tractor Supply Company delivered solid performance across the majority of its business in the first quarter of 2026, supported by its needs-based model and ongoing customer engagement.",
+        "execution_status": "searched",
+        "evidence_finding": "Tractor Supply Company reported solid performance across the majority of its business in the first quarter of 2026, supported by its needs-based model and ongoing customer engagement. ([ir.tractorsupply.com](https://ir.tractorsupply.com/newsroom/news-releases/news-releases-details/2026/Tractor-Supply-Company-Reports-First-Quarter-2026-Financial-Results-Reaffirms-Fiscal-Year-2026-Outlook/default.aspx?utm_source=openai))",
+        "comparison": "consistent",
+        "context_match": "matched",
+        "evidence_outcome": "supported",
+        "source_quality": "reliable",
+        "verdict": "supported",
+        "reason": "The statement aligns with the company's reported performance in the first quarter of 2026.",
+        "sources": [
+          {
+            "title": "Tractor Supply Company Reports First Quarter 2026 Financial Results; Reaffirms Fiscal Year 2026 Outlook",
+            "url": "https://ir.tractorsupply.com/newsroom/news-releases/news-releases-details/2026/Tractor-Supply-Company-Reports-First-Quarter-2026-Financial-Results-Reaffirms-Fiscal-Year-2026-Outlook/default.aspx"
+          }
+        ],
+        "score": 100,
+        "status": "success"
+      },
+      "fact_check_weight": 0.7,
+      "supporting_detail_component": {
+        "score": 100.0,
+        "weight": 0.3,
+        "status": "success",
+        "detail_checks": [
+          {
+            "claim_id": "claim_1",
+            "claim_text": "Tractor Supply Company delivered solid performance across the majority of its business in the first quarter of 2026, supported by its needs-based model and ongoing customer engagement.",
+            "claim_type": "fact",
+            "item_id": "claim_1_detail_1",
+            "item_type": "supporting_detail",
+            "statement": "The company continued to gain market share in farm and ranch.",
+            "execution_status": "searched",
+            "evidence_finding": "Tractor Supply Company reported that it continued to gain market share in farm and ranch during the first quarter of 2026. ([ir.tractorsupply.com](https://ir.tractorsupply.com/newsroom/news-releases/news-releases-details/2026/Tractor-Supply-Company-Reports-First-Quarter-2026-Financial-Results-Reaffirms-Fiscal-Year-2026-Outlook/default.aspx?utm_source=openai))",
+            "comparison": "consistent",
+            "context_match": "matched",
+            "evidence_outcome": "supported",
+            "source_quality": "reliable",
+            "verdict": "supported",
+            "reason": "The evidence directly supports the claim made by the company's CEO.",
+            "sources": [
+              {
+                "title": "Tractor Supply Company Reports First Quarter 2026 Financial Results; Reaffirms Fiscal Year 2026 Outlook",
+                "url": "https://ir.tractorsupply.com/newsroom/news-releases/news-releases-details/2026/Tractor-Supply-Company-Reports-First-Quarter-2026-Financial-Results-Reaffirms-Fiscal-Year-2026-Outlook/default.aspx"
+              }
+            ],
+            "score": 100,
+            "status": "success"
+          },
+          {
+            "claim_id": "claim_1",
+            "claim_text": "Tractor Supply Company delivered solid performance across the majority of its business in the first quarter of 2026, supported by its needs-based model and ongoing customer engagement.",
+            "claim_type": "fact",
+            "item_id": "claim_1_detail_2",
+            "item_type": "supporting_detail",
+            "statement": "There was strong double-digit growth in digital sales.",
+            "execution_status": "searched",
+            "evidence_finding": "Tractor Supply Company reported strong double-digit growth in digital sales during the first quarter of 2026.",
+            "comparison": "consistent",
+            "context_match": "matched",
+            "evidence_outcome": "supported",
+            "source_quality": "reliable",
+            "verdict": "supported",
+            "reason": "The company's earnings release explicitly states that digital sales experienced strong double-digit growth in Q1 2026.",
+            "sources": [
+              {
+                "title": "Tractor Supply Company Reports First Quarter 2026 Financial Results; Reaffirms Fiscal Year 2026 Outlook",
+                "url": "https://ir.tractorsupply.com/newsroom/news-releases/news-releases-details/2026/Tractor-Supply-Company-Reports-First-Quarter-2026-Financial-Results-Reaffirms-Fiscal-Year-2026-Outlook/default.aspx"
+              }
+            ],
+            "score": 100,
+            "status": "success"
+          },
+          {
+            "claim_id": "claim_1",
+            "claim_text": "Tractor Supply Company delivered solid performance across the majority of its business in the first quarter of 2026, supported by its needs-based model and ongoing customer engagement.",
+            "claim_type": "fact",
+            "item_id": "claim_1_detail_3",
+            "item_type": "supporting_detail",
+            "statement": "Performance was positive across four of five product categories.",
+            "execution_status": "searched",
+            "evidence_finding": "Tractor Supply Company reported that four of its five product categories delivered positive comparable sales growth in the first quarter of 2026. ([ir.tractorsupply.com](https://ir.tractorsupply.com/newsroom/news-releases/news-releases-details/2026/Tractor-Supply-Company-Reports-First-Quarter-2026-Financial-Results-Reaffirms-Fiscal-Year-2026-Outlook/default.aspx?utm_source=openai))",
+            "comparison": "consistent",
+            "context_match": "matched",
+            "evidence_outcome": "supported",
+            "source_quality": "reliable",
+            "verdict": "supported",
+            "reason": "The evidence directly supports the claim that performance was positive across four of five product categories.",
+            "sources": [
+              {
+                "title": "Tractor Supply Company Reports First Quarter 2026 Financial Results; Reaffirms Fiscal Year 2026 Outlook",
+                "url": "https://ir.tractorsupply.com/newsroom/news-releases/news-releases-details/2026/Tractor-Supply-Company-Reports-First-Quarter-2026-Financial-Results-Reaffirms-Fiscal-Year-2026-Outlook/default.aspx"
+              }
+            ],
+            "score": 100,
+            "status": "success"
+          },
+          {
+            "claim_id": "claim_1",
+            "claim_text": "Tractor Supply Company delivered solid performance across the majority of its business in the first quarter of 2026, supported by its needs-based model and ongoing customer engagement.",
+            "claim_type": "fact",
+            "item_id": "claim_1_detail_4",
+            "item_type": "supporting_detail",
+            "statement": "Companion animal category trailed the company average but actions are being taken to improve it.",
+            "execution_status": "searched",
+            "evidence_finding": "In the first quarter of 2026, Tractor Supply Company's companion animal category underperformed compared to the company's average, attributed to declining dog ownership, an underrepresentation in the growing cat segment, and a shift towards fresh and premium pet nutrition, where the company is currently underrepresented. ([fortune.com](https://fortune.com/company/tractor-supply/earnings/q1-2026/?utm_source=openai))",
+            "comparison": "consistent",
+            "context_match": "matched",
+            "evidence_outcome": "supported",
+            "source_quality": "reliable",
+            "verdict": "supported",
+            "reason": "The evidence directly supports the statement about the companion animal category's performance and the company's response.",
+            "sources": [
+              {
+                "title": "Tractor Supply Q1 2026 Earnings Call Transcript",
+                "url": "https://fortune.com/company/tractor-supply/earnings/q1-2026/"
+              }
+            ],
+            "score": 100,
+            "status": "success"
+          }
+        ]
+      },
+      "result_note": "Check the factual claim"
+    },
+    {
+      "claim_id": "claim_2",
+      "claim_text": "Net sales for the first quarter of 2026 increased 3.6% to $3.59 billion from $3.47 billion in the first quarter of 2025, driven mainly by new store openings and comparable-store sales growth.",
+      "claim_type": "fact",
+      "supporting_details": [
+        "Comparable-store sales increased 0.5%, compared with a decline of 0.9% in the prior-year quarter.",
+        "Comparable average ticket rose 1.6%, partially offset by a 1.0% decline in comparable transaction count.",
+        "Digital sales posted strong double-digit growth."
+      ],
+      "score": 100.0,
+      "status": "success",
+      "fact_check": {
+        "claim_id": "claim_2",
+        "claim_text": "Net sales for the first quarter of 2026 increased 3.6% to $3.59 billion from $3.47 billion in the first quarter of 2025, driven mainly by new store openings and comparable-store sales growth.",
+        "claim_type": "fact",
+        "item_id": "claim_2",
+        "item_type": "fact_claim",
+        "statement": "Net sales for the first quarter of 2026 increased 3.6% to $3.59 billion from $3.47 billion in the first quarter of 2025, driven mainly by new store openings and comparable-store sales growth.",
+        "execution_status": "searched",
+        "evidence_finding": "Tractor Supply Company reported net sales of $3.59 billion for the first quarter of 2026, a 3.6% increase from $3.47 billion in the same period in 2025. ([barchart.com](https://www.barchart.com/story/news/1418555/tractor-supply-company-reports-first-quarter-2026-financial-results-reaffirms-fiscal-year-2026-outlook?utm_source=openai))",
+        "comparison": "consistent",
+        "context_match": "matched",
+        "evidence_outcome": "supported",
+        "source_quality": "reliable",
+        "verdict": "supported",
+        "reason": "The evidence directly supports the claim with specific figures and percentages.",
+        "sources": [
+          {
+            "title": "Tractor Supply Company Reports First Quarter 2026 Financial Results; Reaffirms Fiscal Year 2026 Outlook",
+            "url": "https://www.businesswire.com/news/home/20260421543068/en/"
+          }
+        ],
+        "score": 100,
+        "status": "success"
+      },
+      "fact_check_weight": 0.7,
+      "supporting_detail_component": {
+        "score": 100.0,
+        "weight": 0.3,
+        "status": "success",
+        "detail_checks": [
+          {
+            "claim_id": "claim_2",
+            "claim_text": "Net sales for the first quarter of 2026 increased 3.6% to $3.59 billion from $3.47 billion in the first quarter of 2025, driven mainly by new store openings and comparable-store sales growth.",
+            "claim_type": "fact",
+            "item_id": "claim_2_detail_1",
+            "item_type": "supporting_detail",
+            "statement": "Comparable-store sales increased 0.5%, compared with a decline of 0.9% in the prior-year quarter.",
+            "execution_status": "searched",
+            "evidence_finding": "Comparable store sales increased 0.5% compared to a decrease of 0.9% in the prior year's first quarter.",
+            "comparison": "consistent",
+            "context_match": "matched",
+            "evidence_outcome": "supported",
+            "source_quality": "reliable",
+            "verdict": "supported",
+            "reason": "The evidence from Tractor Supply Company's Q1 2026 financial results supports the claim that comparable store sales increased by 0.5% compared to a 0.9% decline in the same quarter of the previous year.",
+            "sources": [
+              {
+                "title": "Tractor Supply Company Reports First Quarter 2026 Financial Results; Reaffirms Fiscal Year 2026 Outlook",
+                "url": "https://ir.tractorsupply.com/newsroom/news-releases/news-releases-details/2026/Tractor-Supply-Company-Reports-First-Quarter-2026-Financial-Results-Reaffirms-Fiscal-Year-2026-Outlook/default.aspx"
+              }
+            ],
+            "score": 100,
+            "status": "success"
+          },
+          {
+            "claim_id": "claim_2",
+            "claim_text": "Net sales for the first quarter of 2026 increased 3.6% to $3.59 billion from $3.47 billion in the first quarter of 2025, driven mainly by new store openings and comparable-store sales growth.",
+            "claim_type": "fact",
+            "item_id": "claim_2_detail_2",
+            "item_type": "supporting_detail",
+            "statement": "Comparable average ticket rose 1.6%, partially offset by a 1.0% decline in comparable transaction count.",
+            "execution_status": "searched",
+            "evidence_finding": "Comparable average ticket increased 1.6%, partially offset by a comparable average transaction count decrease of 1.0%.",
+            "comparison": "consistent",
+            "context_match": "matched",
+            "evidence_outcome": "supported",
+            "source_quality": "reliable",
+            "verdict": "supported",
+            "reason": "The evidence from Tractor Supply Company's Q1 2026 financial report supports the claim.",
+            "sources": [
+              {
+                "title": "Tractor Supply Company Reports First Quarter 2026 Financial Results; Reaffirms Fiscal Year 2026 Outlook",
+                "url": "https://ir.tractorsupply.com/newsroom/news-releases/news-releases-details/2026/Tractor-Supply-Company-Reports-First-Quarter-2026-Financial-Results-Reaffirms-Fiscal-Year-2026-Outlook/default.aspx"
+              }
+            ],
+            "score": 100,
+            "status": "success"
+          },
+          {
+            "claim_id": "claim_2",
+            "claim_text": "Net sales for the first quarter of 2026 increased 3.6% to $3.59 billion from $3.47 billion in the first quarter of 2025, driven mainly by new store openings and comparable-store sales growth.",
+            "claim_type": "fact",
+            "item_id": "claim_2_detail_3",
+            "item_type": "supporting_detail",
+            "statement": "Digital sales posted strong double-digit growth.",
+            "execution_status": "searched",
+            "evidence_finding": "Tractor Supply Company reported strong double-digit growth in digital sales during the first quarter of 2026. ([ir.tractorsupply.com](https://ir.tractorsupply.com/newsroom/news-releases/news-releases-details/2026/Tractor-Supply-Company-Reports-First-Quarter-2026-Financial-Results-Reaffirms-Fiscal-Year-2026-Outlook/default.aspx?utm_source=openai))",
+            "comparison": "consistent",
+            "context_match": "matched",
+            "evidence_outcome": "supported",
+            "source_quality": "reliable",
+            "verdict": "supported",
+            "reason": "The earnings release confirms the strong double-digit growth in digital sales.",
+            "sources": [
+              {
+                "title": "Tractor Supply Company Reports First Quarter 2026 Financial Results; Reaffirms Fiscal Year 2026 Outlook",
+                "url": "https://ir.tractorsupply.com/newsroom/news-releases/news-releases-details/2026/Tractor-Supply-Company-Reports-First-Quarter-2026-Financial-Results-Reaffirms-Fiscal-Year-2026-Outlook/default.aspx"
+              }
+            ],
+            "score": 100,
+            "status": "success"
+          }
+        ]
+      },
+      "result_note": "Check the factual claim"
+    },
+    {
+      "claim_id": "claim_3",
+      "claim_text": "Despite increased sales and stable gross margin, Tractor Supply Company's operating income declined about 6% to $233.4 million, net income fell about 8% to $164.5 million, and diluted earnings per share decreased to $0.31 from $0.34 in the first quarter of 2026.",
+      "claim_type": "fact",
+      "supporting_details": [
+        "Gross margin was essentially unchanged at 36.2%, benefiting from disciplined product-cost management and an everyday-low-price strategy, offset by higher tariffs and delivery-related transportation costs."
+      ],
+      "score": 100.0,
+      "status": "success",
+      "fact_check": {
+        "claim_id": "claim_3",
+        "claim_text": "Despite increased sales and stable gross margin, Tractor Supply Company's operating income declined about 6% to $233.4 million, net income fell about 8% to $164.5 million, and diluted earnings per share decreased to $0.31 from $0.34 in the first quarter of 2026.",
+        "claim_type": "fact",
+        "item_id": "claim_3",
+        "item_type": "fact_claim",
+        "statement": "Despite increased sales and stable gross margin, Tractor Supply Company's operating income declined about 6% to $233.4 million, net income fell about 8% to $164.5 million, and diluted earnings per share decreased to $0.31 from $0.34 in the first quarter of 2026.",
+        "execution_status": "searched",
+        "evidence_finding": "Tractor Supply Company's operating income declined about 6% to $233.4 million, net income fell about 8% to $164.5 million, and diluted earnings per share decreased to $0.31 from $0.34 in the first quarter of 2026.",
+        "comparison": "consistent",
+        "context_match": "matched",
+        "evidence_outcome": "supported",
+        "source_quality": "reliable",
+        "verdict": "supported",
+        "reason": "The financial results for the first quarter of 2026, as reported by Tractor Supply Company, confirm the operating income, net income, and diluted earnings per share figures mentioned.",
+        "sources": [
+          {
+            "title": "Tractor Supply Company Reports First Quarter 2026 Financial Results; Reaffirms Fiscal Year 2026 Outlook",
+            "url": "https://ir.tractorsupply.com/newsroom/news-releases/news-releases-details/2026/Tractor-Supply-Company-Reports-First-Quarter-2026-Financial-Results-Reaffirms-Fiscal-Year-2026-Outlook/default.aspx"
+          }
+        ],
+        "score": 100,
+        "status": "success"
+      },
+      "fact_check_weight": 0.7,
+      "supporting_detail_component": {
+        "score": 100.0,
+        "weight": 0.3,
+        "status": "success",
+        "detail_checks": [
+          {
+            "claim_id": "claim_3",
+            "claim_text": "Despite increased sales and stable gross margin, Tractor Supply Company's operating income declined about 6% to $233.4 million, net income fell about 8% to $164.5 million, and diluted earnings per share decreased to $0.31 from $0.34 in the first quarter of 2026.",
+            "claim_type": "fact",
+            "item_id": "claim_3_detail_1",
+            "item_type": "supporting_detail",
+            "statement": "Gross margin was essentially unchanged at 36.2%, benefiting from disciplined product-cost management and an everyday-low-price strategy, offset by higher tariffs and delivery-related transportation costs.",
+            "execution_status": "searched",
+            "evidence_finding": "Gross margin was essentially unchanged at 36.2%, benefiting from disciplined product-cost management and an everyday-low-price strategy, offset by higher tariffs and delivery-related transportation costs.",
+            "comparison": "consistent",
+            "context_match": "matched",
+            "evidence_outcome": "supported",
+            "source_quality": "reliable",
+            "verdict": "supported",
+            "reason": "The evidence from the company's Q1 2026 earnings release supports the claim that gross margin remained stable at 36.2%, influenced by disciplined product-cost management and an everyday-low-price strategy, despite higher tariffs and delivery-related transportation costs.",
+            "sources": [
+              {
+                "title": "Tractor Supply Company Reports First Quarter 2026 Financial Results; Reaffirms Fiscal Year 2026 Outlook",
+                "url": "https://ir.tractorsupply.com/newsroom/news-releases/news-releases-details/2026/Tractor-Supply-Company-Reports-First-Quarter-2026-Financial-Results-Reaffirms-Fiscal-Year-2026-Outlook/default.aspx"
+              }
+            ],
+            "score": 100,
+            "status": "success"
+          }
+        ]
+      },
+      "result_note": "Check the factual claim"
+    }
+  ],
+  "api_call_logs": [
+    {
+      "request_type": "extract_claims",
+      "attempt": 1,
+      "item_ids": [
+        "news"
+      ],
+      "response_id": "gen-1791107410-R6KEBjcwSEcvoNgDMUS6",
+      "model": "openai/gpt-4.1-mini",
+      "usage": {
+        "prompt_tokens": 729,
+        "completion_tokens": 335,
+        "total_tokens": 1064,
+        "cost": 0.0008276,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0008276,
+          "upstream_inference_prompt_cost": 0.0002916,
+          "upstream_inference_completions_cost": 0.000536
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "web_search_requests": 0,
+      "citation_log": [],
+      "web_search_confirmed": null,
+      "web_search_confirmation_basis": "not_applicable"
+    },
+    {
+      "request_type": "fact_check",
+      "attempt": 1,
+      "item_ids": [
+        "claim_1_detail_4"
+      ],
+      "response_id": "gen-1791107412-kImZL0XuPnMyIYNnibXz",
+      "model": "openai/gpt-4.1-mini",
+      "usage": {
+        "prompt_tokens": 8174,
+        "completion_tokens": 212,
+        "total_tokens": 8386,
+        "cost": 0.0131864,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 1408,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0131864,
+          "upstream_inference_prompt_cost": 0.0028472,
+          "upstream_inference_completions_cost": 0.0003392
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        },
+        "server_tool_use_details": {
+          "web_search_requests": 1
+        }
+      },
+      "web_search_requests": 1,
+      "citation_log": [
+        {
+          "title": "Tractor Supply Q1 2026 Earnings Call Transcript | Fortune",
+          "url": "https://fortune.com/company/tractor-supply/earnings/q1-2026/?utm_source=openai"
+        }
+      ],
+      "web_search_confirmed": true,
+      "web_search_confirmation_basis": "usage.web_search_requests"
+    },
+    {
+      "request_type": "fact_check",
+      "attempt": 1,
+      "item_ids": [
+        "claim_1_detail_1"
+      ],
+      "response_id": "gen-1791107412-JyAusgEF9f7wlcBM0pFK",
+      "model": "openai/gpt-4.1-mini",
+      "usage": {
+        "prompt_tokens": 8174,
+        "completion_tokens": 264,
+        "total_tokens": 8438,
+        "cost": 0.013692,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.013692,
+          "upstream_inference_prompt_cost": 0.0032696,
+          "upstream_inference_completions_cost": 0.0004224
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        },
+        "server_tool_use_details": {
+          "web_search_requests": 1
+        }
+      },
+      "web_search_requests": 1,
+      "citation_log": [
+        {
+          "title": "Tractor Supply Company - Tractor Supply Company Reports First Quarter 2026 Financial Results; Reaffirms Fiscal Year 2026 Outlook",
+          "url": "https://ir.tractorsupply.com/newsroom/news-releases/news-releases-details/2026/Tractor-Supply-Company-Reports-First-Quarter-2026-Financial-Results-Reaffirms-Fiscal-Year-2026-Outlook/default.aspx?utm_source=openai"
+        }
+      ],
+      "web_search_confirmed": true,
+      "web_search_confirmation_basis": "usage.web_search_requests"
+    },
+    {
+      "request_type": "fact_check",
+      "attempt": 1,
+      "item_ids": [
+        "claim_1_detail_3"
+      ],
+      "response_id": "gen-1791107412-OYL34n5A2VYHUOuglTej",
+      "model": "openai/gpt-4.1-mini",
+      "usage": {
+        "prompt_tokens": 8174,
+        "completion_tokens": 269,
+        "total_tokens": 8443,
+        "cost": 0.013316,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 1280,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.013316,
+          "upstream_inference_prompt_cost": 0.0028856,
+          "upstream_inference_completions_cost": 0.0004304
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        },
+        "server_tool_use_details": {
+          "web_search_requests": 1
+        }
+      },
+      "web_search_requests": 1,
+      "citation_log": [
+        {
+          "title": "Tractor Supply Company - Tractor Supply Company Reports First Quarter 2026 Financial Results; Reaffirms Fiscal Year 2026 Outlook",
+          "url": "https://ir.tractorsupply.com/newsroom/news-releases/news-releases-details/2026/Tractor-Supply-Company-Reports-First-Quarter-2026-Financial-Results-Reaffirms-Fiscal-Year-2026-Outlook/default.aspx?utm_source=openai"
+        }
+      ],
+      "web_search_confirmed": true,
+      "web_search_confirmation_basis": "usage.web_search_requests"
+    },
+    {
+      "request_type": "fact_check",
+      "attempt": 1,
+      "item_ids": [
+        "claim_1"
+      ],
+      "response_id": "gen-1791107412-HQUOi7blik8LOxG2CQ1d",
+      "model": "openai/gpt-4.1-mini",
+      "usage": {
+        "prompt_tokens": 8174,
+        "completion_tokens": 269,
+        "total_tokens": 8443,
+        "cost": 0.0132776,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 1408,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0132776,
+          "upstream_inference_prompt_cost": 0.0028472,
+          "upstream_inference_completions_cost": 0.0004304
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        },
+        "server_tool_use_details": {
+          "web_search_requests": 1
+        }
+      },
+      "web_search_requests": 1,
+      "citation_log": [
+        {
+          "title": "Tractor Supply Company - Tractor Supply Company Reports First Quarter 2026 Financial Results; Reaffirms Fiscal Year 2026 Outlook",
+          "url": "https://ir.tractorsupply.com/newsroom/news-releases/news-releases-details/2026/Tractor-Supply-Company-Reports-First-Quarter-2026-Financial-Results-Reaffirms-Fiscal-Year-2026-Outlook/default.aspx?utm_source=openai"
+        }
+      ],
+      "web_search_confirmed": true,
+      "web_search_confirmation_basis": "usage.web_search_requests"
+    },
+    {
+      "request_type": "fact_check",
+      "attempt": 1,
+      "item_ids": [
+        "claim_1_detail_2"
+      ],
+      "response_id": "gen-1791107412-58Hq7AhazahKqxAX4fYS",
+      "model": "openai/gpt-4.1-mini",
+      "usage": {
+        "prompt_tokens": 8174,
+        "completion_tokens": 196,
+        "total_tokens": 8370,
+        "cost": 0.0131992,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 1280,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0131992,
+          "upstream_inference_prompt_cost": 0.0028856,
+          "upstream_inference_completions_cost": 0.0003136
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        },
+        "server_tool_use_details": {
+          "web_search_requests": 1
+        }
+      },
+      "web_search_requests": 1,
+      "citation_log": [],
+      "web_search_confirmed": true,
+      "web_search_confirmation_basis": "usage.web_search_requests"
+    },
+    {
+      "request_type": "fact_check",
+      "attempt": 1,
+      "item_ids": [
+        "claim_3"
+      ],
+      "response_id": "gen-1791107412-hZaTEBDy2PApXQejWZnf",
+      "model": "openai/gpt-4.1-mini",
+      "usage": {
+        "prompt_tokens": 8174,
+        "completion_tokens": 248,
+        "total_tokens": 8422,
+        "cost": 0.0132824,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 1280,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0132824,
+          "upstream_inference_prompt_cost": 0.0028856,
+          "upstream_inference_completions_cost": 0.0003968
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        },
+        "server_tool_use_details": {
+          "web_search_requests": 1
+        }
+      },
+      "web_search_requests": 1,
+      "citation_log": [],
+      "web_search_confirmed": true,
+      "web_search_confirmation_basis": "usage.web_search_requests"
+    },
+    {
+      "request_type": "fact_check",
+      "attempt": 1,
+      "item_ids": [
+        "claim_2_detail_2"
+      ],
+      "response_id": "gen-1791107412-x2hyr7U5ZWoAGEggLy2x",
+      "model": "openai/gpt-4.1-mini",
+      "usage": {
+        "prompt_tokens": 8174,
+        "completion_tokens": 223,
+        "total_tokens": 8397,
+        "cost": 0.0132424,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 1280,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0132424,
+          "upstream_inference_prompt_cost": 0.0028856,
+          "upstream_inference_completions_cost": 0.0003568
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        },
+        "server_tool_use_details": {
+          "web_search_requests": 1
+        }
+      },
+      "web_search_requests": 1,
+      "citation_log": [],
+      "web_search_confirmed": true,
+      "web_search_confirmation_basis": "usage.web_search_requests"
+    },
+    {
+      "request_type": "fact_check",
+      "attempt": 1,
+      "item_ids": [
+        "claim_3_detail_1"
+      ],
+      "response_id": "gen-1791107412-JovSbffNER5w7vw42qv0",
+      "model": "openai/gpt-4.1-mini",
+      "usage": {
+        "prompt_tokens": 8174,
+        "completion_tokens": 242,
+        "total_tokens": 8416,
+        "cost": 0.0136568,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0136568,
+          "upstream_inference_prompt_cost": 0.0032696,
+          "upstream_inference_completions_cost": 0.0003872
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        },
+        "server_tool_use_details": {
+          "web_search_requests": 1
+        }
+      },
+      "web_search_requests": 1,
+      "citation_log": [],
+      "web_search_confirmed": true,
+      "web_search_confirmation_basis": "usage.web_search_requests"
+    },
+    {
+      "request_type": "fact_check",
+      "attempt": 1,
+      "item_ids": [
+        "claim_2_detail_3"
+      ],
+      "response_id": "gen-1791107412-wXGfm9TtEThaQvVVzgi4",
+      "model": "openai/gpt-4.1-mini",
+      "usage": {
+        "prompt_tokens": 8174,
+        "completion_tokens": 261,
+        "total_tokens": 8435,
+        "cost": 0.0133032,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 1280,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0133032,
+          "upstream_inference_prompt_cost": 0.0028856,
+          "upstream_inference_completions_cost": 0.0004176
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        },
+        "server_tool_use_details": {
+          "web_search_requests": 1
+        }
+      },
+      "web_search_requests": 1,
+      "citation_log": [
+        {
+          "title": "Tractor Supply Company - Tractor Supply Company Reports First Quarter 2026 Financial Results; Reaffirms Fiscal Year 2026 Outlook",
+          "url": "https://ir.tractorsupply.com/newsroom/news-releases/news-releases-details/2026/Tractor-Supply-Company-Reports-First-Quarter-2026-Financial-Results-Reaffirms-Fiscal-Year-2026-Outlook/default.aspx?utm_source=openai"
+        }
+      ],
+      "web_search_confirmed": true,
+      "web_search_confirmation_basis": "usage.web_search_requests"
+    },
+    {
+      "request_type": "fact_check",
+      "attempt": 1,
+      "item_ids": [
+        "claim_2"
+      ],
+      "response_id": "gen-1791107412-qgyUM7iHbX0gobcd9p84",
+      "model": "openai/gpt-4.1-mini",
+      "usage": {
+        "prompt_tokens": 8174,
+        "completion_tokens": 243,
+        "total_tokens": 8417,
+        "cost": 0.013236,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 1408,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.013236,
+          "upstream_inference_prompt_cost": 0.0028472,
+          "upstream_inference_completions_cost": 0.0003888
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        },
+        "server_tool_use_details": {
+          "web_search_requests": 1
+        }
+      },
+      "web_search_requests": 1,
+      "citation_log": [
+        {
+          "title": "Tractor Supply Company Reports First Quarter 2026 Financial Results; Reaffirms Fiscal Year 2026 Outlook",
+          "url": "https://www.barchart.com/story/news/1418555/tractor-supply-company-reports-first-quarter-2026-financial-results-reaffirms-fiscal-year-2026-outlook?utm_source=openai"
+        }
+      ],
+      "web_search_confirmed": true,
+      "web_search_confirmation_basis": "usage.web_search_requests"
+    },
+    {
+      "request_type": "fact_check",
+      "attempt": 1,
+      "item_ids": [
+        "claim_2_detail_1"
+      ],
+      "response_id": "gen-1791107412-iFxLLk1J0Ll158ow5gmu",
+      "model": "openai/gpt-4.1-mini",
+      "usage": {
+        "prompt_tokens": 8174,
+        "completion_tokens": 245,
+        "total_tokens": 8419,
+        "cost": 0.0136616,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0136616,
+          "upstream_inference_prompt_cost": 0.0032696,
+          "upstream_inference_completions_cost": 0.000392
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        },
+        "server_tool_use_details": {
+          "web_search_requests": 1
+        }
+      },
+      "web_search_requests": 1,
+      "citation_log": [],
+      "web_search_confirmed": true,
+      "web_search_confirmation_basis": "usage.web_search_requests"
+    }
+  ]
+}

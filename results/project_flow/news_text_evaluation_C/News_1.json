@@ -1,0 +1,873 @@
+{
+  "news_id": "News 1",
+  "original_text": "Washington, D.C. — The Trump administration ordered the removal of 60 historic cherry trees from East Potomac Park early Tuesday morning to make way for a renovation of the East Potomac Golf Links. The work began at 5:30 a.m., before a federal judge could hold a scheduled hearing on a temporary restraining order. Chainsaws and wood chippers were used to clear a row of trees along the seventh fairway. All 60 trees were Japanese cherry trees, including 45 descended from the 1912 gift from Tokyo and 15 planted in the 1980s. A park volunteer said the trees were gone within three hours. Internal emails show the removal was requested by the golf course renovation team and approved by a senior Interior Department official. The project is part of a $12 million plan to redesign the course. No court order was issued before the cutting began.",
+  "analysis_time_utc": "2026-10-04T09:50:58.711085+00:00",
+  "model": "openai/gpt-4.1-mini",
+  "article_score_raw": 15.0,
+  "article_grade": "Not credible",
+  "deduction_analysis": {
+    "reference_full_score": 100,
+    "final_article_score": 15.0,
+    "total_deduction": 85.0,
+    "problem_claim_count": 1,
+    "calculated_deduction_sum": 85.0,
+    "deduction_points": [
+      {
+        "deduction_id": "deduction_1",
+        "claim_id": "claim_1",
+        "claim_text": "The Trump administration ordered the removal of 60 historic cherry trees from East Potomac Park early Tuesday morning to make way for a renovation of the East Potomac Golf Links.",
+        "category": "fact_claim",
+        "category_name": "Factual claim check",
+        "component_score": 0.0,
+        "component_weight_within_claim": 0.7,
+        "deduction_within_claim": 70.0,
+        "deduction_from_article_score": 70.0,
+        "reason": "The claim that 60 cherry trees were removed is contradicted by reports indicating that only one cherry tree was among the approximately 60 trees removed, with the majority being other species.",
+        "status": "success",
+        "related_checks": [
+          {
+            "item_id": "claim_1",
+            "statement": "The Trump administration ordered the removal of 60 historic cherry trees from East Potomac Park early Tuesday morning to make way for a renovation of the East Potomac Golf Links.",
+            "execution_status": "searched",
+            "evidence_finding": "The Trump administration ordered the removal of 60 historic cherry trees from East Potomac Park early Tuesday morning to make way for a renovation of the East Potomac Golf Links.",
+            "comparison": "contradictory",
+            "evidence_outcome": "refuted",
+            "source_quality": "reliable",
+            "verdict": "refuted",
+            "score": 0,
+            "status": "success",
+            "reason": "The claim that 60 cherry trees were removed is contradicted by reports indicating that only one cherry tree was among the approximately 60 trees removed, with the majority being other species."
+          }
+        ]
+      },
+      {
+        "deduction_id": "deduction_2",
+        "claim_id": "claim_1",
+        "claim_text": "The Trump administration ordered the removal of 60 historic cherry trees from East Potomac Park early Tuesday morning to make way for a renovation of the East Potomac Golf Links.",
+        "category": "supporting_details",
+        "category_name": "Supporting detail check",
+        "component_score": 50.0,
+        "component_weight_within_claim": 0.3,
+        "deduction_within_claim": 15.0,
+        "deduction_from_article_score": 15.0,
+        "reason": "The work began at 5:30 a.m., before a federal judge could hold a scheduled hearing on a temporary restraining order.: The evidence refers to a federal court hearing on the East Potomac Golf Course overhaul, but does not confirm the specific timing of the tree removal relative to the scheduled hearing.；All 60 trees were Japanese cherry trees, including 45 descended from the 1912 gift from Tokyo and 15 planted in the 1980s.: The claim that all 60 trees were cherry trees is contradicted by reports indicating that only one cherry tree was among those removed.；A park volunteer said the trees were gone within three hours.: The provided evidence does not specify the number of trees removed or the exact timing, making it difficult to verify the claim.；Internal emails show the removal was requested by the golf course renovation team and approved by a senior Interior Department official.: No relevant evidence found to support or refute the claim.；The project is part of a $12 million plan to redesign the course.: The provided sources do not confirm the $12 million cost of the renovation project.；No court order was issued before the cutting began.: Multiple fact-checking organizations have investigated claims that the Trump administration ordered the removal of 60 cherry trees from East Potomac Park for a golf course renovation. They found that while approximately 60 trees were removed, only one cherry tree was among them. The removals were part of routine maintenance, not directly related to the golf course renovation plans. ([factcheck.org](https://www.factcheck.org/2026/09/social-media-posts-push-false-claim-of-trump-chopping-down-60-cherry-trees/?utm_source=openai))",
+        "status": "success",
+        "related_checks": [
+          {
+            "claim_id": "claim_1",
+            "claim_text": "The Trump administration ordered the removal of 60 historic cherry trees from East Potomac Park early Tuesday morning to make way for a renovation of the East Potomac Golf Links.",
+            "claim_type": "fact",
+            "item_id": "claim_1_detail_1",
+            "item_type": "supporting_detail",
+            "statement": "The work began at 5:30 a.m., before a federal judge could hold a scheduled hearing on a temporary restraining order.",
+            "execution_status": "searched",
+            "evidence_finding": "The Trump administration's overhaul of East Potomac Golf Course was the subject of a federal court hearing on Thursday. (Andrew Harnik/Getty Images)",
+            "comparison": "not_found",
+            "context_match": "mismatched",
+            "evidence_outcome": "no_relevant_evidence",
+            "source_quality": "none",
+            "verdict": "insufficient_evidence",
+            "reason": "The evidence refers to a federal court hearing on the East Potomac Golf Course overhaul, but does not confirm the specific timing of the tree removal relative to the scheduled hearing.",
+            "sources": [
+              {
+                "title": "Tree removal at D.C. golf course not part of Trump’s redesign, officials say",
+                "url": "https://www.washingtonpost.com/sports/2026/09/03/tree-removal-dc-golf-course-not-part-trumps-redesign-officials-say/"
+              }
+            ],
+            "score": 75,
+            "status": "success"
+          },
+          {
+            "claim_id": "claim_1",
+            "claim_text": "The Trump administration ordered the removal of 60 historic cherry trees from East Potomac Park early Tuesday morning to make way for a renovation of the East Potomac Golf Links.",
+            "claim_type": "fact",
+            "item_id": "claim_1_detail_3",
+            "item_type": "supporting_detail",
+            "statement": "All 60 trees were Japanese cherry trees, including 45 descended from the 1912 gift from Tokyo and 15 planted in the 1980s.",
+            "execution_status": "searched",
+            "evidence_finding": "An informal count found that more than 60 trees appeared to have been removed in recent weeks, but only one cherry tree was mentioned.",
+            "comparison": "contradictory",
+            "context_match": "matched",
+            "evidence_outcome": "refuted",
+            "source_quality": "reliable",
+            "verdict": "refuted",
+            "reason": "The claim that all 60 trees were cherry trees is contradicted by reports indicating that only one cherry tree was among those removed.",
+            "sources": [
+              {
+                "title": "Social Media Posts Push False Claim of Trump Chopping Down 60 Cherry Trees",
+                "url": "https://www.factcheck.org/2026/09/social-media-posts-push-false-claim-of-trump-chopping-down-60-cherry-trees/"
+              }
+            ],
+            "score": 0,
+            "status": "success"
+          },
+          {
+            "claim_id": "claim_1",
+            "claim_text": "The Trump administration ordered the removal of 60 historic cherry trees from East Potomac Park early Tuesday morning to make way for a renovation of the East Potomac Golf Links.",
+            "claim_type": "fact",
+            "item_id": "claim_1_detail_4",
+            "item_type": "supporting_detail",
+            "statement": "A park volunteer said the trees were gone within three hours.",
+            "execution_status": "searched",
+            "evidence_finding": "A park volunteer said the trees were gone within three hours.",
+            "comparison": "not_found",
+            "context_match": "uncertain",
+            "evidence_outcome": "no_relevant_evidence",
+            "source_quality": "none",
+            "verdict": "insufficient_evidence",
+            "reason": "The provided evidence does not specify the number of trees removed or the exact timing, making it difficult to verify the claim.",
+            "sources": [],
+            "score": 75,
+            "status": "success"
+          },
+          {
+            "claim_id": "claim_1",
+            "claim_text": "The Trump administration ordered the removal of 60 historic cherry trees from East Potomac Park early Tuesday morning to make way for a renovation of the East Potomac Golf Links.",
+            "claim_type": "fact",
+            "item_id": "claim_1_detail_5",
+            "item_type": "supporting_detail",
+            "statement": "Internal emails show the removal was requested by the golf course renovation team and approved by a senior Interior Department official.",
+            "execution_status": "searched",
+            "evidence_finding": "Internal emails show the removal was requested by the golf course renovation team and approved by a senior Interior Department official.",
+            "comparison": "not_found",
+            "context_match": "uncertain",
+            "evidence_outcome": "no_relevant_evidence",
+            "source_quality": "none",
+            "verdict": "insufficient_evidence",
+            "reason": "No relevant evidence found to support or refute the claim.",
+            "sources": [],
+            "score": 75,
+            "status": "success"
+          },
+          {
+            "claim_id": "claim_1",
+            "claim_text": "The Trump administration ordered the removal of 60 historic cherry trees from East Potomac Park early Tuesday morning to make way for a renovation of the East Potomac Golf Links.",
+            "claim_type": "fact",
+            "item_id": "claim_1_detail_6",
+            "item_type": "supporting_detail",
+            "statement": "The project is part of a $12 million plan to redesign the course.",
+            "execution_status": "searched",
+            "evidence_finding": "The project is part of a $12 million plan to redesign the course.",
+            "comparison": "not_found",
+            "context_match": "uncertain",
+            "evidence_outcome": "no_relevant_evidence",
+            "source_quality": "none",
+            "verdict": "insufficient_evidence",
+            "reason": "The provided sources do not confirm the $12 million cost of the renovation project.",
+            "sources": [],
+            "score": 75,
+            "status": "success"
+          },
+          {
+            "claim_id": "claim_1",
+            "claim_text": "The Trump administration ordered the removal of 60 historic cherry trees from East Potomac Park early Tuesday morning to make way for a renovation of the East Potomac Golf Links.",
+            "claim_type": "fact",
+            "item_id": "claim_1_detail_7",
+            "item_type": "supporting_detail",
+            "statement": "No court order was issued before the cutting began.",
+            "execution_status": "searched",
+            "evidence_finding": "The Trump administration ordered the removal of 60 historic cherry trees from East Potomac Park early Tuesday morning to make way for a renovation of the East Potomac Golf Links.",
+            "comparison": "contradictory",
+            "context_match": "matched",
+            "evidence_outcome": "refuted",
+            "source_quality": "reliable",
+            "verdict": "refuted",
+            "reason": "Multiple fact-checking organizations have investigated claims that the Trump administration ordered the removal of 60 cherry trees from East Potomac Park for a golf course renovation. They found that while approximately 60 trees were removed, only one cherry tree was among them. The removals were part of routine maintenance, not directly related to the golf course renovation plans. ([factcheck.org](https://www.factcheck.org/2026/09/social-media-posts-push-false-claim-of-trump-chopping-down-60-cherry-trees/?utm_source=openai))",
+            "sources": [
+              {
+                "title": "Social Media Posts Push False Claim of Trump Chopping Down 60 Cherry Trees",
+                "url": "https://www.factcheck.org/2026/09/social-media-posts-push-false-claim-of-trump-chopping-down-60-cherry-trees/"
+              }
+            ],
+            "score": 0,
+            "status": "success"
+          }
+        ]
+      }
+    ]
+  },
+  "test_statistics": {
+    "required_check_count": 8,
+    "successful_check_count": 8,
+    "technical_failure_count": 0,
+    "not_searched_count": 0,
+    "completion_rate": 1.0
+  },
+  "web_search_audit": {
+    "status": "confirmed",
+    "online_api_call_count": 8,
+    "confirmed_call_count": 8,
+    "unconfirmed_call_count": 0,
+    "calls": [
+      {
+        "request_type": "fact_check",
+        "attempt": 1,
+        "item_ids": [
+          "claim_1_detail_4"
+        ],
+        "web_search_requests": 1,
+        "url_citation_count": 0,
+        "confirmed": true,
+        "confirmation_basis": "usage.web_search_requests"
+      },
+      {
+        "request_type": "fact_check",
+        "attempt": 1,
+        "item_ids": [
+          "claim_1_detail_6"
+        ],
+        "web_search_requests": 1,
+        "url_citation_count": 0,
+        "confirmed": true,
+        "confirmation_basis": "usage.web_search_requests"
+      },
+      {
+        "request_type": "fact_check",
+        "attempt": 1,
+        "item_ids": [
+          "claim_1"
+        ],
+        "web_search_requests": 1,
+        "url_citation_count": 0,
+        "confirmed": true,
+        "confirmation_basis": "usage.web_search_requests"
+      },
+      {
+        "request_type": "fact_check",
+        "attempt": 1,
+        "item_ids": [
+          "claim_1_detail_1"
+        ],
+        "web_search_requests": 1,
+        "url_citation_count": 0,
+        "confirmed": true,
+        "confirmation_basis": "usage.web_search_requests"
+      },
+      {
+        "request_type": "fact_check",
+        "attempt": 1,
+        "item_ids": [
+          "claim_1_detail_5"
+        ],
+        "web_search_requests": 1,
+        "url_citation_count": 0,
+        "confirmed": true,
+        "confirmation_basis": "usage.web_search_requests"
+      },
+      {
+        "request_type": "fact_check",
+        "attempt": 1,
+        "item_ids": [
+          "claim_1_detail_2"
+        ],
+        "web_search_requests": 1,
+        "url_citation_count": 1,
+        "confirmed": true,
+        "confirmation_basis": "usage.web_search_requests"
+      },
+      {
+        "request_type": "fact_check",
+        "attempt": 1,
+        "item_ids": [
+          "claim_1_detail_3"
+        ],
+        "web_search_requests": 1,
+        "url_citation_count": 0,
+        "confirmed": true,
+        "confirmation_basis": "usage.web_search_requests"
+      },
+      {
+        "request_type": "fact_check",
+        "attempt": 1,
+        "item_ids": [
+          "claim_1_detail_7"
+        ],
+        "web_search_requests": 1,
+        "url_citation_count": 1,
+        "confirmed": true,
+        "confirmation_basis": "usage.web_search_requests"
+      }
+    ],
+    "scope_note": "Each web-search request contains one check item, so the search record maps directly to that item."
+  },
+  "frozen_claims": [
+    {
+      "claim_id": "claim_1",
+      "claim_text": "The Trump administration ordered the removal of 60 historic cherry trees from East Potomac Park early Tuesday morning to make way for a renovation of the East Potomac Golf Links.",
+      "claim_type": "fact",
+      "supporting_details": [
+        "The work began at 5:30 a.m., before a federal judge could hold a scheduled hearing on a temporary restraining order.",
+        "Chainsaws and wood chippers were used to clear a row of trees along the seventh fairway.",
+        "All 60 trees were Japanese cherry trees, including 45 descended from the 1912 gift from Tokyo and 15 planted in the 1980s.",
+        "A park volunteer said the trees were gone within three hours.",
+        "Internal emails show the removal was requested by the golf course renovation team and approved by a senior Interior Department official.",
+        "The project is part of a $12 million plan to redesign the course.",
+        "No court order was issued before the cutting began."
+      ]
+    }
+  ],
+  "claim_results": [
+    {
+      "claim_id": "claim_1",
+      "claim_text": "The Trump administration ordered the removal of 60 historic cherry trees from East Potomac Park early Tuesday morning to make way for a renovation of the East Potomac Golf Links.",
+      "claim_type": "fact",
+      "supporting_details": [
+        "The work began at 5:30 a.m., before a federal judge could hold a scheduled hearing on a temporary restraining order.",
+        "Chainsaws and wood chippers were used to clear a row of trees along the seventh fairway.",
+        "All 60 trees were Japanese cherry trees, including 45 descended from the 1912 gift from Tokyo and 15 planted in the 1980s.",
+        "A park volunteer said the trees were gone within three hours.",
+        "Internal emails show the removal was requested by the golf course renovation team and approved by a senior Interior Department official.",
+        "The project is part of a $12 million plan to redesign the course.",
+        "No court order was issued before the cutting began."
+      ],
+      "score": 15.0,
+      "status": "success",
+      "fact_check": {
+        "claim_id": "claim_1",
+        "claim_text": "The Trump administration ordered the removal of 60 historic cherry trees from East Potomac Park early Tuesday morning to make way for a renovation of the East Potomac Golf Links.",
+        "claim_type": "fact",
+        "item_id": "claim_1",
+        "item_type": "fact_claim",
+        "statement": "The Trump administration ordered the removal of 60 historic cherry trees from East Potomac Park early Tuesday morning to make way for a renovation of the East Potomac Golf Links.",
+        "execution_status": "searched",
+        "evidence_finding": "The Trump administration ordered the removal of 60 historic cherry trees from East Potomac Park early Tuesday morning to make way for a renovation of the East Potomac Golf Links.",
+        "comparison": "contradictory",
+        "context_match": "matched",
+        "evidence_outcome": "refuted",
+        "source_quality": "reliable",
+        "verdict": "refuted",
+        "reason": "The claim that 60 cherry trees were removed is contradicted by reports indicating that only one cherry tree was among the approximately 60 trees removed, with the majority being other species.",
+        "sources": [
+          {
+            "title": "Social Media Posts Push False Claim of Trump Chopping Down 60 Cherry Trees",
+            "url": "https://www.factcheck.org/2026/09/social-media-posts-push-false-claim-of-trump-chopping-down-60-cherry-trees/"
+          }
+        ],
+        "score": 0,
+        "status": "success"
+      },
+      "fact_check_weight": 0.7,
+      "supporting_detail_component": {
+        "score": 50,
+        "weight": 0.3,
+        "status": "success",
+        "detail_checks": [
+          {
+            "claim_id": "claim_1",
+            "claim_text": "The Trump administration ordered the removal of 60 historic cherry trees from East Potomac Park early Tuesday morning to make way for a renovation of the East Potomac Golf Links.",
+            "claim_type": "fact",
+            "item_id": "claim_1_detail_1",
+            "item_type": "supporting_detail",
+            "statement": "The work began at 5:30 a.m., before a federal judge could hold a scheduled hearing on a temporary restraining order.",
+            "execution_status": "searched",
+            "evidence_finding": "The Trump administration's overhaul of East Potomac Golf Course was the subject of a federal court hearing on Thursday. (Andrew Harnik/Getty Images)",
+            "comparison": "not_found",
+            "context_match": "mismatched",
+            "evidence_outcome": "no_relevant_evidence",
+            "source_quality": "none",
+            "verdict": "insufficient_evidence",
+            "reason": "The evidence refers to a federal court hearing on the East Potomac Golf Course overhaul, but does not confirm the specific timing of the tree removal relative to the scheduled hearing.",
+            "sources": [
+              {
+                "title": "Tree removal at D.C. golf course not part of Trump’s redesign, officials say",
+                "url": "https://www.washingtonpost.com/sports/2026/09/03/tree-removal-dc-golf-course-not-part-trumps-redesign-officials-say/"
+              }
+            ],
+            "score": 75,
+            "status": "success"
+          },
+          {
+            "claim_id": "claim_1",
+            "claim_text": "The Trump administration ordered the removal of 60 historic cherry trees from East Potomac Park early Tuesday morning to make way for a renovation of the East Potomac Golf Links.",
+            "claim_type": "fact",
+            "item_id": "claim_1_detail_2",
+            "item_type": "supporting_detail",
+            "statement": "Chainsaws and wood chippers were used to clear a row of trees along the seventh fairway.",
+            "execution_status": "searched",
+            "evidence_finding": "An informal count found that more than 60 trees appeared to have been removed in recent weeks, including a cherry tree near the 14th green of the Blue Course. ([washingtonpost.com](https://www.washingtonpost.com/sports/2026/08/28/east-potomac-golf-tree-removal-begins-ahead-trump-project/?utm_source=openai))",
+            "comparison": "consistent",
+            "context_match": "matched",
+            "evidence_outcome": "supported",
+            "source_quality": "reliable",
+            "verdict": "supported",
+            "reason": "The evidence supports the claim that 60 trees were removed, including a cherry tree near the 14th green of the Blue Course.",
+            "sources": [
+              {
+                "title": "East Potomac golf tree removal begins ahead of Trump project",
+                "url": "https://www.washingtonpost.com/sports/2026/08/28/east-potomac-golf-tree-removal-begins-ahead-trump-project/"
+              }
+            ],
+            "score": 100,
+            "status": "success"
+          },
+          {
+            "claim_id": "claim_1",
+            "claim_text": "The Trump administration ordered the removal of 60 historic cherry trees from East Potomac Park early Tuesday morning to make way for a renovation of the East Potomac Golf Links.",
+            "claim_type": "fact",
+            "item_id": "claim_1_detail_3",
+            "item_type": "supporting_detail",
+            "statement": "All 60 trees were Japanese cherry trees, including 45 descended from the 1912 gift from Tokyo and 15 planted in the 1980s.",
+            "execution_status": "searched",
+            "evidence_finding": "An informal count found that more than 60 trees appeared to have been removed in recent weeks, but only one cherry tree was mentioned.",
+            "comparison": "contradictory",
+            "context_match": "matched",
+            "evidence_outcome": "refuted",
+            "source_quality": "reliable",
+            "verdict": "refuted",
+            "reason": "The claim that all 60 trees were cherry trees is contradicted by reports indicating that only one cherry tree was among those removed.",
+            "sources": [
+              {
+                "title": "Social Media Posts Push False Claim of Trump Chopping Down 60 Cherry Trees",
+                "url": "https://www.factcheck.org/2026/09/social-media-posts-push-false-claim-of-trump-chopping-down-60-cherry-trees/"
+              }
+            ],
+            "score": 0,
+            "status": "success"
+          },
+          {
+            "claim_id": "claim_1",
+            "claim_text": "The Trump administration ordered the removal of 60 historic cherry trees from East Potomac Park early Tuesday morning to make way for a renovation of the East Potomac Golf Links.",
+            "claim_type": "fact",
+            "item_id": "claim_1_detail_4",
+            "item_type": "supporting_detail",
+            "statement": "A park volunteer said the trees were gone within three hours.",
+            "execution_status": "searched",
+            "evidence_finding": "A park volunteer said the trees were gone within three hours.",
+            "comparison": "not_found",
+            "context_match": "uncertain",
+            "evidence_outcome": "no_relevant_evidence",
+            "source_quality": "none",
+            "verdict": "insufficient_evidence",
+            "reason": "The provided evidence does not specify the number of trees removed or the exact timing, making it difficult to verify the claim.",
+            "sources": [],
+            "score": 75,
+            "status": "success"
+          },
+          {
+            "claim_id": "claim_1",
+            "claim_text": "The Trump administration ordered the removal of 60 historic cherry trees from East Potomac Park early Tuesday morning to make way for a renovation of the East Potomac Golf Links.",
+            "claim_type": "fact",
+            "item_id": "claim_1_detail_5",
+            "item_type": "supporting_detail",
+            "statement": "Internal emails show the removal was requested by the golf course renovation team and approved by a senior Interior Department official.",
+            "execution_status": "searched",
+            "evidence_finding": "Internal emails show the removal was requested by the golf course renovation team and approved by a senior Interior Department official.",
+            "comparison": "not_found",
+            "context_match": "uncertain",
+            "evidence_outcome": "no_relevant_evidence",
+            "source_quality": "none",
+            "verdict": "insufficient_evidence",
+            "reason": "No relevant evidence found to support or refute the claim.",
+            "sources": [],
+            "score": 75,
+            "status": "success"
+          },
+          {
+            "claim_id": "claim_1",
+            "claim_text": "The Trump administration ordered the removal of 60 historic cherry trees from East Potomac Park early Tuesday morning to make way for a renovation of the East Potomac Golf Links.",
+            "claim_type": "fact",
+            "item_id": "claim_1_detail_6",
+            "item_type": "supporting_detail",
+            "statement": "The project is part of a $12 million plan to redesign the course.",
+            "execution_status": "searched",
+            "evidence_finding": "The project is part of a $12 million plan to redesign the course.",
+            "comparison": "not_found",
+            "context_match": "uncertain",
+            "evidence_outcome": "no_relevant_evidence",
+            "source_quality": "none",
+            "verdict": "insufficient_evidence",
+            "reason": "The provided sources do not confirm the $12 million cost of the renovation project.",
+            "sources": [],
+            "score": 75,
+            "status": "success"
+          },
+          {
+            "claim_id": "claim_1",
+            "claim_text": "The Trump administration ordered the removal of 60 historic cherry trees from East Potomac Park early Tuesday morning to make way for a renovation of the East Potomac Golf Links.",
+            "claim_type": "fact",
+            "item_id": "claim_1_detail_7",
+            "item_type": "supporting_detail",
+            "statement": "No court order was issued before the cutting began.",
+            "execution_status": "searched",
+            "evidence_finding": "The Trump administration ordered the removal of 60 historic cherry trees from East Potomac Park early Tuesday morning to make way for a renovation of the East Potomac Golf Links.",
+            "comparison": "contradictory",
+            "context_match": "matched",
+            "evidence_outcome": "refuted",
+            "source_quality": "reliable",
+            "verdict": "refuted",
+            "reason": "Multiple fact-checking organizations have investigated claims that the Trump administration ordered the removal of 60 cherry trees from East Potomac Park for a golf course renovation. They found that while approximately 60 trees were removed, only one cherry tree was among them. The removals were part of routine maintenance, not directly related to the golf course renovation plans. ([factcheck.org](https://www.factcheck.org/2026/09/social-media-posts-push-false-claim-of-trump-chopping-down-60-cherry-trees/?utm_source=openai))",
+            "sources": [
+              {
+                "title": "Social Media Posts Push False Claim of Trump Chopping Down 60 Cherry Trees",
+                "url": "https://www.factcheck.org/2026/09/social-media-posts-push-false-claim-of-trump-chopping-down-60-cherry-trees/"
+              }
+            ],
+            "score": 0,
+            "status": "success"
+          }
+        ]
+      },
+      "result_note": "Check the factual claim"
+    }
+  ],
+  "api_call_logs": [
+    {
+      "request_type": "extract_claims",
+      "attempt": 1,
+      "item_ids": [
+        "news"
+      ],
+      "response_id": "gen-1791107453-OLIAuvxx66TuZ7p5BGXS",
+      "model": "openai/gpt-4.1-mini",
+      "usage": {
+        "prompt_tokens": 571,
+        "completion_tokens": 192,
+        "total_tokens": 763,
+        "cost": 0.0005356,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0005356,
+          "upstream_inference_prompt_cost": 0.0002284,
+          "upstream_inference_completions_cost": 0.0003072
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "web_search_requests": 0,
+      "citation_log": [],
+      "web_search_confirmed": null,
+      "web_search_confirmation_basis": "not_applicable"
+    },
+    {
+      "request_type": "fact_check",
+      "attempt": 1,
+      "item_ids": [
+        "claim_1_detail_4"
+      ],
+      "response_id": "gen-1791107455-aJy3tlRJ2gKUtBxIz7c1",
+      "model": "openai/gpt-4.1-mini",
+      "usage": {
+        "prompt_tokens": 8174,
+        "completion_tokens": 113,
+        "total_tokens": 8287,
+        "cost": 0.0131048,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 1152,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0131048,
+          "upstream_inference_prompt_cost": 0.002924,
+          "upstream_inference_completions_cost": 0.0001808
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        },
+        "server_tool_use_details": {
+          "web_search_requests": 1
+        }
+      },
+      "web_search_requests": 1,
+      "citation_log": [],
+      "web_search_confirmed": true,
+      "web_search_confirmation_basis": "usage.web_search_requests"
+    },
+    {
+      "request_type": "fact_check",
+      "attempt": 1,
+      "item_ids": [
+        "claim_1_detail_6"
+      ],
+      "response_id": "gen-1791107455-MMdnFhUMltDx1DJ7Mh35",
+      "model": "openai/gpt-4.1-mini",
+      "usage": {
+        "prompt_tokens": 8174,
+        "completion_tokens": 106,
+        "total_tokens": 8280,
+        "cost": 0.0134392,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0134392,
+          "upstream_inference_prompt_cost": 0.0032696,
+          "upstream_inference_completions_cost": 0.0001696
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        },
+        "server_tool_use_details": {
+          "web_search_requests": 1
+        }
+      },
+      "web_search_requests": 1,
+      "citation_log": [],
+      "web_search_confirmed": true,
+      "web_search_confirmation_basis": "usage.web_search_requests"
+    },
+    {
+      "request_type": "fact_check",
+      "attempt": 1,
+      "item_ids": [
+        "claim_1"
+      ],
+      "response_id": "gen-1791107455-2HTTyIbOsd45IZ0rOcVj",
+      "model": "openai/gpt-4.1-mini",
+      "usage": {
+        "prompt_tokens": 8174,
+        "completion_tokens": 203,
+        "total_tokens": 8377,
+        "cost": 0.0132488,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 1152,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0132488,
+          "upstream_inference_prompt_cost": 0.002924,
+          "upstream_inference_completions_cost": 0.0003248
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        },
+        "server_tool_use_details": {
+          "web_search_requests": 1
+        }
+      },
+      "web_search_requests": 1,
+      "citation_log": [],
+      "web_search_confirmed": true,
+      "web_search_confirmation_basis": "usage.web_search_requests"
+    },
+    {
+      "request_type": "fact_check",
+      "attempt": 1,
+      "item_ids": [
+        "claim_1_detail_1"
+      ],
+      "response_id": "gen-1791107455-auiekDwGjcodv9pQwqRN",
+      "model": "openai/gpt-4.1-mini",
+      "usage": {
+        "prompt_tokens": 8174,
+        "completion_tokens": 205,
+        "total_tokens": 8379,
+        "cost": 0.0135976,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0135976,
+          "upstream_inference_prompt_cost": 0.0032696,
+          "upstream_inference_completions_cost": 0.000328
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        },
+        "server_tool_use_details": {
+          "web_search_requests": 1
+        }
+      },
+      "web_search_requests": 1,
+      "citation_log": [],
+      "web_search_confirmed": true,
+      "web_search_confirmation_basis": "usage.web_search_requests"
+    },
+    {
+      "request_type": "fact_check",
+      "attempt": 1,
+      "item_ids": [
+        "claim_1_detail_5"
+      ],
+      "response_id": "gen-1791107455-xSmJaPoa6VBhuJHT0qFD",
+      "model": "openai/gpt-4.1-mini",
+      "usage": {
+        "prompt_tokens": 8174,
+        "completion_tokens": 118,
+        "total_tokens": 8292,
+        "cost": 0.0134584,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0134584,
+          "upstream_inference_prompt_cost": 0.0032696,
+          "upstream_inference_completions_cost": 0.0001888
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        },
+        "server_tool_use_details": {
+          "web_search_requests": 1
+        }
+      },
+      "web_search_requests": 1,
+      "citation_log": [],
+      "web_search_confirmed": true,
+      "web_search_confirmation_basis": "usage.web_search_requests"
+    },
+    {
+      "request_type": "fact_check",
+      "attempt": 1,
+      "item_ids": [
+        "claim_1_detail_2"
+      ],
+      "response_id": "gen-1791107455-FMZWbizSuxyyHNUvXjn9",
+      "model": "openai/gpt-4.1-mini",
+      "usage": {
+        "prompt_tokens": 8174,
+        "completion_tokens": 237,
+        "total_tokens": 8411,
+        "cost": 0.0133032,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 1152,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0133032,
+          "upstream_inference_prompt_cost": 0.002924,
+          "upstream_inference_completions_cost": 0.0003792
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        },
+        "server_tool_use_details": {
+          "web_search_requests": 1
+        }
+      },
+      "web_search_requests": 1,
+      "citation_log": [
+        {
+          "title": "East Potomac golf tree removal begins ahead of Trump project - The Washington Post",
+          "url": "https://www.washingtonpost.com/sports/2026/08/28/east-potomac-golf-tree-removal-begins-ahead-trump-project/?utm_source=openai"
+        }
+      ],
+      "web_search_confirmed": true,
+      "web_search_confirmation_basis": "usage.web_search_requests"
+    },
+    {
+      "request_type": "fact_check",
+      "attempt": 1,
+      "item_ids": [
+        "claim_1_detail_3"
+      ],
+      "response_id": "gen-1791107455-OLLvWQ4eLoMRKPlgiv14",
+      "model": "openai/gpt-4.1-mini",
+      "usage": {
+        "prompt_tokens": 8174,
+        "completion_tokens": 188,
+        "total_tokens": 8362,
+        "cost": 0.0132248,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 1152,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0132248,
+          "upstream_inference_prompt_cost": 0.002924,
+          "upstream_inference_completions_cost": 0.0003008
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        },
+        "server_tool_use_details": {
+          "web_search_requests": 1
+        }
+      },
+      "web_search_requests": 1,
+      "citation_log": [],
+      "web_search_confirmed": true,
+      "web_search_confirmation_basis": "usage.web_search_requests"
+    },
+    {
+      "request_type": "fact_check",
+      "attempt": 1,
+      "item_ids": [
+        "claim_1_detail_7"
+      ],
+      "response_id": "gen-1791107455-pQXGXtUnE70sMumnbSqs",
+      "model": "openai/gpt-4.1-mini",
+      "usage": {
+        "prompt_tokens": 8174,
+        "completion_tokens": 289,
+        "total_tokens": 8463,
+        "cost": 0.013732,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.013732,
+          "upstream_inference_prompt_cost": 0.0032696,
+          "upstream_inference_completions_cost": 0.0004624
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        },
+        "server_tool_use_details": {
+          "web_search_requests": 1
+        }
+      },
+      "web_search_requests": 1,
+      "citation_log": [
+        {
+          "title": "Social Media Posts Push False Claim of Trump Chopping Down 60 Cherry Trees - FactCheck.org",
+          "url": "https://www.factcheck.org/2026/09/social-media-posts-push-false-claim-of-trump-chopping-down-60-cherry-trees/?utm_source=openai"
+        }
+      ],
+      "web_search_confirmed": true,
+      "web_search_confirmation_basis": "usage.web_search_requests"
+    }
+  ]
+}

@@ -1,0 +1,806 @@
+{
+  "news_id": "News 3",
+  "original_text": "Sales at gasoline stations surged 15.5% in March, the largest monthly increase since the government began tracking the series in 1992, after rising only 1.3% in February. The increase primarily reflected sharply higher gasoline prices rather than a comparable rise in the volume of gasoline purchased. Economists at the Stanford Institute for Economic Policy Research estimated, using a model of how global oil prices pass through to pump prices and an oil-market forecast, that the war-related oil price shock could increase the average U.S. household’s gasoline spending in 2026 by about $857 relative to the prewar forecast. This was a model-based projection, not an amount already incurred by every American. Meanwhile, the average federal tax refund was $3,521 through March 27, 2026, up $351 from $3,170 at the comparable point in 2025, according to the Internal Revenue Service.",
+  "analysis_time_utc": "2026-10-04T09:50:10.157893+00:00",
+  "model": "openai/gpt-4.1-mini",
+  "article_score_raw": 100,
+  "article_grade": "Credible",
+  "deduction_analysis": {
+    "reference_full_score": 100,
+    "final_article_score": 100,
+    "total_deduction": 0,
+    "problem_claim_count": 0,
+    "calculated_deduction_sum": 0,
+    "deduction_points": []
+  },
+  "test_statistics": {
+    "required_check_count": 8,
+    "successful_check_count": 8,
+    "technical_failure_count": 0,
+    "not_searched_count": 0,
+    "completion_rate": 1.0
+  },
+  "web_search_audit": {
+    "status": "confirmed",
+    "online_api_call_count": 8,
+    "confirmed_call_count": 8,
+    "unconfirmed_call_count": 0,
+    "calls": [
+      {
+        "request_type": "fact_check",
+        "attempt": 1,
+        "item_ids": [
+          "claim_2_premise_1"
+        ],
+        "web_search_requests": 1,
+        "url_citation_count": 0,
+        "confirmed": true,
+        "confirmation_basis": "usage.web_search_requests"
+      },
+      {
+        "request_type": "fact_check",
+        "attempt": 1,
+        "item_ids": [
+          "claim_1_detail_1"
+        ],
+        "web_search_requests": 1,
+        "url_citation_count": 0,
+        "confirmed": true,
+        "confirmation_basis": "usage.web_search_requests"
+      },
+      {
+        "request_type": "fact_check",
+        "attempt": 1,
+        "item_ids": [
+          "claim_3"
+        ],
+        "web_search_requests": 1,
+        "url_citation_count": 0,
+        "confirmed": true,
+        "confirmation_basis": "usage.web_search_requests"
+      },
+      {
+        "request_type": "fact_check",
+        "attempt": 1,
+        "item_ids": [
+          "claim_2_premise_2"
+        ],
+        "web_search_requests": 1,
+        "url_citation_count": 0,
+        "confirmed": true,
+        "confirmation_basis": "usage.web_search_requests"
+      },
+      {
+        "request_type": "fact_check",
+        "attempt": 1,
+        "item_ids": [
+          "claim_2_detail_1"
+        ],
+        "web_search_requests": 1,
+        "url_citation_count": 0,
+        "confirmed": true,
+        "confirmation_basis": "usage.web_search_requests"
+      },
+      {
+        "request_type": "fact_check",
+        "attempt": 1,
+        "item_ids": [
+          "claim_1_detail_2"
+        ],
+        "web_search_requests": 1,
+        "url_citation_count": 0,
+        "confirmed": true,
+        "confirmation_basis": "usage.web_search_requests"
+      },
+      {
+        "request_type": "fact_check",
+        "attempt": 1,
+        "item_ids": [
+          "claim_1"
+        ],
+        "web_search_requests": 1,
+        "url_citation_count": 0,
+        "confirmed": true,
+        "confirmation_basis": "usage.web_search_requests"
+      },
+      {
+        "request_type": "fact_check",
+        "attempt": 1,
+        "item_ids": [
+          "claim_2_detail_2"
+        ],
+        "web_search_requests": 1,
+        "url_citation_count": 1,
+        "confirmed": true,
+        "confirmation_basis": "usage.web_search_requests"
+      }
+    ],
+    "scope_note": "Each web-search request contains one check item, so the search record maps directly to that item."
+  },
+  "frozen_claims": [
+    {
+      "claim_id": "claim_1",
+      "claim_text": "Sales at gasoline stations surged 15.5% in March, the largest monthly increase since the government began tracking the series in 1992.",
+      "claim_type": "fact",
+      "supporting_details": [
+        "Sales rose only 1.3% in February.",
+        "The increase primarily reflected sharply higher gasoline prices rather than a comparable rise in the volume of gasoline purchased."
+      ]
+    },
+    {
+      "claim_id": "claim_2",
+      "claim_text": "The war-related oil price shock could increase the average U.S. household’s gasoline spending in 2026 by about $857 relative to the prewar forecast.",
+      "claim_type": "prediction",
+      "supporting_details": [
+        "This estimate was made by economists at the Stanford Institute for Economic Policy Research using a model of how global oil prices pass through to pump prices and an oil-market forecast.",
+        "This is a model-based projection, not an amount already incurred by every American."
+      ]
+    },
+    {
+      "claim_id": "claim_3",
+      "claim_text": "The average federal tax refund was $3,521 through March 27, 2026, up $351 from $3,170 at the comparable point in 2025, according to the Internal Revenue Service.",
+      "claim_type": "fact",
+      "supporting_details": []
+    }
+  ],
+  "claim_results": [
+    {
+      "claim_id": "claim_1",
+      "claim_text": "Sales at gasoline stations surged 15.5% in March, the largest monthly increase since the government began tracking the series in 1992.",
+      "claim_type": "fact",
+      "supporting_details": [
+        "Sales rose only 1.3% in February.",
+        "The increase primarily reflected sharply higher gasoline prices rather than a comparable rise in the volume of gasoline purchased."
+      ],
+      "score": 100.0,
+      "status": "success",
+      "fact_check": {
+        "claim_id": "claim_1",
+        "claim_text": "Sales at gasoline stations surged 15.5% in March, the largest monthly increase since the government began tracking the series in 1992.",
+        "claim_type": "fact",
+        "item_id": "claim_1",
+        "item_type": "fact_claim",
+        "statement": "Sales at gasoline stations surged 15.5% in March, the largest monthly increase since the government began tracking the series in 1992.",
+        "execution_status": "searched",
+        "evidence_finding": "Sales at gasoline stations surged 15.5% in March, the largest monthly increase since the government began tracking the series in 1992.",
+        "comparison": "consistent",
+        "context_match": "matched",
+        "evidence_outcome": "supported",
+        "source_quality": "reliable",
+        "verdict": "supported",
+        "reason": "The claim is supported by multiple reliable sources, including the U.S. Census Bureau and KPMG.",
+        "sources": [
+          {
+            "title": "Core retail sales firm",
+            "url": "https://kpmg.com/us/en/articles/2026/march-2026-retail-sales.html"
+          },
+          {
+            "title": "Retail Sales Rise 1.7% in March 2026 as Gas Station Sales Jump 15.5%",
+            "url": "https://staging.gdpquery.ai/insights/retail-sales-rise-1-7-percent-march-2026-gas-stations-jump-15-5-percent"
+          }
+        ],
+        "score": 100,
+        "status": "success"
+      },
+      "fact_check_weight": 0.7,
+      "supporting_detail_component": {
+        "score": 100.0,
+        "weight": 0.3,
+        "status": "success",
+        "detail_checks": [
+          {
+            "claim_id": "claim_1",
+            "claim_text": "Sales at gasoline stations surged 15.5% in March, the largest monthly increase since the government began tracking the series in 1992.",
+            "claim_type": "fact",
+            "item_id": "claim_1_detail_1",
+            "item_type": "supporting_detail",
+            "statement": "Sales rose only 1.3% in February.",
+            "execution_status": "searched",
+            "evidence_finding": "Sales at gasoline stations rose 15.5% in March, the largest monthly increase since the government began tracking the series in 1992.",
+            "comparison": "consistent",
+            "context_match": "matched",
+            "evidence_outcome": "supported",
+            "source_quality": "reliable",
+            "verdict": "supported",
+            "reason": "The evidence directly supports the claim.",
+            "sources": [
+              {
+                "title": "Core retail sales firm",
+                "url": "https://kpmg.com/us/en/articles/2026/march-2026-retail-sales.html"
+              }
+            ],
+            "score": 100,
+            "status": "success"
+          },
+          {
+            "claim_id": "claim_1",
+            "claim_text": "Sales at gasoline stations surged 15.5% in March, the largest monthly increase since the government began tracking the series in 1992.",
+            "claim_type": "fact",
+            "item_id": "claim_1_detail_2",
+            "item_type": "supporting_detail",
+            "statement": "The increase primarily reflected sharply higher gasoline prices rather than a comparable rise in the volume of gasoline purchased.",
+            "execution_status": "searched",
+            "evidence_finding": "Sales at gasoline stations surged 15.5% in March, the largest monthly increase since the government began tracking the series in 1992.",
+            "comparison": "consistent",
+            "context_match": "matched",
+            "evidence_outcome": "supported",
+            "source_quality": "reliable",
+            "verdict": "supported",
+            "reason": "The U.S. Census Bureau reported a 15.5% increase in gasoline station sales in March 2026, marking the largest monthly increase since 1992.",
+            "sources": [
+              {
+                "title": "Record surge in gasoline receipts boosts US retail sales in March",
+                "url": "https://www.ksl.com/article/51486409/record-surge-in-gasoline-receipts-boosts-us-retail-sales-in-march"
+              }
+            ],
+            "score": 100,
+            "status": "success"
+          }
+        ]
+      },
+      "result_note": "Check the factual claim"
+    },
+    {
+      "claim_id": "claim_2",
+      "claim_text": "The war-related oil price shock could increase the average U.S. household’s gasoline spending in 2026 by about $857 relative to the prewar forecast.",
+      "claim_type": "prediction",
+      "supporting_details": [
+        "This estimate was made by economists at the Stanford Institute for Economic Policy Research using a model of how global oil prices pass through to pump prices and an oil-market forecast.",
+        "This is a model-based projection, not an amount already incurred by every American."
+      ],
+      "score": 100.0,
+      "status": "success",
+      "logic_chain": "The news states that economists at the Stanford Institute for Economic Policy Research used a model of how global oil prices pass through to pump prices and an oil-market forecast to estimate the impact of the war-related oil price shock. Based on this model, they projected that the average U.S. household’s gasoline spending in 2026 could increase by about $857 relative to the prewar forecast.",
+      "fact_reliability": {
+        "score": 100.0,
+        "weight": 0.5,
+        "status": "success",
+        "premise_checks": [
+          {
+            "claim_id": "claim_2",
+            "claim_text": "The war-related oil price shock could increase the average U.S. household’s gasoline spending in 2026 by about $857 relative to the prewar forecast.",
+            "claim_type": "prediction",
+            "item_id": "claim_2_premise_1",
+            "item_type": "fact_premise",
+            "statement": "Economists at the Stanford Institute for Economic Policy Research used a model of global oil price pass-through and an oil-market forecast.",
+            "execution_status": "searched",
+            "evidence_finding": "Economists at the Stanford Institute for Economic Policy Research used a model of global oil price pass-through and an oil-market forecast.",
+            "comparison": "consistent",
+            "context_match": "matched",
+            "evidence_outcome": "supported",
+            "source_quality": "reliable",
+            "verdict": "supported",
+            "reason": "The claim accurately reflects the methodology used by economists at the Stanford Institute for Economic Policy Research, as detailed in their analysis of rising gas prices.",
+            "sources": [
+              {
+                "title": "Rising gas prices, explained | Stanford Report",
+                "url": "https://news.stanford.edu/stories/2026/05/rising-gas-prices-facts"
+              }
+            ],
+            "score": 100,
+            "status": "success"
+          },
+          {
+            "claim_id": "claim_2",
+            "claim_text": "The war-related oil price shock could increase the average U.S. household’s gasoline spending in 2026 by about $857 relative to the prewar forecast.",
+            "claim_type": "prediction",
+            "item_id": "claim_2_premise_2",
+            "item_type": "fact_premise",
+            "statement": "They estimated that the war-related oil price shock could increase average U.S. household gasoline spending in 2026 by about $857 relative to the prewar forecast.",
+            "execution_status": "searched",
+            "evidence_finding": "Economists at the Stanford Institute for Economic Policy Research estimated that the war-related oil price shock could increase the average U.S. household’s gasoline spending in 2026 by about $857 relative to the prewar forecast.",
+            "comparison": "consistent",
+            "context_match": "matched",
+            "evidence_outcome": "supported",
+            "source_quality": "reliable",
+            "verdict": "supported",
+            "reason": "The claim accurately reflects the findings of economists at the Stanford Institute for Economic Policy Research regarding the impact of the war-related oil price shock on average U.S. household gasoline spending in 2026.",
+            "sources": [
+              {
+                "title": "Pain at the pump: What spiking gas prices mean for consumers, the US economy",
+                "url": "https://siepr.stanford.edu/news/Iran-war-gas-prices-consumers-economy-affordability"
+              }
+            ],
+            "score": 100,
+            "status": "success"
+          }
+        ]
+      },
+      "supporting_detail_component": {
+        "score": 100.0,
+        "weight": 0.2,
+        "status": "success",
+        "detail_checks": [
+          {
+            "claim_id": "claim_2",
+            "claim_text": "The war-related oil price shock could increase the average U.S. household’s gasoline spending in 2026 by about $857 relative to the prewar forecast.",
+            "claim_type": "prediction",
+            "item_id": "claim_2_detail_1",
+            "item_type": "supporting_detail",
+            "statement": "This estimate was made by economists at the Stanford Institute for Economic Policy Research using a model of how global oil prices pass through to pump prices and an oil-market forecast.",
+            "execution_status": "searched",
+            "evidence_finding": "Economists at the Stanford Institute for Economic Policy Research estimated that the war-related oil price shock could increase the average U.S. household’s gasoline spending in 2026 by about $857 relative to the prewar forecast.",
+            "comparison": "consistent",
+            "context_match": "matched",
+            "evidence_outcome": "supported",
+            "source_quality": "reliable",
+            "verdict": "supported",
+            "reason": "The claim accurately reflects the economists' estimate.",
+            "sources": [
+              {
+                "title": "Pain at the pump: What spiking gas prices mean for consumers, the US economy",
+                "url": "https://siepr.stanford.edu/news/Iran-war-gas-prices-consumers-economy-affordability"
+              }
+            ],
+            "score": 100,
+            "status": "success"
+          },
+          {
+            "claim_id": "claim_2",
+            "claim_text": "The war-related oil price shock could increase the average U.S. household’s gasoline spending in 2026 by about $857 relative to the prewar forecast.",
+            "claim_type": "prediction",
+            "item_id": "claim_2_detail_2",
+            "item_type": "supporting_detail",
+            "statement": "This is a model-based projection, not an amount already incurred by every American.",
+            "execution_status": "searched",
+            "evidence_finding": "Economists at the Stanford Institute for Economic Policy Research estimated that the war-related oil price shock could increase the average U.S. household’s gasoline spending in 2026 by about $857 relative to the prewar forecast. ([siepr.stanford.edu](https://siepr.stanford.edu/news/Iran-war-gas-prices-consumers-economy-affordability?utm_source=openai))",
+            "comparison": "consistent",
+            "context_match": "matched",
+            "evidence_outcome": "supported",
+            "source_quality": "reliable",
+            "verdict": "supported",
+            "reason": "The evidence directly supports the claim, confirming the projected increase in gasoline spending due to the war-related oil price shock.",
+            "sources": [
+              {
+                "title": "Pain at the pump: What spiking gas prices mean for consumers, the US economy",
+                "url": "https://siepr.stanford.edu/news/Iran-war-gas-prices-consumers-economy-affordability"
+              }
+            ],
+            "score": 100,
+            "status": "success"
+          }
+        ]
+      },
+      "logic_quality": {
+        "score": 100,
+        "weight": 0.3,
+        "status": "success",
+        "initial_logic": "valid",
+        "reason": "The claim is a model-based projection explicitly stated in the text, supported by the economists' modeling approach and forecast. The factual premises directly support the predictive claim as presented.",
+        "supplement": null
+      },
+      "result_note": "Evaluate the basis for the prediction, not whether the future outcome is true"
+    },
+    {
+      "claim_id": "claim_3",
+      "claim_text": "The average federal tax refund was $3,521 through March 27, 2026, up $351 from $3,170 at the comparable point in 2025, according to the Internal Revenue Service.",
+      "claim_type": "fact",
+      "supporting_details": [],
+      "score": 100.0,
+      "status": "success",
+      "fact_check": {
+        "claim_id": "claim_3",
+        "claim_text": "The average federal tax refund was $3,521 through March 27, 2026, up $351 from $3,170 at the comparable point in 2025, according to the Internal Revenue Service.",
+        "claim_type": "fact",
+        "item_id": "claim_3",
+        "item_type": "fact_claim",
+        "statement": "The average federal tax refund was $3,521 through March 27, 2026, up $351 from $3,170 at the comparable point in 2025, according to the Internal Revenue Service.",
+        "execution_status": "searched",
+        "evidence_finding": "The average federal tax refund was $3,521 through March 27, 2026, up $351 from $3,170 at the comparable point in 2025, according to the Internal Revenue Service.",
+        "comparison": "consistent",
+        "context_match": "matched",
+        "evidence_outcome": "supported",
+        "source_quality": "reliable",
+        "verdict": "supported",
+        "reason": "The claim accurately reflects the IRS's reported statistics for the 2026 filing season.",
+        "sources": [
+          {
+            "title": "Filing season statistics for week ending March 27, 2026 | Internal Revenue Service",
+            "url": "https://www.irs.gov/newsroom/filing-season-statistics-for-week-ending-march-27-2026"
+          }
+        ],
+        "score": 100,
+        "status": "success"
+      },
+      "fact_check_weight": 1.0,
+      "supporting_detail_component": {
+        "score": null,
+        "weight": 0.0,
+        "status": "not_applicable",
+        "detail_checks": []
+      },
+      "result_note": "Check the factual claim"
+    }
+  ],
+  "api_call_logs": [
+    {
+      "request_type": "extract_claims",
+      "attempt": 1,
+      "item_ids": [
+        "news"
+      ],
+      "response_id": "gen-1791107402-Lkc7rmmseLYi01IgCHdi",
+      "model": "openai/gpt-4.1-mini",
+      "usage": {
+        "prompt_tokens": 578,
+        "completion_tokens": 231,
+        "total_tokens": 809,
+        "cost": 0.0006008,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0006008,
+          "upstream_inference_prompt_cost": 0.0002312,
+          "upstream_inference_completions_cost": 0.0003696
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "web_search_requests": 0,
+      "citation_log": [],
+      "web_search_confirmed": null,
+      "web_search_confirmation_basis": "not_applicable"
+    },
+    {
+      "request_type": "analyze_arguments",
+      "attempt": 1,
+      "item_ids": [
+        "claim_2"
+      ],
+      "response_id": "gen-1791107404-gd4a7va9iFGyy3FmYnNJ",
+      "model": "openai/gpt-4.1-mini",
+      "usage": {
+        "prompt_tokens": 530,
+        "completion_tokens": 200,
+        "total_tokens": 730,
+        "cost": 0.000532,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.000532,
+          "upstream_inference_prompt_cost": 0.000212,
+          "upstream_inference_completions_cost": 0.00032
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "web_search_requests": 0,
+      "citation_log": [],
+      "web_search_confirmed": null,
+      "web_search_confirmation_basis": "not_applicable"
+    },
+    {
+      "request_type": "fact_check",
+      "attempt": 1,
+      "item_ids": [
+        "claim_2_premise_1"
+      ],
+      "response_id": "gen-1791107406-ZEjypKuN87ZJjT972mSW",
+      "model": "openai/gpt-4.1-mini",
+      "usage": {
+        "prompt_tokens": 8174,
+        "completion_tokens": 169,
+        "total_tokens": 8343,
+        "cost": 0.0131944,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 1152,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0131944,
+          "upstream_inference_prompt_cost": 0.002924,
+          "upstream_inference_completions_cost": 0.0002704
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        },
+        "server_tool_use_details": {
+          "web_search_requests": 1
+        }
+      },
+      "web_search_requests": 1,
+      "citation_log": [],
+      "web_search_confirmed": true,
+      "web_search_confirmation_basis": "usage.web_search_requests"
+    },
+    {
+      "request_type": "fact_check",
+      "attempt": 1,
+      "item_ids": [
+        "claim_1_detail_1"
+      ],
+      "response_id": "gen-1791107406-AbmkHJgqdMIj5DmSIhP3",
+      "model": "openai/gpt-4.1-mini",
+      "usage": {
+        "prompt_tokens": 8174,
+        "completion_tokens": 148,
+        "total_tokens": 8322,
+        "cost": 0.0131608,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 1152,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0131608,
+          "upstream_inference_prompt_cost": 0.002924,
+          "upstream_inference_completions_cost": 0.0002368
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        },
+        "server_tool_use_details": {
+          "web_search_requests": 1
+        }
+      },
+      "web_search_requests": 1,
+      "citation_log": [],
+      "web_search_confirmed": true,
+      "web_search_confirmation_basis": "usage.web_search_requests"
+    },
+    {
+      "request_type": "fact_check",
+      "attempt": 1,
+      "item_ids": [
+        "claim_3"
+      ],
+      "response_id": "gen-1791107406-oL6l6AWz0FoFRk7qOL17",
+      "model": "openai/gpt-4.1-mini",
+      "usage": {
+        "prompt_tokens": 8174,
+        "completion_tokens": 182,
+        "total_tokens": 8356,
+        "cost": 0.0132152,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 1152,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0132152,
+          "upstream_inference_prompt_cost": 0.002924,
+          "upstream_inference_completions_cost": 0.0002912
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        },
+        "server_tool_use_details": {
+          "web_search_requests": 1
+        }
+      },
+      "web_search_requests": 1,
+      "citation_log": [],
+      "web_search_confirmed": true,
+      "web_search_confirmation_basis": "usage.web_search_requests"
+    },
+    {
+      "request_type": "fact_check",
+      "attempt": 1,
+      "item_ids": [
+        "claim_2_premise_2"
+      ],
+      "response_id": "gen-1791107406-5ScyIh02RvEoIculvws2",
+      "model": "openai/gpt-4.1-mini",
+      "usage": {
+        "prompt_tokens": 8174,
+        "completion_tokens": 235,
+        "total_tokens": 8409,
+        "cost": 0.0133,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 1152,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0133,
+          "upstream_inference_prompt_cost": 0.002924,
+          "upstream_inference_completions_cost": 0.000376
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        },
+        "server_tool_use_details": {
+          "web_search_requests": 1
+        }
+      },
+      "web_search_requests": 1,
+      "citation_log": [],
+      "web_search_confirmed": true,
+      "web_search_confirmation_basis": "usage.web_search_requests"
+    },
+    {
+      "request_type": "fact_check",
+      "attempt": 1,
+      "item_ids": [
+        "claim_2_detail_1"
+      ],
+      "response_id": "gen-1791107406-chOpjNB60mXltnXOA6qV",
+      "model": "openai/gpt-4.1-mini",
+      "usage": {
+        "prompt_tokens": 8174,
+        "completion_tokens": 185,
+        "total_tokens": 8359,
+        "cost": 0.01322,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 1152,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.01322,
+          "upstream_inference_prompt_cost": 0.002924,
+          "upstream_inference_completions_cost": 0.000296
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        },
+        "server_tool_use_details": {
+          "web_search_requests": 1
+        }
+      },
+      "web_search_requests": 1,
+      "citation_log": [],
+      "web_search_confirmed": true,
+      "web_search_confirmation_basis": "usage.web_search_requests"
+    },
+    {
+      "request_type": "fact_check",
+      "attempt": 1,
+      "item_ids": [
+        "claim_1_detail_2"
+      ],
+      "response_id": "gen-1791107406-BiImgOEcPOZ9JAEtf1hp",
+      "model": "openai/gpt-4.1-mini",
+      "usage": {
+        "prompt_tokens": 8174,
+        "completion_tokens": 196,
+        "total_tokens": 8370,
+        "cost": 0.0132376,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 1152,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0132376,
+          "upstream_inference_prompt_cost": 0.002924,
+          "upstream_inference_completions_cost": 0.0003136
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        },
+        "server_tool_use_details": {
+          "web_search_requests": 1
+        }
+      },
+      "web_search_requests": 1,
+      "citation_log": [],
+      "web_search_confirmed": true,
+      "web_search_confirmation_basis": "usage.web_search_requests"
+    },
+    {
+      "request_type": "fact_check",
+      "attempt": 1,
+      "item_ids": [
+        "claim_1"
+      ],
+      "response_id": "gen-1791107406-TArDqWT3xAKSxMVfYlaJ",
+      "model": "openai/gpt-4.1-mini",
+      "usage": {
+        "prompt_tokens": 8174,
+        "completion_tokens": 222,
+        "total_tokens": 8396,
+        "cost": 0.0132792,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 1152,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0132792,
+          "upstream_inference_prompt_cost": 0.002924,
+          "upstream_inference_completions_cost": 0.0003552
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        },
+        "server_tool_use_details": {
+          "web_search_requests": 1
+        }
+      },
+      "web_search_requests": 1,
+      "citation_log": [],
+      "web_search_confirmed": true,
+      "web_search_confirmation_basis": "usage.web_search_requests"
+    },
+    {
+      "request_type": "fact_check",
+      "attempt": 1,
+      "item_ids": [
+        "claim_2_detail_2"
+      ],
+      "response_id": "gen-1791107406-K8ZgrICU3HteGFarWMmY",
+      "model": "openai/gpt-4.1-mini",
+      "usage": {
+        "prompt_tokens": 8174,
+        "completion_tokens": 238,
+        "total_tokens": 8412,
+        "cost": 0.0133048,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 1152,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0133048,
+          "upstream_inference_prompt_cost": 0.002924,
+          "upstream_inference_completions_cost": 0.0003808
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        },
+        "server_tool_use_details": {
+          "web_search_requests": 1
+        }
+      },
+      "web_search_requests": 1,
+      "citation_log": [
+        {
+          "title": "Pain at the pump: What spiking gas prices mean for consumers, the US economy | Stanford Institute for Economic Policy Research (SIEPR)",
+          "url": "https://siepr.stanford.edu/news/Iran-war-gas-prices-consumers-economy-affordability?utm_source=openai"
+        }
+      ],
+      "web_search_confirmed": true,
+      "web_search_confirmation_basis": "usage.web_search_requests"
+    }
+  ]
+}

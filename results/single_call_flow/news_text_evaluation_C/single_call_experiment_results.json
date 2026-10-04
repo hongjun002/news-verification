@@ -1,0 +1,145 @@
+[
+  {
+    "news_id": "News 1",
+    "model": "openai/gpt-4.1-mini",
+    "score": 30,
+    "grade": "Not credible",
+    "summary": "The claim that the Trump administration ordered the removal of 60 historic cherry trees from East Potomac Park to make way for a golf course renovation is false. FactCheck.org and other reputable sources have debunked this misinformation, confirming that only one cherry tree was among the approximately 60 trees removed, which were deemed hazardous, dead, or invasive.",
+    "sift_assessment": "The claim fails the SIFT test: it lacks credible sourcing, is not corroborated by authoritative sources, and has been debunked by fact-checking organizations.",
+    "toulmin_assessment": "The claim's argument is based on false premises and lacks supporting evidence, rendering it invalid.",
+    "deductions": [
+      {
+        "point": "Lack of credible sourcing",
+        "deducted_score": 10,
+        "reason": "The claim is not supported by reputable news outlets or official statements."
+      },
+      {
+        "point": "Contradiction with authoritative sources",
+        "deducted_score": 10,
+        "reason": "FactCheck.org and other fact-checking organizations have debunked the claim."
+      },
+      {
+        "point": "Absence of supporting evidence",
+        "deducted_score": 10,
+        "reason": "No credible evidence supports the claim that 60 cherry trees were removed for the golf course renovation."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Social Media Posts Push False Claim of Trump Chopping Down 60 Cherry Trees",
+        "url": "https://www.factcheck.org/2026/09/social-media-posts-push-false-claim-of-trump-chopping-down-60-cherry-trees/"
+      },
+      {
+        "title": "Tree removal at D.C. golf course not part of Trump’s redesign, officials say",
+        "url": "https://www.washingtonpost.com/sports/2026/09/03/tree-removal-dc-golf-course-not-part-trumps-redesign-officials-say/"
+      }
+    ],
+    "web_search_requests": 1,
+    "citation_log": []
+  },
+  {
+    "news_id": "News 2",
+    "model": "openai/gpt-4.1-mini",
+    "score": 30,
+    "grade": "Not credible",
+    "summary": "The claim that the U.S. Treasury Department declared the federal government insolvent is inaccurate. While the Treasury's Fiscal Year 2025 financial statements show liabilities exceeding assets, this does not equate to insolvency. The U.S. government, unlike a business, has the authority to levy taxes and manage its fiscal policy, allowing it to meet its obligations despite a negative net position.",
+    "sift_assessment": "The news item misinterprets the Treasury's financial statements, equating a negative net position with insolvency. This misunderstanding overlooks the government's unique fiscal capabilities, such as taxation and monetary policy, which prevent actual insolvency.",
+    "toulmin_assessment": "The claim that the U.S. government is insolvent based on the Treasury's financial statements is flawed. The warrant—that a negative net position indicates insolvency—is incorrect because it ignores the government's ability to generate revenue and manage debt. The backing for this claim is based on a misinterpretation of financial data.",
+    "deductions": [
+      {
+        "point": "Misinterpretation of financial data",
+        "deducted_score": 10,
+        "reason": "The news item equates a negative net position with insolvency, which is a misinterpretation of the Treasury's financial statements."
+      },
+      {
+        "point": "Overlooking government's fiscal authority",
+        "deducted_score": 10,
+        "reason": "The claim ignores the U.S. government's authority to levy taxes and manage fiscal policy, which prevents actual insolvency."
+      },
+      {
+        "point": "Lack of credible sources",
+        "deducted_score": 10,
+        "reason": "The news item does not provide credible sources or expert opinions to support the claim of insolvency."
+      }
+    ],
+    "sources": [
+      {
+        "title": "The U.S. Treasury Didn’t Declare the Country ‘Insolvent’",
+        "url": "https://www.factcheck.org/2026/04/the-u-s-treasury-didnt-declare-the-country-insolvent/"
+      }
+    ],
+    "web_search_requests": 1,
+    "citation_log": []
+  },
+  {
+    "news_id": "News 3",
+    "model": "openai/gpt-4.1-mini",
+    "score": 30,
+    "grade": "Not credible",
+    "summary": "The news item claims that U.S. Immigration and Customs Enforcement (ICE) is paying agents $1,500 per immigrant arrested under a new bounty program, with bonuses increasing to $3,000 for arrests completed within 48 hours. However, multiple fact-checking organizations and official statements from the Department of Homeland Security (DHS) have debunked these claims, stating that no such per-arrest bonus program exists.",
+    "sift_assessment": "The claim lacks credible evidence and contradicts official statements from DHS and fact-checking organizations.",
+    "toulmin_assessment": "The claim's warrant—that ICE agents are financially incentivized per arrest—is unsupported by evidence and refuted by authoritative sources.",
+    "deductions": [
+      {
+        "point": "Lack of credible evidence",
+        "deducted_score": 20,
+        "reason": "No verifiable sources support the existence of the alleged bounty program."
+      },
+      {
+        "point": "Contradiction with official statements",
+        "deducted_score": 10,
+        "reason": "DHS and fact-checking organizations have explicitly denied the existence of such a program."
+      }
+    ],
+    "sources": [
+      {
+        "title": "ICE Officers and Bonuses - FactCheck.org",
+        "url": "https://www.factcheck.org/2026/02/ice-officers-and-bonuses/"
+      },
+      {
+        "title": "No, US immigration officials are not paying $750 for turning in immigrants in the U.S. illegally – PolitiFact",
+        "url": "https://www.politifact.com/factchecks/2025/jan/23/instagram-posts/no-us-immigration-officials-are-not-paying-750-for/"
+      }
+    ],
+    "web_search_requests": 1,
+    "citation_log": []
+  },
+  {
+    "news_id": "News 4",
+    "model": "openai/gpt-4.1-mini",
+    "score": 20,
+    "grade": "Not credible",
+    "summary": "The claim that Pennsylvania sent out 1,823,148 mail-in ballots and received back approximately 2.5 million in the 2020 election is false. Official records indicate that 2,673,272 mail-in ballot applications were approved, and 2,273,490 votes were cast. The discrepancy arises from conflating data from the primary and general elections.",
+    "sift_assessment": "The claim is based on a misinterpretation of election data, mixing figures from the primary and general elections. Fact-checking organizations have debunked this claim, confirming its inaccuracy.",
+    "toulmin_assessment": "The claim lacks credible evidence and is refuted by official records and expert analysis, rendering it unreliable.",
+    "deductions": [
+      {
+        "point": "Misleading headline",
+        "deducted_score": 5,
+        "reason": "The headline suggests a significant discrepancy without clarifying the context, leading to potential misinterpretation."
+      },
+      {
+        "point": "Lack of sourcing",
+        "deducted_score": 5,
+        "reason": "The article does not provide links to the original sources or official records, hindering verification."
+      },
+      {
+        "point": "Failure to address debunking",
+        "deducted_score": 5,
+        "reason": "The article does not acknowledge that the claim has been debunked by multiple fact-checking organizations."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Trump and Musk Amplify Long-Ago Debunked Mail-In Vote Fraud Claim",
+        "url": "https://www.factcheck.org/2026/02/trump-and-musk-amplify-long-ago-debunked-mail-in-vote-fraud-claim/"
+      },
+      {
+        "title": "Fact Check: Did Pennsylvania Receive More Mail-In Ballots Than It Sent in 2020?",
+        "url": "https://mediabiasfactcheck.com/fact-check-did-pennsylvania-receive-more-mail-in-ballots-than-it-sent-in-2020/"
+      }
+    ],
+    "web_search_requests": 1,
+    "citation_log": []
+  }
+]
